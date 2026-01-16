@@ -12,6 +12,24 @@ function generateStudyIds(folder: string, prefix: string, start: number, end: nu
   return ids;
 }
 
+function generateSidebarItems(folder: string, prefix: string, modules: { title: string; start: number; end: number }[]) {
+  return modules.map(mod => {
+    const items = generateStudyIds(folder, prefix, mod.start, mod.end);
+    if (mod.start === mod.end) {
+      return {
+        type: 'doc' as const,
+        id: items[0],
+        label: mod.title,
+      };
+    }
+    return {
+      type: 'category' as const,
+      label: mod.title,
+      items: items,
+    };
+  });
+}
+
 
 
 const dddModules = [
@@ -42,7 +60,7 @@ const sidebars: SidebarsConfig = {
       type: 'doc',
       id: 'dry_cs/dry_cs_index',
     },
-    ...[
+    ...generateSidebarItems('dry_cs', 'dry_cs', [
       { title: "1章：DRYってなに？「コピペがダメ」だけじゃないよ 😺🧻", start: 1, end: 1 },
       { title: "2章：重複の種類を見分けよう 👀🔍（コピペ／条件分岐／データ／例外処理）", start: 2, end: 2 },
       { title: "3章：いちばん効く！「メソッド抽出」でDRYは8割いける ✂️🧩", start: 3, end: 3 },
@@ -52,18 +70,14 @@ const sidebars: SidebarsConfig = {
       { title: "7章：重複を“検知して戻す”仕組み（テスト＋AI＋IDE）🧪🤖🛠️", start: 7, end: 7 },
       { title: "第8章：DRYの落とし穴（やりすぎ注意！）🐙⚠️", start: 8, end: 8 },
       { title: "第9章：まとめプロジェクト（DRY改善を1周やる）🎯🛠️✨", start: 9, end: 9 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('dry_cs', 'dry_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   dryTsSidebar: [
     {
       type: 'doc',
       id: 'dry_ts/dry_ts_index',
     },
-    ...[
+    ...generateSidebarItems('dry_ts', 'dry_ts', [
       { title: "第1章：DRYってなに？「コピペ禁止」より大事な話🧻✨", start: 1, end: 1 },
       { title: "第2章：重複の種類を見分けよう👀🔍（コード／ルール／データ／例外）", start: 2, end: 2 },
       { title: "第3章：まずは最強の基本技！関数抽出＆引数化✂️🧩", start: 3, end: 3 },
@@ -73,11 +87,7 @@ const sidebars: SidebarsConfig = {
       { title: "第7章：エラー処理のDRY（try/catchコピペ地獄から脱出）🚨🧯", start: 7, end: 7 },
       { title: "第8章：DRYの落とし穴（やりすぎ注意！）🐙⚠️", start: 8, end: 8 },
       { title: "第9章：まとめプロジェクト（DRY改善を1周する）🎯🛠️🎉", start: 9, end: 9 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('dry_ts', 'dry_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
 
   dddCsSidebar: [
@@ -85,18 +95,14 @@ const sidebars: SidebarsConfig = {
       type: 'doc',
       id: 'ddd_cs/ddd_cs_index',
     },
-    ...dddModules.map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('ddd_cs', 'ddd_cs', mod.start, mod.end),
-    })),
+    ...generateSidebarItems('ddd_cs', 'ddd_cs', dddModules),
   ],
   adrCsSidebar: [
     {
       type: 'doc',
       id: 'adr_cs/adr_cs_index',
     },
-    ...[
+    ...generateSidebarItems('adr_cs', 'adr_cs', [
       { title: "第1章：ADRってなに？未来の自分を助ける「設計メモ」じゃないよ😊📌", start: 1, end: 1 },
       { title: "第2章：ADRの基本テンプレを覚えよう（型があると最強）🧩📄", start: 2, end: 2 },
       { title: "第3章：いつADRを書く？「書きどき判定」スキル🔍✅", start: 3, end: 3 },
@@ -109,18 +115,14 @@ const sidebars: SidebarsConfig = {
       { title: "第10章：ミニプロジェクト① 題材選び＆スコープ決め（1本に絞る！）🎯🍀", start: 10, end: 10 },
       { title: "第11章：ミニプロジェクト② ADRを書いてPRに乗せる（実戦！）🧑‍💻📦", start: 11, end: 11 },
       { title: "第12章：ミニプロジェクト③ レビュー反映＆“自分の型”を作って卒業🎓🌸", start: 12, end: 12 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('adr_cs', 'adr_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   adrTsSidebar: [
     {
       type: 'doc',
       id: 'adr_ts/adr_ts_index',
     },
-    ...[
+    ...generateSidebarItems('adr_ts', 'adr_ts', [
       { title: "第1章：ADRってなに？「設計の理由」を未来に残すノート📒🌸", start: 1, end: 1 },
       { title: "第2章：ADRの基本テンプレ（型）を手に入れよう🧩📝", start: 2, end: 2 },
       { title: "第3章：いつADRを書く？“書きどき判定”ルール🎯✅", start: 3, end: 3 },
@@ -133,18 +135,14 @@ const sidebars: SidebarsConfig = {
       { title: "第10章：最終課題① テーマ決め＆比較表づくり（1テーマに絞る！）🎯🍀", start: 10, end: 10 },
       { title: "第11章：最終課題② ADRを書いて、実装に反映する📝🧑‍💻", start: 11, end: 11 },
       { title: "第12章：最終課題③ レビュー反映＆置き換え体験（Superseded）で卒業🎓🌸", start: 12, end: 12 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('adr_ts', 'adr_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
   yagniCsSidebar: [
     {
       type: 'doc',
       id: 'yagni_cs/yagni_cs_index',
     },
-    ...[
+    ...generateSidebarItems('yagni_cs', 'yagni_cs', [
       { title: "第1章：YAGNIってなに？「作らない勇気」の入門 🌱🙂", start: 1, end: 1 },
       { title: "第2章：作り込みすぎのサインを見抜く 👀🚨", start: 2, end: 2 },
       { title: "第3章：「今必要」を決める技術（スコープの切り方）✂️🗺️", start: 3, end: 3 },
@@ -153,18 +151,14 @@ const sidebars: SidebarsConfig = {
       { title: "第6章：YAGNIで進める開発フロー（基本）🚶‍♀️✨", start: 6, end: 6 },
       { title: "第7章：AIと一緒にYAGNI（盛らせない使い方）🤖🧯", start: 7, end: 7 },
       { title: "第8章：最終ミニ課題（追加要件1つで育てる）🎓🌱", start: 8, end: 8 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('yagni_cs', 'yagni_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   yagniTsSidebar: [
     {
       type: 'doc',
       id: 'yagni_ts/yagni_ts_index',
     },
-    ...[
+    ...generateSidebarItems('yagni_ts', 'yagni_ts', [
       { title: "第1章：YAGNIってなに？「作らない勇気」の入門 🌱🙂", start: 1, end: 1 },
       { title: "第2章：作り込みすぎのサインを見抜く 👀🚨", start: 2, end: 2 },
       { title: "第3章：「今必要」を決める技術（MVPとスコープの切り方）✂️🗺️", start: 3, end: 3 },
@@ -173,54 +167,42 @@ const sidebars: SidebarsConfig = {
       { title: "第6章：YAGNIで進める開発フロー（基本）🚶‍♀️✨", start: 6, end: 6 },
       { title: "第7章：AIと一緒にYAGNI（盛らせない使い方）🤖🧯", start: 7, end: 7 },
       { title: "第8章：最終ミニ課題（追加要件1つで育てる）🎓🌱", start: 8, end: 8 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('yagni_ts', 'yagni_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
   kissCsSidebar: [
     {
       type: 'doc',
       id: 'kiss_cs/kiss_cs_index',
     },
-    ...[
+    ...generateSidebarItems('kiss_cs', 'kiss_cs', [
       { title: "第1章：KISSってなに？😺", start: 1, end: 1 },
       { title: "第2章：複雑さの正体を知ろう🧠", start: 2, end: 2 },
       { title: "第3章：KISSの基本テク10選🧰", start: 3, end: 3 },
       { title: "第4章：C#でやりがち！KISSリファクタ🍰", start: 4, end: 4 },
       { title: "第5章：AIとKISS🤖💗", start: 5, end: 5 },
       { title: "第6章：仕上げ：KISS運用チェックリスト✅", start: 6, end: 6 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('kiss_cs', 'kiss_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   kissTsSidebar: [
     {
       type: 'doc',
       id: 'kiss_ts/kiss_ts_index',
     },
-    ...[
+    ...generateSidebarItems('kiss_ts', 'kiss_ts', [
       { title: "第1章：KISSってなに？🐣💡", start: 1, end: 1 },
       { title: "第2章：TSで複雑になりがちな3大ポイント🌀🧠", start: 2, end: 2 },
       { title: "第3章：KISSの基本ワザ10選🧰✨", start: 3, end: 3 },
       { title: "第4章：TypeScriptのKISS：型とコードのバランス⚖️🧩", start: 4, end: 4 },
       { title: "第5章：AIとKISS：お願いテンプレ＆レビュー術🤖💗", start: 5, end: 5 },
       { title: "第6章：仕上げ：KISS運用ルール＆チェックリスト✅🌈", start: 6, end: 6 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('kiss_ts', 'kiss_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
   solidCsSidebar: [
     {
       type: 'doc',
       id: 'solid_cs/solid_cs_index',
     },
-    ...[
+    ...generateSidebarItems('solid_cs', 'solid_cs', [
       { title: "第1部：SOLIDの基礎と準備（なぜ学ぶのか？）", start: 1, end: 7 },
       { title: "S：SRP（単一責務の原則）", start: 8, end: 11 },
       { title: "O：OCP（開放閉鎖の原則）", start: 12, end: 15 },
@@ -228,18 +210,14 @@ const sidebars: SidebarsConfig = {
       { title: "I：ISP（インターフェース分離の原則）", start: 19, end: 21 },
       { title: "D：DIP（依存性逆転の原則）", start: 22, end: 25 },
       { title: "総合演習：SOLIDを使いこなす", start: 26, end: 28 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('solid_cs', 'solid_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   solidTsSidebar: [
     {
       type: 'doc',
       id: 'solid_ts/solid_ts_index',
     },
-    ...[
+    ...generateSidebarItems('solid_ts', 'solid_ts', [
       { title: "第1部：設計の基礎とTypeScript環境", start: 1, end: 8 },
       { title: "S：SRP（単一責任の原則）", start: 9, end: 11 },
       { title: "O：OCP（開放閉鎖の原則）", start: 12, end: 15 },
@@ -247,18 +225,14 @@ const sidebars: SidebarsConfig = {
       { title: "I：ISP（インターフェース分離の原則）", start: 20, end: 22 },
       { title: "D：DIP（依存性逆転の原則）", start: 23, end: 25 },
       { title: "卒業制作：SOLID統合リファクタ", start: 26, end: 28 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('solid_ts', 'solid_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
   socCsSidebar: [
     {
       type: 'doc',
       id: 'soc_cs/soc_cs_index',
     },
-    ...[
+    ...generateSidebarItems('soc_cs', 'soc_cs', [
       { title: "第1章：SoCって何？まずは一言で掴む📌😊", start: 1, end: 1 },
       { title: "第2章：混ざったコードが生む“修正地獄”あるある😇💥", start: 2, end: 2 },
       { title: "第3章：SoCとSOLID（特にSRP）の関係🧩✨", start: 3, end: 3 },
@@ -276,18 +250,14 @@ const sidebars: SidebarsConfig = {
       { title: "第15章：ケーススタディ（フォーム地獄→3分離）📚🔥", start: 15, end: 15 },
       { title: "第16章：AI導入前提の学び方（Copilot/Codexを味方に🤖💡）", start: 16, end: 16 },
       { title: "第17章：サイト用「共通リソース集」🧰🌸", start: 17, end: 17 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('soc_cs', 'soc_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   socTsSidebar: [
     {
       type: 'doc',
       id: 'soc_ts/soc_ts_index',
     },
-    ...[
+    ...generateSidebarItems('soc_ts', 'soc_ts', [
       { title: "第1章：SoCってなに？30秒でつかむ超入門🎀", start: 1, end: 1 },
       { title: "第2章：なぜ混ぜるとツラいの？“修正が怖いコード”の正体😵‍💫💥", start: 2, end: 2 },
       { title: "第3章：SoCとSOLID（特にSRP）をやさしくつなぐ🧩💖", start: 3, end: 3 },
@@ -305,18 +275,14 @@ const sidebars: SidebarsConfig = {
       { title: "第15章：テスト戦略（SoCがあると楽になる）🧪🌸", start: 15, end: 15 },
       { title: "第16章：ケーススタディ（ごちゃ混ぜ→分離してスッキリ）📚🔥", start: 16, end: 16 },
       { title: "第17章：AI導入前提のSoC運用（Copilot/Codex活用＋レビュー）🤖✅💖", start: 17, end: 17 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('soc_ts', 'soc_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
   hcLcCsSidebar: [
     {
       type: 'doc',
       id: 'hc_lc_cs/hc_lc_cs_index',
     },
-    ...[
+    ...generateSidebarItems('hc_lc_cs', 'hc_lc_cs', [
       { title: "第1章：AI支援の使い方（この教材の共通ルール）🤖✨", start: 1, end: 1 },
       { title: "第2章：まず“変更が怖い”を体験する😱➡️😄", start: 2, end: 2 },
       { title: "第3章：用語をやさしく理解（凝集／結合）📚✨", start: 3, end: 3 },
@@ -334,18 +300,14 @@ const sidebars: SidebarsConfig = {
       { title: "第15章：結合の種類② static依存（便利だけど代償）⚡💣", start: 15, end: 15 },
       { title: "第16章：モジュール境界（迷子防止の構造づくり）📁🧭🔒", start: 16, end: 16 },
       { title: "第17章：総まとめミニプロジェクト（設計→実装→最小テスト）💪🎉", start: 17, end: 17 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('hc_lc_cs', 'hc_lc_cs', mod.start, mod.end),
-    })),
+    ]),
   ],
   hcLcTsSidebar: [
     {
       type: 'doc',
       id: 'hc_lc_ts/hc_lc_ts_index',
     },
-    ...[
+    ...generateSidebarItems('hc_lc_ts', 'hc_lc_ts', [
       { title: "第1章：AIと仲良く進めるルール（TS版の共通作法）🤖✨", start: 1, end: 1 },
       { title: "第2章：変更が怖いTypeScript（あるある地獄）を体験😱➡️😄", start: 2, end: 2 },
       { title: "第3章：凝集と結合を“ふんわり”理解する🧩📚", start: 3, end: 3 },
@@ -363,11 +325,7 @@ const sidebars: SidebarsConfig = {
       { title: "第15章：結合の罠① フラグ引数＆“文字列で指示”問題🚩🔤💦", start: 15, end: 15 },
       { title: "第16章：モジュール境界（公開面を絞る＆importルール）📁🔒✨", start: 16, end: 16 },
       { title: "第17章：総まとめミニプロジェクト（設計→実装→最小テスト）💪🎉", start: 17, end: 17 },
-    ].map(mod => ({
-      type: 'category' as const,
-      label: mod.title,
-      items: generateStudyIds('hc_lc_ts', 'hc_lc_ts', mod.start, mod.end),
-    })),
+    ]),
   ],
 };
 
