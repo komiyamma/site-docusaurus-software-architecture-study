@@ -125,18 +125,6 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'reactStudySidebar',
-          position: 'left',
-          label: 'React Study',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'nextStudySidebar',
-          position: 'left',
-          label: 'Next Study',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'dddCsSidebar',
           position: 'left',
           label: 'DDD CS Study',

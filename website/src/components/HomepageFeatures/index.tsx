@@ -12,26 +12,7 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
-  {
-    title: 'React Study',
-    Svg: require('@site/static/img/react_logo.svg').default,
-    description: (
-      <>
-        コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。<br/>React v19系。<br/>2026年1月の最新系が基準。<br/>
-      </>
-    ),
-    link: '/docs/react-study/react_index',
-  },
-  {
-    title: 'Next Study',
-    Svg: require('@site/static/img/nextjs_logo.svg').default,
-    description: (
-      <>
-        App Router、Server Actions、SSR/SSGなど、<br/>Next.jsによるフルスタック開発を習得します。<br/>Next.js v16系。<br/>2026年1月の最新系が基準。<br/>
-      </>
-    ),
-    link: '/docs/next-study/next_index',
-  },
+
   {
     title: 'DDD CS Study',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
