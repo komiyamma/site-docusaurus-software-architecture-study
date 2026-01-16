@@ -13,22 +13,23 @@ function generateStudyIds(folder: string, prefix: string, start: number, end: nu
 }
 
 function generateSidebarItems(folder: string, prefix: string, modules: { title?: string; start: number; end: number }[]) {
-  return modules.map(mod => {
+  return modules.flatMap(mod => {
     const items = generateStudyIds(folder, prefix, mod.start, mod.end);
-    if (mod.start === mod.end) {
-      return {
-        type: 'doc' as const,
-        id: items[0],
-      };
+
+    // If title is provided, create a Category (Folder)
+    if (mod.title) {
+      return [{
+        type: 'category' as const,
+        label: mod.title,
+        items: items,
+      }];
     }
-    if (!mod.title) {
-      throw new Error(`Title is required for category: ${folder} ${mod.start}-${mod.end}`);
-    }
-    return {
-      type: 'category' as const,
-      label: mod.title,
-      items: items,
-    };
+
+    // If no title, expand as Flat Docs (No Folder)
+    return items.map(id => ({
+      type: 'doc' as const,
+      id: id,
+    }));
   });
 }
 
@@ -63,15 +64,7 @@ const sidebars: SidebarsConfig = {
       id: 'dry_cs/dry_cs_index',
     },
     ...generateSidebarItems('dry_cs', 'dry_cs', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
+      { start: 1, end: 9 },
     ]),
   ],
   dryTsSidebar: [
@@ -80,15 +73,7 @@ const sidebars: SidebarsConfig = {
       id: 'dry_ts/dry_ts_index',
     },
     ...generateSidebarItems('dry_ts', 'dry_ts', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
+      { start: 1, end: 9 },
     ]),
   ],
 
@@ -105,18 +90,7 @@ const sidebars: SidebarsConfig = {
       id: 'adr_cs/adr_cs_index',
     },
     ...generateSidebarItems('adr_cs', 'adr_cs', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
-      { start: 10, end: 10 },
-      { start: 11, end: 11 },
-      { start: 12, end: 12 },
+      { start: 1, end: 12 },
     ]),
   ],
   adrTsSidebar: [
@@ -125,18 +99,7 @@ const sidebars: SidebarsConfig = {
       id: 'adr_ts/adr_ts_index',
     },
     ...generateSidebarItems('adr_ts', 'adr_ts', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
-      { start: 10, end: 10 },
-      { start: 11, end: 11 },
-      { start: 12, end: 12 },
+      { start: 1, end: 12 },
     ]),
   ],
   yagniCsSidebar: [
@@ -145,14 +108,7 @@ const sidebars: SidebarsConfig = {
       id: 'yagni_cs/yagni_cs_index',
     },
     ...generateSidebarItems('yagni_cs', 'yagni_cs', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
+      { start: 1, end: 8 },
     ]),
   ],
   yagniTsSidebar: [
@@ -161,14 +117,7 @@ const sidebars: SidebarsConfig = {
       id: 'yagni_ts/yagni_ts_index',
     },
     ...generateSidebarItems('yagni_ts', 'yagni_ts', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
+      { start: 1, end: 8 },
     ]),
   ],
   kissCsSidebar: [
@@ -177,12 +126,7 @@ const sidebars: SidebarsConfig = {
       id: 'kiss_cs/kiss_cs_index',
     },
     ...generateSidebarItems('kiss_cs', 'kiss_cs', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
+      { start: 1, end: 6 },
     ]),
   ],
   kissTsSidebar: [
@@ -191,12 +135,7 @@ const sidebars: SidebarsConfig = {
       id: 'kiss_ts/kiss_ts_index',
     },
     ...generateSidebarItems('kiss_ts', 'kiss_ts', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
+      { start: 1, end: 6 },
     ]),
   ],
   solidCsSidebar: [
@@ -205,13 +144,7 @@ const sidebars: SidebarsConfig = {
       id: 'solid_cs/solid_cs_index',
     },
     ...generateSidebarItems('solid_cs', 'solid_cs', [
-      { title: "第1部：SOLIDの基礎と準備（なぜ学ぶのか？）", start: 1, end: 7 },
-      { title: "S：SRP（単一責務の原則）", start: 8, end: 11 },
-      { title: "O：OCP（開放閉鎖の原則）", start: 12, end: 15 },
-      { title: "L：LSP（リスコフ置換の原則）", start: 16, end: 18 },
-      { title: "I：ISP（インターフェース分離の原則）", start: 19, end: 21 },
-      { title: "D：DIP（依存性逆転の原則）", start: 22, end: 25 },
-      { title: "総合演習：SOLIDを使いこなす", start: 26, end: 28 },
+      { start: 1, end: 28 },
     ]),
   ],
   solidTsSidebar: [
@@ -220,13 +153,7 @@ const sidebars: SidebarsConfig = {
       id: 'solid_ts/solid_ts_index',
     },
     ...generateSidebarItems('solid_ts', 'solid_ts', [
-      { title: "第1部：設計の基礎とTypeScript環境", start: 1, end: 8 },
-      { title: "S：SRP（単一責任の原則）", start: 9, end: 11 },
-      { title: "O：OCP（開放閉鎖の原則）", start: 12, end: 15 },
-      { title: "L：LSP（リスコフ置換の原則）", start: 16, end: 19 },
-      { title: "I：ISP（インターフェース分離の原則）", start: 20, end: 22 },
-      { title: "D：DIP（依存性逆転の原則）", start: 23, end: 25 },
-      { title: "卒業制作：SOLID統合リファクタ", start: 26, end: 28 },
+      { start: 1, end: 28 },
     ]),
   ],
   socCsSidebar: [
@@ -235,23 +162,7 @@ const sidebars: SidebarsConfig = {
       id: 'soc_cs/soc_cs_index',
     },
     ...generateSidebarItems('soc_cs', 'soc_cs', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
-      { start: 10, end: 10 },
-      { start: 11, end: 11 },
-      { start: 12, end: 12 },
-      { start: 13, end: 13 },
-      { start: 14, end: 14 },
-      { start: 15, end: 15 },
-      { start: 16, end: 16 },
-      { start: 17, end: 17 },
+      { start: 1, end: 17 },
     ]),
   ],
   socTsSidebar: [
@@ -260,23 +171,7 @@ const sidebars: SidebarsConfig = {
       id: 'soc_ts/soc_ts_index',
     },
     ...generateSidebarItems('soc_ts', 'soc_ts', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
-      { start: 10, end: 10 },
-      { start: 11, end: 11 },
-      { start: 12, end: 12 },
-      { start: 13, end: 13 },
-      { start: 14, end: 14 },
-      { start: 15, end: 15 },
-      { start: 16, end: 16 },
-      { start: 17, end: 17 },
+      { start: 1, end: 17 },
     ]),
   ],
   hcLcCsSidebar: [
@@ -285,23 +180,7 @@ const sidebars: SidebarsConfig = {
       id: 'hc_lc_cs/hc_lc_cs_index',
     },
     ...generateSidebarItems('hc_lc_cs', 'hc_lc_cs', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
-      { start: 10, end: 10 },
-      { start: 11, end: 11 },
-      { start: 12, end: 12 },
-      { start: 13, end: 13 },
-      { start: 14, end: 14 },
-      { start: 15, end: 15 },
-      { start: 16, end: 16 },
-      { start: 17, end: 17 },
+      { start: 1, end: 17 },
     ]),
   ],
   hcLcTsSidebar: [
@@ -310,23 +189,7 @@ const sidebars: SidebarsConfig = {
       id: 'hc_lc_ts/hc_lc_ts_index',
     },
     ...generateSidebarItems('hc_lc_ts', 'hc_lc_ts', [
-      { start: 1, end: 1 },
-      { start: 2, end: 2 },
-      { start: 3, end: 3 },
-      { start: 4, end: 4 },
-      { start: 5, end: 5 },
-      { start: 6, end: 6 },
-      { start: 7, end: 7 },
-      { start: 8, end: 8 },
-      { start: 9, end: 9 },
-      { start: 10, end: 10 },
-      { start: 11, end: 11 },
-      { start: 12, end: 12 },
-      { start: 13, end: 13 },
-      { start: 14, end: 14 },
-      { start: 15, end: 15 },
-      { start: 16, end: 16 },
-      { start: 17, end: 17 },
+      { start: 1, end: 17 },
     ]),
   ],
 };
