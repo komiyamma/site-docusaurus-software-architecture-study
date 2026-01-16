@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+---
+
+# SOLID原則 C#版 **全28章アウトライン**
+
 以下は「SOLID原則」だけにフォーカスした、**全28章アウトライン**です😊✨
 前提は **C#は初級〜中級／設計は超入門／Windows＋Visual Studio中心／AI（GitHub CopilotやCodex系）導入済み** です🤖💕
 

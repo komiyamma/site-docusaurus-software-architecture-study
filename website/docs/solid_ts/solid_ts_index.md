@@ -1,4 +1,10 @@
-以下は、「TypeScript初級〜中級」「SOLID初めて」「設計超入門」向けの、**28章構成アウトライン**だよ〜😊✨
+---
+sidebar_position: 0
+---
+
+# SOLID原則 TypeScript版 **全28章アウトライン**
+
+「TypeScript初級〜中級」「SOLID初めて」「設計超入門」向けの、**28章構成アウトライン**だよ〜😊✨
 環境は **Windows + VS Code** 前提、そして **GitHub Copilot / OpenAI Codex系のAI拡張が使える**想定で作ってあるよ🤖💡
 
 ---
