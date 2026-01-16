@@ -618,3 +618,21 @@
 - **Section**: `## 第100章：総括 🎉`
 - **Prompt**: A small, perfectly polished gem held in a hand. It represents a single, small, well-designed module. Starting small is valuable. Target Audience: Japanese learners. Text/Labels: Use ENGLISH for code terms. Use JAPANESE for concepts (Must use Japanese text). Do NOT render the text 'Target Audience'. Style: Modern Flat Vector (Clean Line Art).
 - **Status**: [x] 済
+
+## Chapter 084: Small Start
+- **File**: `ddd_cs_study_084_small_start.png`
+- **Section**: `## 第84章：スモールスタートの極意`
+- **Prompt**: A small green sprout growing out of a single puzzle piece. The puzzle piece represents a small, manageable start, and the sprout represents growth. Target Audience: Japanese learners. Text/Labels: Use ENGLISH for code terms. Use JAPANESE for concepts (Must use Japanese text). Do NOT render the text 'Target Audience'. Style: Modern Flat Vector (Clean Line Art).
+- **Status**: [x] 済
+
+## Chapter 085: Modular Monolith
+- **File**: `ddd_cs_study_085_modular_monolith_building.png`
+- **Section**: `## 第85章：マイクロサービスは1人開発には毒か？`
+- **Prompt**: A single modern building composed of distinct, colorful blocks fitting together perfectly. Represents a Modular Monolith: one unit but internally structured. Target Audience: Japanese learners. Text/Labels: Use ENGLISH for code terms. Use JAPANESE for concepts (Must use Japanese text). Do NOT render the text 'Target Audience'. Style: Modern Flat Vector (Clean Line Art).
+- **Status**: [x] 済
+
+## Chapter 086: Script Approach
+- **File**: `ddd_cs_study_086_script_approach.png`
+- **Section**: `## 第86章：スクリプト言語的アプローチ`
+- **Prompt**: A pencil sketching a rough line that seamlessly transforms into a clean, inked pen line. Represents the transition from script (rough/fast) to design (structured/clean). Target Audience: Japanese learners. Text/Labels: Use ENGLISH for code terms. Use JAPANESE for concepts (Must use Japanese text). Do NOT render the text 'Target Audience'. Style: Modern Flat Vector (Clean Line Art).
+- **Status**: [x] 済
