@@ -1,0 +1,1 @@
+C#の進化（Primary constructor、required、field）をDDDに活用。依存明示や初期化漏れ防止など言語機能を使い分け、ドメインの不変条件を型で守る最新の実装術を伝授。

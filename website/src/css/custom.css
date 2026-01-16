@@ -1,0 +1,43 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Desaturated Blue (Steel Blue style) */
+  --ifm-color-primary: #46769b;
+  --ifm-color-primary-dark: #3f6a8b;
+  --ifm-color-primary-darker: #3b6483;
+  --ifm-color-primary-darkest: #31526c;
+  --ifm-color-primary-light: #5282a7;
+  --ifm-color-primary-lighter: #5a88ad;
+  --ifm-color-primary-lightest: #709abd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Sidebar width 400px -> 430px (Refined by user) */
+  --doc-sidebar-width: 430px;
+  
+  /* Cap the width at 1770px for readability on 4K screens */
+  --ifm-container-width: 1770px;
+}
+
+/* Force container to match the custom width on large screens */
+.container {
+  max-width: var(--ifm-container-width) !important;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Lighter, softer blue for dark mode */
+  --ifm-color-primary: #6daccd;
+  --ifm-color-primary-dark: #56a2c6;
+  --ifm-color-primary-darker: #4a9cc2;
+  --ifm-color-primary-darkest: #3685a8;
+  --ifm-color-primary-light: #84b6d4;
+  --ifm-color-primary-lighter: #8fbbd7;
+  --ifm-color-primary-lightest: #b0cce1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
