@@ -14,7 +14,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
 
   {
-    title: 'DDD CS Study',
+    title: 'DDD C#版',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/ddd_cs/ddd_cs_index',
   },
   {
-    title: 'ADR CS Study',
+    title: 'ADR C#版',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/adr_cs/adr_cs_index',
   },
   {
-    title: 'ADR TS Study',
+    title: 'ADR TS版',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -44,7 +44,7 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/adr_ts/adr_ts_index',
   },
   {
-    title: 'YAGNI CS Study',
+    title: 'YAGNI C#版',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -54,7 +54,7 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/yagni_cs/yagni_cs_index',
   },
   {
-    title: 'YAGNI TS Study',
+    title: 'YAGNI TS版',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -64,7 +64,7 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/yagni_ts/yagni_ts_index',
   },
   {
-    title: 'KISS CS Study',
+    title: 'KISS C#版',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -74,7 +74,7 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/kiss_cs/kiss_cs_index',
   },
   {
-    title: 'KISS TS Study',
+    title: 'KISS TS版',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
