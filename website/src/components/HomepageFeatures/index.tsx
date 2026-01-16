@@ -103,6 +103,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/solid_ts/solid_ts_index',
   },
+  {
+    title: 'SoC C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        C#で学ぶSoC（関心の分離）。<br/>UI、ロジック、データアクセスの<br/>適切な分離と依存関係の整理。<br/>
+      </>
+    ),
+    link: '/docs/soc_cs/soc_cs_index',
+  },
+  {
+    title: 'SoC TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶSoC。<br/>フロントエンドの複雑さを<br/>責務の分離で解決する設計手法。<br/>
+      </>
+    ),
+    link: '/docs/soc_ts/soc_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

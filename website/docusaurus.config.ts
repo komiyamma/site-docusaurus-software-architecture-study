@@ -178,6 +178,19 @@ const config: Config = {
           label: 'SOLID TS版',
         },
 
+        {
+          type: 'docSidebar',
+          sidebarId: 'socCsSidebar',
+          position: 'left',
+          label: 'SoC C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'socTsSidebar',
+          position: 'left',
+          label: 'SoC TS版',
+        },
+
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
