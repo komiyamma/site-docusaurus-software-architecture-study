@@ -104,6 +104,26 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/solid_ts/solid_ts_index',
   },
   {
+    title: 'DRY C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶDRY（重複排除）。<br/>コピペコードからの脱却と<br/>メソッド抽出など実践的なリファクタリング手法。<br/>
+      </>
+    ),
+    link: '/docs/dry_cs/dry_cs_index',
+  },
+  {
+    title: 'DRY TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶDRY。<br/>関数抽出や型による重複排除。<br/>保守性の高いフロントエンド開発の基礎。<br/>
+      </>
+    ),
+    link: '/docs/dry_ts/dry_ts_index',
+  },
+  {
     title: 'SoC C#版',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (

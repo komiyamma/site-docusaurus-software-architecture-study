@@ -180,6 +180,19 @@ const config: Config = {
 
         {
           type: 'docSidebar',
+          sidebarId: 'dryCsSidebar',
+          position: 'left',
+          label: 'DRY C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dryTsSidebar',
+          position: 'left',
+          label: 'DRY TS版',
+        },
+
+        {
+          type: 'docSidebar',
           sidebarId: 'socCsSidebar',
           position: 'left',
           label: 'SoC C#版',
