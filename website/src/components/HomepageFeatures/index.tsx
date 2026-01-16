@@ -43,6 +43,46 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/adr_ts/adr_ts_index',
   },
+  {
+    title: 'YAGNI CS Study',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶYAGNI（You Aren't Gonna Need It）。<br/>「今必要なものだけ作る」技術と<br/>過剰な作り込みを防ぐ設計判断。<br/>
+      </>
+    ),
+    link: '/docs/yagni_cs/yagni_cs_index',
+  },
+  {
+    title: 'YAGNI TS Study',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで実践するYAGNI。<br/>フロントエンド開発における<br/>MVP思考とスコープ管理。<br/>
+      </>
+    ),
+    link: '/docs/yagni_ts/yagni_ts_index',
+  },
+  {
+    title: 'KISS CS Study',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        C#版KISS（Keep It Simple, Stupid）。<br/>複雑さを排除し、<br/>読みやすく変更しやすいコードを書く。<br/>
+      </>
+    ),
+    link: '/docs/kiss_cs/kiss_cs_index',
+  },
+  {
+    title: 'KISS TS Study',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        TypeScript版KISS。<br/>型安全性と単純さのバランス、<br/>AIを活用したリファクタリング。<br/>
+      </>
+    ),
+    link: '/docs/kiss_ts/kiss_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

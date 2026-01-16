@@ -141,6 +141,30 @@ const config: Config = {
           position: 'left',
           label: 'ADR TS Study',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'yagniCsSidebar',
+          position: 'left',
+          label: 'YAGNI CS Study',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'yagniTsSidebar',
+          position: 'left',
+          label: 'YAGNI TS Study',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'kissCsSidebar',
+          position: 'left',
+          label: 'KISS CS Study',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'kissTsSidebar',
+          position: 'left',
+          label: 'KISS TS Study',
+        },
 
         // { to: '/blog', label: 'Blog', position: 'left' },
         {

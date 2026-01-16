@@ -96,6 +96,82 @@ const sidebars: SidebarsConfig = {
       items: generateStudyIds('adr_ts', 'adr_ts', mod.start, mod.end),
     })),
   ],
+  yagniCsSidebar: [
+    {
+      type: 'doc',
+      id: 'yagni_cs/yagni_cs_index',
+    },
+    ...[
+      { title: "第1章：YAGNIってなに？「作らない勇気」の入門 🌱🙂", start: 1, end: 1 },
+      { title: "第2章：作り込みすぎのサインを見抜く 👀🚨", start: 2, end: 2 },
+      { title: "第3章：「今必要」を決める技術（スコープの切り方）✂️🗺️", start: 3, end: 3 },
+      { title: "第4章：YAGNIを支える実装スタイル（小さく作って育てる）🧱🌿", start: 4, end: 4 },
+      { title: "第5章：C#でやりがちな“未来用設計”を安全に先送りする 🧯🧠", start: 5, end: 5 },
+      { title: "第6章：YAGNIで進める開発フロー（基本）🚶‍♀️✨", start: 6, end: 6 },
+      { title: "第7章：AIと一緒にYAGNI（盛らせない使い方）🤖🧯", start: 7, end: 7 },
+      { title: "第8章：最終ミニ課題（追加要件1つで育てる）🎓🌱", start: 8, end: 8 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('yagni_cs', 'yagni_cs', mod.start, mod.end),
+    })),
+  ],
+  yagniTsSidebar: [
+    {
+      type: 'doc',
+      id: 'yagni_ts/yagni_ts_index',
+    },
+    ...[
+      { title: "第1章：YAGNIってなに？「作らない勇気」の入門 🌱🙂", start: 1, end: 1 },
+      { title: "第2章：作り込みすぎのサインを見抜く 👀🚨", start: 2, end: 2 },
+      { title: "第3章：「今必要」を決める技術（MVPとスコープの切り方）✂️🗺️", start: 3, end: 3 },
+      { title: "第4章：YAGNIを支える実装スタイル（小さく作って育てる）🧱🌿", start: 4, end: 4 },
+      { title: "第5章：TypeScriptでやりがちな“未来用設計”を安全に先送りする 🧯🧠", start: 5, end: 5 },
+      { title: "第6章：YAGNIで進める開発フロー（基本）🚶‍♀️✨", start: 6, end: 6 },
+      { title: "第7章：AIと一緒にYAGNI（盛らせない使い方）🤖🧯", start: 7, end: 7 },
+      { title: "第8章：最終ミニ課題（追加要件1つで育てる）🎓🌱", start: 8, end: 8 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('yagni_ts', 'yagni_ts', mod.start, mod.end),
+    })),
+  ],
+  kissCsSidebar: [
+    {
+      type: 'doc',
+      id: 'kiss_cs/kiss_cs_index',
+    },
+    ...[
+      { title: "第1章：KISSってなに？😺", start: 1, end: 1 },
+      { title: "第2章：複雑さの正体を知ろう🧠", start: 2, end: 2 },
+      { title: "第3章：KISSの基本テク10選🧰", start: 3, end: 3 },
+      { title: "第4章：C#でやりがち！KISSリファクタ🍰", start: 4, end: 4 },
+      { title: "第5章：AIとKISS🤖💗", start: 5, end: 5 },
+      { title: "第6章：仕上げ：KISS運用チェックリスト✅", start: 6, end: 6 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('kiss_cs', 'kiss_cs', mod.start, mod.end),
+    })),
+  ],
+  kissTsSidebar: [
+    {
+      type: 'doc',
+      id: 'kiss_ts/kiss_ts_index',
+    },
+    ...[
+      { title: "第1章：KISSってなに？🐣💡", start: 1, end: 1 },
+      { title: "第2章：TSで複雑になりがちな3大ポイント🌀🧠", start: 2, end: 2 },
+      { title: "第3章：KISSの基本ワザ10選🧰✨", start: 3, end: 3 },
+      { title: "第4章：TypeScriptのKISS：型とコードのバランス⚖️🧩", start: 4, end: 4 },
+      { title: "第5章：AIとKISS：お願いテンプレ＆レビュー術🤖💗", start: 5, end: 5 },
+      { title: "第6章：仕上げ：KISS運用ルール＆チェックリスト✅🌈", start: 6, end: 6 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('kiss_ts', 'kiss_ts', mod.start, mod.end),
+    })),
+  ],
 };
 
 export default sidebars;
