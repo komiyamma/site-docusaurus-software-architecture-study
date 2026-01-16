@@ -19,7 +19,6 @@ function generateSidebarItems(folder: string, prefix: string, modules: { title: 
       return {
         type: 'doc' as const,
         id: items[0],
-        label: mod.title,
       };
     }
     return {

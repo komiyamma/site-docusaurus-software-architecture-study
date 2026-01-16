@@ -53,7 +53,7 @@
 
 ### 3-1) 依存の集中（ボス箱）👑📦
 
-![Dependency Boss](./picture/hc_lc_ts_study_010_dependency_boss.png)
+<!-- ![Dependency Boss](./picture/hc_lc_ts_study_010_dependency_boss.png) -->
 
 
 「みんながそこをimportしてる」箱があると、そこが変更の震源地になる💥
