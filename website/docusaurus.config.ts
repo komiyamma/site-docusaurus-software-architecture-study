@@ -141,6 +141,18 @@ const config: Config = {
           position: 'left',
           label: 'DDD CS Study',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'adrCsSidebar',
+          position: 'left',
+          label: 'ADR CS Study',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'adrTsSidebar',
+          position: 'left',
+          label: 'ADR TS Study',
+        },
 
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
