@@ -165,6 +165,18 @@ const config: Config = {
           position: 'left',
           label: 'KISS TS版',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'solidCsSidebar',
+          position: 'left',
+          label: 'SOLID C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'solidTsSidebar',
+          position: 'left',
+          label: 'SOLID TS版',
+        },
 
         // { to: '/blog', label: 'Blog', position: 'left' },
         {

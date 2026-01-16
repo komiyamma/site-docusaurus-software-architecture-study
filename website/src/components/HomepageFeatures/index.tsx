@@ -83,6 +83,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/kiss_ts/kiss_ts_index',
   },
+  {
+    title: 'SOLID C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶSOLID原則。<br/>オブジェクト指向設計の基礎から実践まで、<br/>変更に強いコードの書き方を学びます。<br/>
+      </>
+    ),
+    link: '/docs/solid_cs/solid_cs_index',
+  },
+  {
+    title: 'SOLID TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶSOLID原則。<br/>React/Node.js開発に活かす設計の基礎。<br/>型安全と柔軟性のバランス。<br/>
+      </>
+    ),
+    link: '/docs/solid_ts/solid_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

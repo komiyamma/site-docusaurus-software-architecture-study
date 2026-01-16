@@ -172,6 +172,44 @@ const sidebars: SidebarsConfig = {
       items: generateStudyIds('kiss_ts', 'kiss_ts', mod.start, mod.end),
     })),
   ],
+  solidCsSidebar: [
+    {
+      type: 'doc',
+      id: 'solid_cs/solid_cs_index',
+    },
+    ...[
+      { title: "第1部：SOLIDの基礎と準備（なぜ学ぶのか？）", start: 1, end: 7 },
+      { title: "S：SRP（単一責務の原則）", start: 8, end: 11 },
+      { title: "O：OCP（開放閉鎖の原則）", start: 12, end: 15 },
+      { title: "L：LSP（リスコフ置換の原則）", start: 16, end: 18 },
+      { title: "I：ISP（インターフェース分離の原則）", start: 19, end: 21 },
+      { title: "D：DIP（依存性逆転の原則）", start: 22, end: 25 },
+      { title: "総合演習：SOLIDを使いこなす", start: 26, end: 28 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('solid_cs', 'solid_cs', mod.start, mod.end),
+    })),
+  ],
+  solidTsSidebar: [
+    {
+      type: 'doc',
+      id: 'solid_ts/solid_ts_index',
+    },
+    ...[
+      { title: "第1部：設計の基礎とTypeScript環境", start: 1, end: 8 },
+      { title: "S：SRP（単一責任の原則）", start: 9, end: 11 },
+      { title: "O：OCP（開放閉鎖の原則）", start: 12, end: 15 },
+      { title: "L：LSP（リスコフ置換の原則）", start: 16, end: 19 },
+      { title: "I：ISP（インターフェース分離の原則）", start: 20, end: 22 },
+      { title: "D：DIP（依存性逆転の原則）", start: 23, end: 25 },
+      { title: "卒業制作：SOLID統合リファクタ", start: 26, end: 28 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('solid_ts', 'solid_ts', mod.start, mod.end),
+    })),
+  ],
 };
 
 export default sidebars;
