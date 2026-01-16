@@ -318,3 +318,4 @@ Visual Studio の Code Metrics には **Class Coupling（クラス結合度）**
 [2]: https://dotnet.microsoft.com/en-us/download/dotnet?utm_source=chatgpt.com "Browse all .NET versions to download | .NET"
 [3]: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 Release Notes"
 [4]: https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-class-coupling?view=visualstudio&utm_source=chatgpt.com "Code metrics - Class coupling - Visual Studio (Windows)"
+

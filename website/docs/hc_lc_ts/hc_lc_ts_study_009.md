@@ -136,7 +136,7 @@ src/
 
 ### ルールセット（ミニ版）🧸
 
-<!-- ![Folder Map](./picture/hc_lc_ts_study_009_folder_map.png) -->
+![Folder Map](./picture/hc_lc_ts_study_009_folder_map.png)
 
 
 * `ui/`：画面・イベント・表示だけ🎨

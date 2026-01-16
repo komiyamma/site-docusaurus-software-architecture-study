@@ -6,7 +6,7 @@
 
 ---
 
-# 0) 今日のゴール（完成判定）✅✨
+## 0) 今日のゴール（完成判定）✅✨
 
 ![Todo App Architecture](./picture/hc_lc_cs_study_017_todo_app_architecture.png)
 
@@ -19,7 +19,7 @@
 
 ---
 
-# 1) 題材はこれにするよ：ToDo＋締切通知✅⏰📣
+## 1) 題材はこれにするよ：ToDo＋締切通知✅⏰📣
 
 ### MVP要件（最小の仕様）🎯
 
@@ -37,7 +37,7 @@
 
 ---
 
-# 2) 17A：まず“設計だけ”する（ここ超大事）🗺️✍️
+## 2) 17A：まず“設計だけ”する（ここ超大事）🗺️✍️
 
 ## 2-1) 変更理由（＝境界の根拠）を3つ書く🧠✨
 
@@ -130,7 +130,7 @@ classDiagram
 
 ---
 
-# 3) 17B：実装する（“崩れない順番”で）🛠️✨
+## 3) 17B：実装する（“崩れない順番”で）🛠️✨
 
 ## 3-1) プロジェクト構成（これにすると超ラク）📁✨
 
@@ -561,7 +561,7 @@ while (true)
 
 ---
 
-# 4) 17C：最小テスト（まず1本でOK）🧪✨
+## 4) 17C：最小テスト（まず1本でOK）🧪✨
 
 ## 4-1) 壊れやすいところ＝ルールを守るテスト🎯
 
@@ -644,7 +644,7 @@ public sealed class NotifyDueSoonUseCaseTests
 
 ---
 
-# 5) 最終チェック（高凝集・低結合の自己採点）📋✨
+## 5) 最終チェック（高凝集・低結合の自己採点）📋✨
 
 ## ✅ 高凝集チェック🏠
 
@@ -665,14 +665,14 @@ public sealed class NotifyDueSoonUseCaseTests
 
 ---
 
-# 6) AIプロンプト（この章は2つだけ🎀）🤖✨
+## 6) AIプロンプト（この章は2つだけ🎀）🤖✨
 
 1. 「この設計案に“責務混在”と“依存増えすぎ”がないか、危険点TOP5」🧠🔍
 2. 「最小テスト1本で守るべき仕様（壊れやすい所）を提案して」🧪🎯
 
 ---
 
-# 7) クリア後の“次の一歩”🌱✨
+## 7) クリア後の“次の一歩”🌱✨
 
 * 通知を `ConsoleNotifier` → `Windows Toast` 風に差し替え（INotifierを実装するだけ）📣🔁
 * 保存を `JsonFile` → `SQLite` に差し替え（ITodoRepositoryを実装するだけ）💾🔁
@@ -682,3 +682,4 @@ public sealed class NotifyDueSoonUseCaseTests
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14 "What's new in C# 14 | Microsoft Learn"
 [2]: https://devblogs.microsoft.com/visualstudio/visual-studio-2026-is-here-faster-smarter-and-a-hit-with-early-adopters/ "Visual Studio 2026 is here: faster, smarter, and a hit with early adopters - Visual Studio Blog"
+

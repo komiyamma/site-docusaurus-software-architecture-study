@@ -254,3 +254,4 @@ D) `static Logger.Log()`
 次の第11章は、その怖い線を **「引数で渡す🎁」** だけでスッと弱める回だよ〜😊💖
 
 [1]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "C# 14 の新機能"
+

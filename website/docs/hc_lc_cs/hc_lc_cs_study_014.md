@@ -87,7 +87,7 @@ Martin Fowler も、まさにそういう意味で “Flag Argument” を説明
 
 ---
 
-# 5) ハンズオン🛠️：フラグ引数を「別メソッド」にする✂️🎀
+## 5) ハンズオン🛠️：フラグ引数を「別メソッド」にする✂️🎀
 
 ## 5-1. まずは“あるあるNG例”🚩
 
@@ -272,7 +272,7 @@ public class NotificationServiceTests
 
 ---
 
-# 6) ハンズオン🛠️：分岐が育ったら「方針オブジェクト」へ🧩✨
+## 6) ハンズオン🛠️：分岐が育ったら「方針オブジェクト」へ🧩✨
 
 「至急」側の処理がどんどん増えてきたら…
 `if` の中が太って、サービスが何でも屋になりやすい🍲💦
@@ -369,3 +369,4 @@ public class NotificationService
 [3]: https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/?utm_source=chatgpt.com "Are Boolean Flags on Methods a Code Smell?"
 [4]: https://refactoring.guru/design-patterns/strategy?utm_source=chatgpt.com "Strategy"
 [5]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
+

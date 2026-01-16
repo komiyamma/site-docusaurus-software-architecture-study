@@ -304,3 +304,4 @@ AIの案は「候補」だから、最後に自分でチェック✅
 [3]: https://learn.microsoft.com/en-us/dotnet/api/system.timeprovider?view=net-10.0&utm_source=chatgpt.com "TimeProvider Class (System)"
 [4]: https://www.nuget.org/packages/Microsoft.Extensions.TimeProvider.Testing/10.0.0?utm_source=chatgpt.com "Microsoft.Extensions.TimeProvider.Testing 10.0.0"
 [5]: https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/interface-implementation/default-interface-methods-versions?utm_source=chatgpt.com "Safely update interfaces using default interface methods - C#"
+

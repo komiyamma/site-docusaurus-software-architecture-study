@@ -70,7 +70,7 @@
 
 ---
 
-# 3) ハンズオン🛠️：巨大クラスを “責務で切って” スッキリさせる✨
+## 3) ハンズオン🛠️：巨大クラスを “責務で切って” スッキリさせる✨
 
 題材：**学食の注文（クーポンあり）🍛🎟️**
 やること：`OrderCheckout` を **検証 / 計算 / レシート作成** に分割するよ✂️🎯
@@ -404,3 +404,4 @@ classDiagram
 [2]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes "Visual Studio 2026 リリース ノート | Microsoft Learn"
 [3]: https://visualstudio.microsoft.com/ja/github-copilot/ "
 	GitHub Copilot を含む Visual Studio – AI ペア プログラミング"
+

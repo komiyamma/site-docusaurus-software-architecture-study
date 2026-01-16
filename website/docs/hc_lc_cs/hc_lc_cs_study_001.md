@@ -248,3 +248,4 @@ OpenAIのCodexみたいな“作業を進める系”のAIでも、ルールは�
 [2]: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 Release Notes"
 [3]: https://docs.github.com/copilot/get-started/quickstart?utm_source=chatgpt.com "Quickstart for GitHub Copilot"
 [4]: https://openai.com/index/introducing-codex/?utm_source=chatgpt.com "Introducing Codex"
+

@@ -81,6 +81,9 @@ graph TD
 
 ## 4) まずは形を決めよう：おすすめフォルダの型🧱📁
 
+![Private Room](./picture/hc_lc_ts_study_016_private_room.png)
+
+
 「モジュール＝フォルダ」でOK。たとえばこんな感じ👇
 
 ```txt

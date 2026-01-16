@@ -75,7 +75,7 @@ static はざっくり言うと…
 
 ---
 
-# ハンズオン🛠️：static地獄を「最小変更で救う」😇✨
+## ハンズオン🛠️：static地獄を「最小変更で救う」😇✨
 
 題材：**レポート文字列を作る**（時間・乱数・ファイルが絡むやつ）
 
@@ -266,7 +266,7 @@ public class FakeSystemStuff : ISystemStuff
 
 ---
 
-# さらに今どきの「時間」対策：TimeProvider を使う⏰✨（おすすめ）
+## さらに今どきの「時間」対策：TimeProvider を使う⏰✨（おすすめ）
 
 .NET 8 から **TimeProvider** っていう “時間の抽象化” が標準で入ったよ！
 時間依存コードをテストしやすくするための仕組み✨ ([Microsoft Learn][5])
@@ -295,7 +295,7 @@ public class ReportService2
 
 ---
 
-# さらに今どきの「ファイル」対策：System.IO.Abstractions 📁✨（任意）
+## さらに今どきの「ファイル」対策：System.IO.Abstractions 📁✨（任意）
 
 `File.ReadAllText` みたいな static I/O を、**IFileSystem** 経由にできるライブラリがあるよ。
 “System.IO と同じAPI感”で、注入＆テストしやすい設計になってるのが強い💪 ([nuget.org][6])
@@ -338,3 +338,4 @@ public class ReportService2
 [4]: https://learn.microsoft.com/ja-jp/dotnet/api/system.io.file.readalltext?view=net-8.0&utm_source=chatgpt.com "File.ReadAllText メソッド (System.IO)"
 [5]: https://learn.microsoft.com/en-us/dotnet/standard/datetime/timeprovider-overview?utm_source=chatgpt.com "What is the TimeProvider class - .NET"
 [6]: https://www.nuget.org/packages/System.IO.Abstractions/?utm_source=chatgpt.com "System.IO.Abstractions 22.1.0"
+

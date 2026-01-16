@@ -271,10 +271,10 @@ VS Code：リネーム（例：`F2`）
 ### 7.1 例：privateフィールドは `_camelCase` にしたい🧷
 
 ```ini
-# .editorconfig（抜粋例）
+## .editorconfig（抜粋例）
 [*.cs]
 
-# naming rules（ざっくり例）
+## naming rules（ざっくり例）
 dotnet_naming_rule.private_fields_should_be_underscore.severity = warning
 dotnet_naming_rule.private_fields_should_be_underscore.symbols = private_fields
 dotnet_naming_rule.private_fields_should_be_underscore.style = underscore_camel_case
@@ -336,3 +336,4 @@ dotnet_naming_style.underscore_camel_case.capitalization = camel_case
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names?utm_source=chatgpt.com "C# identifier naming rules and conventions"
 [3]: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios?utm_source=chatgpt.com "Asynchronous programming scenarios - C#"
 [4]: https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format?utm_source=chatgpt.com "dotnet format command - .NET CLI"
+

@@ -52,6 +52,9 @@ Node.js は **24系が LTS（Krypton）** に入ってるよ ([Node.js][2])
 
 ## 3) モジュール分割（責務）📦✨
 
+![Architecture Cake](./picture/hc_lc_ts_study_017_architecture_cake.png)
+
+
 ここが今回の “完成形” の地図🗺️
 
 ### レイヤーの役割（超ざっくり）
@@ -394,6 +397,9 @@ main().catch((e) => {
 ---
 
 # 17C：最小テスト（壊れやすい所だけでもOK）🧪✨
+
+![Test Trophy](./picture/hc_lc_ts_study_017_test_trophy.png)
+
 
 テストは “全部” じゃなくていいよ〜！🙆‍♀️
 今回は **締切抽出ルール** を守る1本が最優先🎯

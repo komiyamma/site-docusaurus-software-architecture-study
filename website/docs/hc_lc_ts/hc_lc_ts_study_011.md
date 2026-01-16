@@ -45,7 +45,7 @@ export async function getWelcomeMessage(userId: string): Promise<string> {
 
 **問題ポイント**👇
 
-<!-- ![Internal Dependency](./picture/hc_lc_ts_study_011_internal_dependency.png) -->
+![Internal Dependency](./picture/hc_lc_ts_study_011_internal_dependency.png)
 
 
 * テストで「朝/昼」を固定できない（実行時間で変わる）⏰
@@ -96,7 +96,7 @@ flowchart TD
 
 ## 4) リファクタ：依存を引数で渡す版（いちばん簡単）🧁
 
-<!-- ![Inject Dependency](./picture/hc_lc_ts_study_011_inject_dependency.png) -->
+![Inject Dependency](./picture/hc_lc_ts_study_011_inject_dependency.png)
 
 
 ### 4-1. 依存の型（=関数の形）を軽く作る🧩
