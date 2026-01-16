@@ -1,0 +1,1 @@
+ViewModel/DTO/Entityの分離とマッピング手法。境界での変換で業務コアを保護する具体例を学ぶ。手動変換、AutoMapperの現状、AI活用を習得し、SoCの壁を構築する。
