@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # 「高凝集・低結合」TypeScript版：17章アウトライン（Windows＋VS Code前提）🪟💻✨
 
 前提：TypeScript初級〜中級／高凝集・低結合は初めて／設計は超入門😊

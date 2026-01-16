@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 
 # TypeScript版：DRY（重複排除）教育コンテンツ（9章アウトライン）📚💖
 
