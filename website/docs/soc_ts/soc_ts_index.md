@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+
 ---
 
 # SoC（関心の分離）教育コンテンツ：TypeScript版アウトライン（全17章）🧠🧩✨

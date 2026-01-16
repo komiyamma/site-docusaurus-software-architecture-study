@@ -1,6 +1,4 @@
----
-sidebar_position: 0
----
+
 
 # 「高凝集・低結合」TypeScript版：17章アウトライン（Windows＋VS Code前提）🪟💻✨
 

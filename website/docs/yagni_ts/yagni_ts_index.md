@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+
 ---
 
 # YAGNI（将来のために作り込まない）教育コンテンツ：TypeScript版・全8章アウトライン 🧠✨

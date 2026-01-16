@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+
 ---
 
 # SOLID原則 C#版 **全28章アウトライン**

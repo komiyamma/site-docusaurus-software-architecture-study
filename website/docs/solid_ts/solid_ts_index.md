@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+
 ---
 
 # SOLID原則 TypeScript版 **全28章アウトライン**
