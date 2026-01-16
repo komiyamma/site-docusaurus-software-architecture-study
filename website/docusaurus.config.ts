@@ -204,6 +204,19 @@ const config: Config = {
           label: 'SoC TS版',
         },
 
+        {
+          type: 'docSidebar',
+          sidebarId: 'hcLcCsSidebar',
+          position: 'left',
+          label: 'HC/LC C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'hcLcTsSidebar',
+          position: 'left',
+          label: 'HC/LC TS版',
+        },
+
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',

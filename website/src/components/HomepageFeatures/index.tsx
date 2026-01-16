@@ -143,6 +143,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/soc_ts/soc_ts_index',
   },
+  {
+    title: 'HC/LC C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶ高凝集・低結合。<br/>変更に強いコード設計の基礎。<br/>責務の分離と依存関係のコントロール。<br/>
+      </>
+    ),
+    link: '/docs/hc_lc_cs/hc_lc_cs_index',
+  },
+  {
+    title: 'HC/LC TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶ高凝集・低結合。<br/>変更に強い設計とモジュール分割。<br/>フロントエンド開発での実践パターン。<br/>
+      </>
+    ),
+    link: '/docs/hc_lc_ts/hc_lc_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
