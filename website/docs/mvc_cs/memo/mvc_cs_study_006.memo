@@ -1,0 +1,1 @@
+MVCのController入門。操作の受付と交通整理を解説。CampusTodoにてlist等を受け、Modelへの指示やViewへの表示依頼を振分ける実装を習得。肥大化を防ぐ設計を学ぶ。

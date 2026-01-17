@@ -1,0 +1,1 @@
+MVCのModel入門。データをC#の「型」で表す設計を解説。TodoItemをrecordで定義し、enumやrequired、DateOnly等を活用して「正しいデータ状態を守る」Modelの責務を学ぶ。
