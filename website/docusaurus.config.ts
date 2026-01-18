@@ -217,7 +217,18 @@ const config: Config = {
           label: 'HC/LC TS版',
         },
 
-        // { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          type: 'docSidebar',
+          sidebarId: 'mvcCsSidebar',
+          position: 'left',
+          label: 'MVC C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'mvcTsSidebar',
+          position: 'left',
+          label: 'MVC TS版',
+        },
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
           label: 'GitHub',

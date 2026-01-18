@@ -163,6 +163,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/hc_lc_ts/hc_lc_ts_index',
   },
+  {
+    title: 'MVC C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶMVCパターン。<br/>Model-View-Controllerの責務分担と<br/>Webアプリケーション設計の基礎。<br/>
+      </>
+    ),
+    link: '/docs/mvc_cs/mvc_cs_index',
+  },
+  {
+    title: 'MVC TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶMVCパターン。<br/>フロントエンドにおけるMVCの適用と<br/>状態管理・UI構築の分離。<br/>
+      </>
+    ),
+    link: '/docs/mvc_ts/mvc_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
