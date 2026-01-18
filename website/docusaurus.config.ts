@@ -230,6 +230,18 @@ const config: Config = {
           label: 'MVC TS版',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'dipCsSidebar',
+          position: 'left',
+          label: 'DIP C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dipTsSidebar',
+          position: 'left',
+          label: 'DIP TS版',
+        },
+        {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
           label: 'GitHub',
           position: 'right',

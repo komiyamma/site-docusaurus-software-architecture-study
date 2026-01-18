@@ -122,6 +122,8 @@ const sidebars: SidebarsConfig = {
   hcLcTsSidebar: generateProjectSidebar('hc_lc_ts'),
   mvcCsSidebar: generateProjectSidebar('mvc_cs'),
   mvcTsSidebar: generateProjectSidebar('mvc_ts'),
+  dipCsSidebar: generateProjectSidebar('dip_cs'),
+  dipTsSidebar: generateProjectSidebar('dip_ts'),
 };
 
 export default sidebars;

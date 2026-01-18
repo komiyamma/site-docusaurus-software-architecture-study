@@ -183,6 +183,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/mvc_ts/mvc_ts_index',
   },
+  {
+    title: 'DIP C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶ依存性逆転の原則。<br/>抽象への依存とDIコンテナの活用。<br/>テスト容易性と保守性の向上。<br/>
+      </>
+    ),
+    link: '/docs/dip_cs/dip_cs_index',
+  },
+  {
+    title: 'DIP TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶ依存性逆転。<br/>インターフェース分離と依存注入。<br/>結合度を下げ、変更に強い設計へ。<br/>
+      </>
+    ),
+    link: '/docs/dip_ts/dip_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
