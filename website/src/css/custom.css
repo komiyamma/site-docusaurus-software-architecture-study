@@ -69,3 +69,13 @@
 .navbar__items::-webkit-scrollbar-thumb:hover {
   background-color: var(--ifm-color-primary);
 }
+
+/* Fix Logo to the left while scrolling */
+.navbar__brand {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  flex-shrink: 0; /* Prevent logo from collapsing */
+  background-color: var(--ifm-navbar-background-color); /* Hide items passing behind */
+  padding-right: 1rem; /* Add some breathing room */
+}
