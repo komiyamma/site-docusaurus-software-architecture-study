@@ -47,11 +47,25 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   white-space: nowrap;
-  /* Hide scrollbar for a cleaner look */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
+  /* Show scrollbar but keep it thin and styled */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--ifm-color-primary-light) transparent;
 }
 
 .navbar__items::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+  display: block; /* Show it */
+  height: 6px; /* Height for horizontal scrollbar */
+}
+
+.navbar__items::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.navbar__items::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-primary-light);
+  border-radius: 6px;
+}
+
+.navbar__items::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ifm-color-primary);
 }
