@@ -203,6 +203,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/dip_ts/dip_ts_index',
   },
+  {
+    title: 'Is-a/Has-a C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶ合成（Composition）。<br/>「継承より合成」を合言葉に、<br/>変更に強く、部品として再利用可能な設計。<br/>
+      </>
+    ),
+    link: '/docs/isa_hasa_cs/isa_hasa_cs_index',
+  },
+  {
+    title: 'Is-a/Has-a TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶ合成（Composition）。<br/>is-a関係からhas-a関係への転換と、<br/>委譲（Delegation）を活用した柔軟な型設計。<br/>
+      </>
+    ),
+    link: '/docs/isa_hasa_ts/isa_hasa_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

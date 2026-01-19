@@ -242,6 +242,18 @@ const config: Config = {
           label: 'DIP TS版',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'isaHasaCsSidebar',
+          position: 'left',
+          label: 'Is-a/Has-a C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'isaHasaTsSidebar',
+          position: 'left',
+          label: 'Is-a/Has-a TS版',
+        },
+        {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
           label: 'GitHub',
           position: 'right',
