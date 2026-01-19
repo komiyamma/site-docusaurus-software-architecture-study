@@ -94,7 +94,7 @@
 /* Home icon is positioned outside the scroll container */
 .navbar__brand {
   position: absolute;
-  left: 16px;
+  left: 6px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
