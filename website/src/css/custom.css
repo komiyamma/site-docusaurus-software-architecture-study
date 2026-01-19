@@ -84,5 +84,53 @@
   height: 100%;
   z-index: 10;
   background-color: var(--ifm-navbar-background-color);
+  background-color: var(--ifm-navbar-background-color);
   padding-right: 1rem;
+}
+
+/* Scroll Buttons */
+.navbar__scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20; /* Above items */
+  background: var(--ifm-color-primary); /* Use primary color */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  display: flex; /* Flex to center content */
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  transition: opacity 0.2s, background-color 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+
+.navbar__scroll-btn:hover {
+  opacity: 1;
+  background: var(--ifm-color-primary-dark);
+}
+
+.navbar__scroll-btn--left {
+  /* Position it right after the Logo (logo is left:0, width approx 32px + 16px padding) */
+  /* Logo is absolute, items margin is 52px. Put button in that gap? */
+  /* Or put it overlaying the start of items? */
+  /* Let's put it at left: 40px (just after logo) */
+  left: 45px; 
+}
+
+.navbar__scroll-btn--right {
+  right: 10px;
+}
+
+/* Ensure buttons don't show on mobile if not needed (screen width < 996px) */
+@media (max-width: 996px) {
+  .navbar__scroll-btn {
+    display: none;
+  }
 }
