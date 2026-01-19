@@ -41,3 +41,35 @@
   --ifm-color-primary-lightest: #b0cce1;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ========================================
+   Navbar Horizontal Scroll (Simple)
+   ======================================== */
+
+/* Left navbar items (menu links) scroll horizontally */
+.navbar__items:not(.navbar__items--right) {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  
+  /* Visible thin scrollbar to indicate scrollability */
+  scrollbar-width: thin;
+  scrollbar-color: var(--ifm-color-primary-light) transparent;
+}
+
+.navbar__items:not(.navbar__items--right)::-webkit-scrollbar {
+  height: 6px;
+}
+
+.navbar__items:not(.navbar__items--right)::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.navbar__items:not(.navbar__items--right)::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-primary-light);
+  border-radius: 4px;
+}
+
+.navbar__items:not(.navbar__items--right)::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ifm-color-primary);
+}
