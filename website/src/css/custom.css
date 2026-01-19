@@ -59,9 +59,19 @@
   /* Add left margin to make room for the fixed home icon */
   margin-left: 48px;
   
+  /* Subtle vertical lines on left and right edges */
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  
   /* Visible thin scrollbar to indicate scrollability */
   scrollbar-width: thin;
   scrollbar-color: var(--ifm-color-primary-light) transparent;
+}
+
+/* Dark mode: lighter border for visibility */
+[data-theme='dark'] .navbar__items:not(.navbar__items--right) {
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .navbar__items:not(.navbar__items--right)::-webkit-scrollbar {
