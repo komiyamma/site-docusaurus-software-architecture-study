@@ -43,12 +43,18 @@
 }
 
 /* Navbar Horizontal Scroll */
+.navbar__inner {
+  position: relative; /* Anchor for absolute logo */
+}
+
 .navbar__items {
   flex-wrap: nowrap;
   overflow-x: auto;
   white-space: nowrap;
+  margin-left: 52px; /* Make space for the absolute logo (adjust based on logo width + gap) */
+  
   /* Show scrollbar but keep it thin and styled */
-  scrollbar-width: thin; /* Firefox */
+  scrollbar-width: thin; 
   scrollbar-color: var(--ifm-color-primary-light) transparent;
 }
 
@@ -72,10 +78,11 @@
 
 /* Fix Logo to the left while scrolling */
 .navbar__brand {
-  position: sticky;
+  position: absolute; /* Remove from scroll flow */
   left: 0;
+  top: 0;
+  height: 100%;
   z-index: 10;
-  flex-shrink: 0; /* Prevent logo from collapsing */
-  background-color: var(--ifm-navbar-background-color); /* Hide items passing behind */
-  padding-right: 1rem; /* Add some breathing room */
+  background-color: var(--ifm-navbar-background-color);
+  padding-right: 1rem;
 }
