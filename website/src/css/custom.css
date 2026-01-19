@@ -46,11 +46,18 @@
    Navbar Horizontal Scroll (Simple)
    ======================================== */
 
+/* Navbar inner is the positioning context */
+.navbar__inner {
+  position: relative;
+}
+
 /* Left navbar items (menu links) scroll horizontally */
 .navbar__items:not(.navbar__items--right) {
   flex-wrap: nowrap;
   overflow-x: auto;
   white-space: nowrap;
+  /* Add left margin to make room for the fixed home icon */
+  margin-left: 48px;
   
   /* Visible thin scrollbar to indicate scrollability */
   scrollbar-width: thin;
@@ -72,4 +79,13 @@
 
 .navbar__items:not(.navbar__items--right)::-webkit-scrollbar-thumb:hover {
   background-color: var(--ifm-color-primary);
+}
+
+/* Home icon is positioned outside the scroll container */
+.navbar__brand {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
 }
