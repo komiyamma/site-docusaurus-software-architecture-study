@@ -41,3 +41,17 @@
   --ifm-color-primary-lightest: #b0cce1;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Navbar Horizontal Scroll */
+.navbar__items {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* Hide scrollbar for a cleaner look */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.navbar__items::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}

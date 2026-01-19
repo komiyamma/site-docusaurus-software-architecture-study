@@ -253,6 +253,12 @@ const config: Config = {
           position: 'left',
           label: 'Is-a/Has-a TS版',
         },
+        // Dummy items for testing scroll
+        ...Array.from({ length: 20 }, (_, i) => ({
+          to: '/',
+          label: `Item ${i + 1}`,
+          position: 'left',
+        })),
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
           label: 'GitHub',
