@@ -1,4 +1,4 @@
-# 第13章：OCPの王道✨ Strategyで差し替え🎭🔁（if/switch地獄から卒業！）
+# 13章：OCPの王道：Strategyで差し替え🎭🔁
 
 [![UML class diagram of strategy pattern. | Download Scientific Diagram](https://tse2.mm.bing.net/th/id/OIP.d1GfEtUCJKO0k1p6b59fcwAAAA?pid=Api)](https://www.researchgate.net/figure/UML-class-diagram-of-strategy-pattern_fig1_357540097?utm_source=chatgpt.com)
 

@@ -1,6 +1,3 @@
----
-sidebar_position: 0
----
 # 「合成優先（継承よりComposition）」17章・詳細アウトライン📚🧩✨
 
 （対象：C#は初級〜中級／設計は超入門／Compositionは初めて👶➡️🙂）

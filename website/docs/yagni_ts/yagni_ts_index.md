@@ -1,7 +1,3 @@
----
-
----
-
 # YAGNI（将来のために作り込まない）教育コンテンツ：TypeScript版・全8章アウトライン 🧠✨
 
 （前提：TypeScript 初級〜中級／設計は超入門／Windows／VS Code／Copilot or CodexなどAI導入済み🤖💡）

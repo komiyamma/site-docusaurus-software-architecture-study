@@ -1,4 +1,4 @@
-[![SOLID Series: Liskov Substitution Principle (LSP) - LogRocket Blog](https://tse3.mm.bing.net/th/id/OIP.7-c7pmlnQ3iDEX-yzxOpQgHaE8?pid=Api)](https://blog.logrocket.com/liskov-substitution-principle-lsp/?utm_source=chatgpt.com)
+# 27章：総合演習[2]：クラス構造を「綺麗」にする（SRP/OCP/LSP/ISP）🧱✨
 
 # 第27章：総合演習[2] クラス構造を「綺麗」にする（SRP/OCP/LSP/ISP）🧱✨
 

@@ -1,7 +1,3 @@
----
-
----
-
 # ADR（設計判断の記録）教材アウトライン（TypeScript版・12章）📝✨
 
 前提：Windows + VS Code 💻 / TypeScript初級〜中級 / ADR初めて / 設計超入門者 / CopilotやCodexなどAI導入済み🤖💕

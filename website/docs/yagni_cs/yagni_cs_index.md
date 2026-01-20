@@ -1,7 +1,3 @@
----
-
----
-
 # YAGNI（将来のために作り込まない）教育コンテンツ：全8章アウトライン 🧠✨
 
 （前提：C# 初級〜中級／設計は超入門／Windows／Visual Studio中心＋VS CodeもOK／CopilotやCodexなどAI導入済み🤖💡）

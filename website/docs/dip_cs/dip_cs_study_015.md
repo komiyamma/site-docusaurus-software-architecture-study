@@ -1,4 +1,4 @@
-# 第15章：Visual Studioで作る！Windows最小プロジェクト🪟🛠️✨
+# 第15章：Visual Studioで作る！Windows最小プロジェクト🪟🛠️
 
 （Console AppでDIPを“1周”体験するよ〜🔄💖）
 
