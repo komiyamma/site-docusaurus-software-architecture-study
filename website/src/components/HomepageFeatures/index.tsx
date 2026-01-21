@@ -184,6 +184,26 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/mvc_ts/mvc_ts_index',
   },
   {
+    title: 'DI C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        C#で学ぶ依存性注入（DI）。<br/>疎結合な設計とテスト容易性。<br/>変更に強いアーキテクチャの要。<br/>
+      </>
+    ),
+    link: '/docs/di_cs/di_cs_index',
+  },
+  {
+    title: 'DI TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶ依存性注入。<br/>関数/クラスへの注入パターンと<br/>IoC（制御の反転）の実践。<br/>
+      </>
+    ),
+    link: '/docs/di_ts/di_ts_index',
+  },
+  {
     title: 'DIP C#版',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (

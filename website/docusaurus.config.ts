@@ -231,6 +231,18 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'diCsSidebar',
+          position: 'left',
+          label: 'DI C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'diTsSidebar',
+          position: 'left',
+          label: 'DI TS版',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'dipCsSidebar',
           position: 'left',
           label: 'DIP C#版',
