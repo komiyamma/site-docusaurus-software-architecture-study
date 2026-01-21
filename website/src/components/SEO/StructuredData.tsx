@@ -22,7 +22,7 @@ export const WebSiteJsonLd = () => {
     name: title,
     inLanguage: 'ja',
     url: url,
-    description: tagline,
+    description: tagline?.replace(/[\r\n]+/g, ' '),
     // potentialAction omitted for now as requested/discussed
   };
 
@@ -63,7 +63,7 @@ export const ArticleJsonLd = ({
     },
     datePublished: date,
     dateModified: lastUpdated || date, // Fallback to published date
-    description: description,
+    description: description?.replace(/[\r\n]+/g, ' '),
   };
 
   // Remove undefined fields
