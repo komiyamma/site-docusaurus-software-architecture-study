@@ -25,7 +25,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'komiyamma', // Usually your GitHub org/user name.
-  projectName: 'software-architecture.komiyamma.net', // Usually your repo name.
+  projectName: 'site-docusaurus-software-architecture-study', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
