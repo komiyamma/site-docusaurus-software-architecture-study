@@ -253,6 +253,16 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/dpn_rule_cs/dpn_rule_cs_index',
   },
+  {
+    title: '依存関係ルール TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶ依存関係ルール。<br/>importの方向制御とレイヤードアーキテクチャ。<br/>Lintによる強制と循環参照の防止。<br/>
+      </>
+    ),
+    link: '/docs/dpn_rule_ts/dpn_rule_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

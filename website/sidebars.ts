@@ -157,6 +157,35 @@ const sidebars: SidebarsConfig = {
       items: generateStudyIds('dpn_rule_cs', 'dpn_rule_cs', mod.start, mod.end),
     })),
   ],
+
+  dpnRuleTsSidebar: [
+    {
+      type: 'doc',
+      id: 'dpn_rule_ts/dpn_rule_ts_index',
+    },
+    ...[
+      { title: "第1章 依存ってなに？TSの依存はまず「import」から😱🔗", start: 1, end: 1 },
+      { title: "第2章 Dependency Ruleのコア：「中心（方針）」を「外側（詳細）」から守る🧭🎯", start: 2, end: 2 },
+      { title: "第3章 “境界”の作り方入門①：まずはフォルダ境界でOK📁🧱", start: 3, end: 3 },
+      { title: "第4章 “境界”の作り方入門②：パッケージ/monorepoはいつ必要？📦✨", start: 4, end: 4 },
+      { title: "第5章 迷わない層モデル：Domain / Application / Adapters を決めよう🧅🗺️", start: 5, end: 5 },
+      { title: "第6章 TypeScriptの武器：type/interfaceで“契約”を作る📜🧡", start: 6, end: 6 },
+      { title: "第7章 依存逆転（DIP）をTSで体験：中心→外側importを断つ🔄🚫", start: 7, end: 7 },
+      { title: "第8章 Composition Root入門①：組み立て場所（entry）を決める🏗️📌", start: 8, end: 8 },
+      { title: "第9章 Composition Root入門②：DIコンテナ無しで回す設計パターン🧪🪶", start: 9, end: 9 },
+      { title: "第10章 境界の設計①：DTO/変換をどこに置く？🚪📦", start: 10, end: 10 },
+      { title: "第11章 境界の設計②：エラーも境界で翻訳しよう🧯🔁", start: 11, end: 11 },
+      { title: "第12章 循環参照を倒す①：循環が起きる典型パターン🌀😵‍💫", start: 12, end: 12 },
+      { title: "第13章 循環参照を倒す②：barrel（index.ts）と依存方向の整え方📦➡️", start: 13, end: 13 },
+      { title: "第14章 shared/utils沼を回避①：共有していいもの・ダメなもの🕳️🐥", start: 14, end: 14 },
+      { title: "第15章 shared/utils沼を回避②：契約（Contract）を中心に置く📜🎯", start: 15, end: 15 },
+      { title: "第16章 ルールを自動で守る：ESLint境界ルール＋依存の見える化🛡️📈🏁", start: 16, end: 16 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('dpn_rule_ts', 'dpn_rule_ts', mod.start, mod.end),
+    })),
+  ],
 };
 
 export default sidebars;

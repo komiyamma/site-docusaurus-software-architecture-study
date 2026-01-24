@@ -271,6 +271,12 @@ const config: Config = {
           position: 'left',
           label: '依存関係ルール C#版',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dpnRuleTsSidebar', // Corrected from rpn based on user confirmation
+          position: 'left',
+          label: '依存関係ルール TS版',
+        },
 
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
