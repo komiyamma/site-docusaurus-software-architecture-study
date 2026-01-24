@@ -243,6 +243,16 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/isa_hasa_ts/isa_hasa_ts_index',
   },
+  {
+    title: '依存関係ルール C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        依存関係ルール（Dependency Rule）の基本と、<br/>C#での実践的な適用方法を学びます。<br/>中心と外側を意識し、変更に強い設計を。<br/>
+      </>
+    ),
+    link: '/docs/dpn_rule_cs/dpn_rule_cs_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

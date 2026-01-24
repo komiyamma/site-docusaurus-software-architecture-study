@@ -128,6 +128,35 @@ const sidebars: SidebarsConfig = {
   dipTsSidebar: generateProjectSidebar('dip_ts'),
   isaHasaCsSidebar: generateProjectSidebar('isa_hasa_cs'),
   isaHasaTsSidebar: generateProjectSidebar('isa_hasa_ts'),
+
+  dpnRuleCsSidebar: [
+    {
+      type: 'doc',
+      id: 'dpn_rule_cs/dpn_rule_cs_index',
+    },
+    ...[
+      { title: "第1章 依存ってなに？怖さの正体を知ろう😱🔗", start: 1, end: 1 },
+      { title: "第2章 Dependency Ruleの一言まとめ：矢印の向きを固定する🧭➡️", start: 2, end: 2 },
+      { title: "第3章 層の考え方入門：中心と外側の地図を作る🧅🗺️", start: 3, end: 3 },
+      { title: "第4章 まずは物理で守る：Visual Studioでプロジェクト分割📦🛠️", start: 4, end: 4 },
+      { title: "第5章 プロジェクト参照ルール：どこがどこを参照していい？🚦➡️", start: 5, end: 5 },
+      { title: "第6章 依存を守る最重要テク：インターフェースの置き場所🧷🎯", start: 6, end: 6 },
+      { title: "第7章 DI入門：newしないで渡す（コンストラクタ注入）📥🧪", start: 7, end: 7 },
+      { title: "第8章 Composition Root：組み立ては“外側”でやる🏗️🧭", start: 8, end: 8 },
+      { title: "第9章 境界の型：DTO/Port/Adapterの超入門🚪📦", start: 9, end: 9 },
+      { title: "第10章 “破れない”最短ルート①：参照を切って守る✂️🚫", start: 10, end: 10 },
+      { title: "第11章 “破れない”最短ルート②：公開範囲を絞って守る🔒🧼", start: 11, end: 11 },
+      { title: "第12章 アーキテクチャテスト入門：違反したら検知する🧪🚨", start: 12, end: 12 },
+      { title: "第13章 Shared地獄を回避①：共有していいもの・ダメなもの📦⚠️", start: 13, end: 13 },
+      { title: "第14章 Shared地獄を回避②：契約（Contract）を中心に置く📜🎯", start: 14, end: 14 },
+      { title: "第15章 横断関心の扱い：ログ・設定・例外を中心に混ぜない🧼🧩", start: 15, end: 15 },
+      { title: "第16章 仕上げプロジェクト：小さく作って、守り続ける🏁🎀", start: 16, end: 16 },
+    ].map(mod => ({
+      type: 'category' as const,
+      label: mod.title,
+      items: generateStudyIds('dpn_rule_cs', 'dpn_rule_cs', mod.start, mod.end),
+    })),
+  ],
 };
 
 export default sidebars;

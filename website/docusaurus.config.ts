@@ -265,6 +265,12 @@ const config: Config = {
           position: 'left',
           label: 'Is-a/Has-a TS版',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dpnRuleCsSidebar',
+          position: 'left',
+          label: '依存関係ルール C#版',
+        },
 
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
