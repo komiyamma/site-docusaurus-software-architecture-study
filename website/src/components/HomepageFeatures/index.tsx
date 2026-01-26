@@ -263,6 +263,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/dpn_rule_ts/dpn_rule_ts_index',
   },
+  {
+    title: 'Entity/VO C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶEntityとValue Object。<br/>同一性による識別と値の不変性。<br/>ドメイン駆動設計の基礎となる実装パターン。<br/>
+      </>
+    ),
+    link: '/docs/entity_obj_cs/entity_obj_cs_index',
+  },
+  {
+    title: 'Entity/VO TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶEntityとValue Object。<br/>型システムを活用した不変性と<br/>識別子の設計、バリデーションの実装。<br/>
+      </>
+    ),
+    link: '/docs/entity_obj_ts/entity_obj_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

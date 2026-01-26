@@ -180,6 +180,19 @@ const config: Config = {
 
         {
           type: 'docSidebar',
+          sidebarId: 'entityObjCsSidebar',
+          position: 'left',
+          label: 'Entity/VO C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'entityObjTsSidebar',
+          position: 'left',
+          label: 'Entity/VO TS版',
+        },
+
+        {
+          type: 'docSidebar',
           sidebarId: 'dryCsSidebar',
           position: 'left',
           label: 'DRY C#版',
