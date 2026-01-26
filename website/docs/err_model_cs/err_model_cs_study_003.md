@@ -32,7 +32,7 @@
 
 ## 3) try / catch / finally の動き方🔁🧯
 
-![try catch finally flow](picture/err_model_cs_study_003_try_catch_finally.png)
+![try catch finally flow](./picture/err_model_cs_study_003_try_catch_finally.png)
 
 ### ✅ try
 
@@ -115,7 +115,7 @@ static void C()
 
 ## 6) throw と「投げ直し」💨🎯（スタックトレースを守る技）
 
-![throw vs throw ex](picture/err_model_cs_study_003_throw_vs_throw_ex.png)
+![throw vs throw ex](./picture/err_model_cs_study_003_throw_vs_throw_ex.png)
 
 ここ、**超・事故りやすい** から先に覚えちゃお！
 
@@ -143,7 +143,7 @@ catch (Exception ex)
 
 ## 7) InnerException（例外の“連鎖”）⛓️😵‍💫
 
-![Inner Exception Chain](picture/err_model_cs_study_003_inner_exception_chain.png)
+![Inner Exception Chain](./picture/err_model_cs_study_003_inner_exception_chain.png)
 
 現場でよくあるのがこれ！
 

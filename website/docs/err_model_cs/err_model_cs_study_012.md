@@ -46,7 +46,7 @@
 
 ## 4) 変換の全体像（これを作る）🗺️✨
 
-![Conversion Machine](picture/err_model_cs_study_012_conversion_machine.png)
+![Conversion Machine](./picture/err_model_cs_study_012_conversion_machine.png)
 
 流れはこれだけ👇（超大事💗）
 

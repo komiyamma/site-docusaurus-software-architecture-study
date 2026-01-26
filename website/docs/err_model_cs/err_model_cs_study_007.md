@@ -45,7 +45,7 @@
 
 ### 🍀 迷ったらこの2問！
 
-![Input Error vs Domain Error](picture/err_model_cs_study_007_input_vs_domain.png)
+![Input Error vs Domain Error](./picture/err_model_cs_study_007_input_vs_domain.png)
 
 1. **ユーザーが入力を直せば解決する？**
    　→ はい ✅：入力エラー寄り（空欄、形式違い、桁数など）✍️
@@ -61,7 +61,7 @@
 
 ## 4) ドメインエラーの「型」を先に決めよう🏷️🧷
 
-![Error Card Data Structure](picture/err_model_cs_study_007_error_card.png)
+![Error Card Data Structure](./picture/err_model_cs_study_007_error_card.png)
 
 この章では、後でResult型に載せる前提で
 **まず “ドメインエラーの形（データ構造）” を揃える**よ😊✨

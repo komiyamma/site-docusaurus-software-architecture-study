@@ -60,7 +60,7 @@ Fail Fast は、ざっくり言うと
 
 ### パターンA：ガード節（Guard Clauses）で入口で落とす🚪🛑
 
-![Fail Fast Guard](picture/err_model_cs_study_009_fail_fast_guard.png)
+![Fail Fast Guard](./picture/err_model_cs_study_009_fail_fast_guard.png)
 
 「この引数おかしいよ？」を最初に止めるやつ！
 

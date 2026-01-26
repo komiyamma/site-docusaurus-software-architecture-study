@@ -7,7 +7,7 @@
 
 ## 1. まず結論：エラーモデリング＝「失敗ルートの設計」🧭💥
 
-![失敗ルートの設計](picture/err_model_cs_study_001_failure_route.png)
+![失敗ルートの設計](./picture/err_model_cs_study_001_failure_route.png)
 
 アプリって、成功ルートだけ書いてると **だいたい後で壊れる** のね…🥲
 だから最初から、
@@ -96,7 +96,7 @@ public bool Purchase(string itemId)
 
 ## 5. 今日のミニ題材：推し活グッズ購入管理🛍️💖（今後も使うやつ）
 
-![推し活グッズ購入管理フロー](picture/err_model_cs_study_001_purchase_flow.png)
+![推し活グッズ購入管理フロー](./picture/err_model_cs_study_001_purchase_flow.png)
 
 「購入する」って一見シンプルだけど、失敗ルートがいっぱいあるよ〜😳
 

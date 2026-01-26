@@ -60,7 +60,7 @@ else
 
 ## 3) 解決①：早期return（ガード節）で“平らに”する🛡️✨
 
-![Guard Clause Stairs](picture/err_model_cs_study_019_guard_clause_stairs.png)
+![Guard Clause Stairs](./picture/err_model_cs_study_019_guard_clause_stairs.png)
 
 ### 早期return版✅（まずこれが最強の基本💪）
 
@@ -185,7 +185,7 @@ sequenceDiagram
 ```
 
 
-![Railway Stations](picture/err_model_cs_study_019_railway_stations.png)
+![Railway Stations](./picture/err_model_cs_study_019_railway_stations.png)
 
 題材：推し活グッズ購入（例）🛍️💖
 流れはこんな感じ👇

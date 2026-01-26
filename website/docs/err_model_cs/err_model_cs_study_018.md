@@ -8,7 +8,7 @@ C# 14 も 2025年11月にリリース済みだよ〜🧡 ([Microsoft Learn][2])
 
 ## 1) Result を受け取ったら「まず失敗をその場で確定」🛑➡️✅
 
-![Railway Switch](picture/err_model_cs_study_018_railway_switch.png)
+![Railway Switch](./picture/err_model_cs_study_018_railway_switch.png)
 
 Result を受け取る側の鉄板はこれ👇
 **「成功だけ先へ。失敗はその場で return（もしくは UI 表示）」**✨

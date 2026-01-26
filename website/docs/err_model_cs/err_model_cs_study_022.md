@@ -34,7 +34,7 @@ RFC 9457 では、JSONとして返すときのメディアタイプが **`applic
 
 ## 2) 5つの基本フィールド（まずこれだけ覚えよう）🖐️✨
 
-![Problem Details Document](picture/err_model_cs_study_022_problem_details_doc.png)
+![Problem Details Document](./picture/err_model_cs_study_022_problem_details_doc.png)
 
 RFC 9457 の基本メンバーはこの5つ👇 ([RFCエディタ][1])
 

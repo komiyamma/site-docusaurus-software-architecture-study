@@ -62,7 +62,7 @@ ASP.NET Core でも `AddProblemDetails()` を使う流れがちゃんと案内�
 
 ## 4) おすすめの型（そのまま雛形にしてOK）🧷✨
 
-![App Error Structure](picture/err_model_cs_study_017_app_error_structure.png)
+![App Error Structure](./picture/err_model_cs_study_017_app_error_structure.png)
 
 「Resultは第16章の最小構成を維持」しつつ、Errorを強化する版だよ🎁
 （この章のゴールは“中身設計”なので、作り込みすぎずスッキリで！）
@@ -106,7 +106,7 @@ public sealed record AppError(
 
 ## 5) 「表示用」と「ログ用」を分ける設計の書き方🪞🔎
 
-![UI vs Log](picture/err_model_cs_study_017_ui_vs_log.png)
+![UI vs Log](./picture/err_model_cs_study_017_ui_vs_log.png)
 
 同じ失敗でも、こう分けると事故りにくいよ👇
 

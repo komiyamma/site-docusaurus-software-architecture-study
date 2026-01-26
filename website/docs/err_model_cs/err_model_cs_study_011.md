@@ -45,7 +45,7 @@
 
 ## 4) “正しい配置”の完成図🗺️✨
 
-![Layer Architecture](picture/err_model_cs_study_011_layer_architecture.png)
+![Layer Architecture](./picture/err_model_cs_study_011_layer_architecture.png)
 
 イメージはこれ👇（覚えるのはこれだけでOK！）
 
@@ -103,7 +103,7 @@ public sealed record BudgetExceeded(decimal Total, decimal Budget)
 
 ### 6-2) ドメインが欲しい「外部の力」を interface で宣言📜✨（ポート）
 
-![Plug and Socket](picture/err_model_cs_study_011_plug_and_socket.png)
+![Plug and Socket](./picture/err_model_cs_study_011_plug_and_socket.png)
 
 **Repository** や **外部決済**は、ドメインから見ると「お願いしたい能力」だよね🙏
 だから *契約だけ* 置くよ👇

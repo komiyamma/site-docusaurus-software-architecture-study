@@ -15,7 +15,7 @@
 
 ## 1) エラーカタログって何？なんで必要？🤔📚
 
-![Error Catalog Book](picture/err_model_cs_study_013_catalog_book.png)
+![Error Catalog Book](./picture/err_model_cs_study_013_catalog_book.png)
 
 エラーカタログは、ざっくり言うと **「エラーの辞書」** です📖✨
 コードのあちこちに `throw new ...("メッセージ")` が散っていくと、

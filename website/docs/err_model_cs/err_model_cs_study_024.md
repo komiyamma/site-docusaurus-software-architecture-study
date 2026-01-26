@@ -23,7 +23,7 @@
 
 ## 2) 構造化ログってなに？🧩✨（超重要！）
 
-![Structured Log](picture/err_model_cs_study_024_structured_log.png)
+![Structured Log](./picture/err_model_cs_study_024_structured_log.png)
 
 ### ❌ ありがちな“文字ログ”
 

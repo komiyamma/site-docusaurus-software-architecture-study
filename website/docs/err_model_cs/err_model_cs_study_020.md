@@ -45,7 +45,7 @@
 
 ## 成果物📄✨：変換ルール表（ミニ版）
 
-![Translation Map](picture/err_model_cs_study_020_translation_map.png)
+![Translation Map](./picture/err_model_cs_study_020_translation_map.png)
 
 最初はこれくらいの粒度でOKだよ😊📋
 

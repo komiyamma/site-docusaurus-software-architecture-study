@@ -15,7 +15,7 @@
 
 ## 1) Result<T>の超ざっくりイメージ🎁✅❌
 
-![Toggle Switch](picture/err_model_cs_study_016_toggle_switch.png)
+![Toggle Switch](./picture/err_model_cs_study_016_toggle_switch.png)
 
 Result<T> は「成功 or 失敗」を **1つの箱**に入れる型だよ。
 

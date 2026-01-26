@@ -53,7 +53,7 @@ sequenceDiagram
 ```
 
 
-![Correlation Thread](picture/err_model_cs_study_025_correlation_thread.png)
+![Correlation Thread](./picture/err_model_cs_study_025_correlation_thread.png)
 
 相関IDは、ざっくり言うと **「このリクエストの一生を追うための番号」**だよ📌✨
 ログが1000行あっても、相関IDが同じなら「この一連の出来事だな」って一瞬でつながる😊🔎

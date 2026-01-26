@@ -27,7 +27,7 @@
 
 ## 8.2 2種類に分けるのが最強：Transient / Permanent 🔁🚫
 
-![Transient vs Permanent](picture/err_model_cs_study_008_transient_vs_permanent.png)
+![Transient vs Permanent](./picture/err_model_cs_study_008_transient_vs_permanent.png)
 
 ### ✅ Transient（一時的）＝“時間が解決するかも”
 
@@ -140,7 +140,7 @@ stateDiagram-v2
     GiveUp --> [*]
 ```
 
-![Retry Decision Logic](picture/err_model_cs_study_008_retry_decision_logic.png)
+![Retry Decision Logic](./picture/err_model_cs_study_008_retry_decision_logic.png)
 
 
 まずはこのテンプレを埋めるだけでOK😊

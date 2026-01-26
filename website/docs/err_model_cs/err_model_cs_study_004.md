@@ -9,7 +9,7 @@
 
 ## 4-1. やっちゃダメ①：例外の握りつぶし😇🗑️（何もせず隠す）
 
-![例外の握りつぶし](picture/err_model_cs_study_004_swallowing_exceptions.png)
+![例外の握りつぶし](./picture/err_model_cs_study_004_swallowing_exceptions.png)
 
 ### ❌ ダメな例（静かに失敗して“原因不明”になる💣）
 

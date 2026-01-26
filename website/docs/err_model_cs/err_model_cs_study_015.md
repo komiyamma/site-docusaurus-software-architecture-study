@@ -13,7 +13,7 @@
 
 ## 1. Result型ってなに？（超ざっくり）🎁
 
-![Result Box](picture/err_model_cs_study_015_result_box.png)
+![Result Box](./picture/err_model_cs_study_015_result_box.png)
 
 **Result型**は、関数の返り値を
 

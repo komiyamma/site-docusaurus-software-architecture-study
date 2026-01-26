@@ -44,7 +44,7 @@ ASP.NET Coreだと、外側（HTTPパイプライン）で `UseExceptionHandler`
 
 ## 例外境界のイメージ図🖊️✨（まずは脳内でOK）
 
-![Castle Wall Boundary](picture/err_model_cs_study_010_castle_wall.png)
+![Castle Wall Boundary](./picture/err_model_cs_study_010_castle_wall.png)
 
 ざっくりこう👇
 

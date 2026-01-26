@@ -39,7 +39,7 @@ UIのエラーって「赤い文字を出す」だけじゃなくて、
 
 ## 3) “出し方”は4パターンでだいたい勝てる🏆🎨
 
-![UI Patterns](picture/err_model_cs_study_023_ui_patterns.png)
+![UI Patterns](./picture/err_model_cs_study_023_ui_patterns.png)
 
 ### A. 項目のすぐ下（フィールドエラー）🧷
 
@@ -69,7 +69,7 @@ Fluentのガイドでも、バリデーション文は**短く、次にどうす
 
 ## 4) 文言づくりのコツ：やさしくて強い文章テンプレ💬🎀
 
-![UI Feedback Types](picture/err_model_cs_study_023_ui_feedback.png)
+![UI Feedback Types](./picture/err_model_cs_study_023_ui_feedback.png)
 
 ### まずはテンプレ（超おすすめ）🧰
 

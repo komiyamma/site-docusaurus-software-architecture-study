@@ -19,7 +19,7 @@
 
 ## 2. まず結論！失敗は2種類だけ覚えて💡🚦
 
-![想定内と想定外の天秤](picture/err_model_cs_study_005_decision_scale.png)
+![想定内と想定外の天秤](./picture/err_model_cs_study_005_decision_scale.png)
 
 ### ✅ 想定内の失敗（Expected failure）🎁
 

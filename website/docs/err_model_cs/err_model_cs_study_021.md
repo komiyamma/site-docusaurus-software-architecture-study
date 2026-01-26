@@ -19,7 +19,7 @@ APIの失敗って、**「仕様」**として揃ってないとクライアン�
 
 ## 2) まず大原則：4xxと5xxの境界線🧠🚧
 
-![Traffic Lights 200/400/500](picture/err_model_cs_study_021_http_traffic_lights.png)
+![Traffic Lights 200/400/500](./picture/err_model_cs_study_021_http_traffic_lights.png)
 
 HTTPステータスは「誰が直すべき？」を伝える記号だよ📶
 
@@ -40,7 +40,7 @@ HTTPステータスは「誰が直すべき？」を伝える記号だよ📶
 * **インフラエラー（DB/ネット/外部API）** → だいたい **5xx**（主に 502 / 503 / 504）🌩️
 * **バグ（不変条件違反）** → **500**（Fail Fastでログへ）⚡
 
-![Status Decision Tree](picture/err_model_cs_study_021_status_decision_tree.png)
+![Status Decision Tree](./picture/err_model_cs_study_021_status_decision_tree.png)
 
 ---
 
@@ -87,7 +87,7 @@ Retry-After は **429/503** で「どれくらい待ってね」を伝えられ�
 
 ## 6) 「409 vs 422」ここが一番迷うやつ😆💥
 
-![409 vs 422](picture/err_model_cs_study_021_409_vs_422.png)
+![409 vs 422](./picture/err_model_cs_study_021_409_vs_422.png)
 
 ### 409 Conflict を選びやすいケース⚔️
 

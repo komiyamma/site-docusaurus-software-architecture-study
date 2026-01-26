@@ -207,7 +207,7 @@ static string ToUserMessage(AppError error) =>
 
 ## 演習C：recordの“等価比較”を体験しよう🧪✨
 
-![Record Equality](picture/err_model_cs_study_014_record_equality.png)
+![Record Equality](./picture/err_model_cs_study_014_record_equality.png)
 
 recordは値で比較しやすいのが強みだよ（公式もこの方向性を説明してるよ） ([Microsoft Learn][4])
 
