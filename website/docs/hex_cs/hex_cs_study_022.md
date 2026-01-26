@@ -12,7 +12,7 @@ Visual Studio 2022を使ってる場合も、2026年1月時点で 17.14 系が�
 
 ## 1) Inbound Portってなに？🤔🔌
 
-![Inbound Port Door](./picture/hex_cs_study_022_inbound_port_door.png)
+![Inbound Port Door](./picture/hex_cs_study_022_inbound_gate.png)
 
 ```mermaid
 flowchart LR

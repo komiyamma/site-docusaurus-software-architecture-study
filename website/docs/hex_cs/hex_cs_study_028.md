@@ -53,7 +53,7 @@ Adapters（Outbound側のプロジェクト）に入れるよ！
 
 ## 2) 方針：DomainモデルとDBモデルは分ける 💎🆚🗄️
 
-![DB Adapter](./picture/hex_cs_study_028_db_adapter.png)
+![DB Adapter](./picture/hex_cs_study_028_db_adapter_work.png)
 
 ```mermaid
 flowchart LR

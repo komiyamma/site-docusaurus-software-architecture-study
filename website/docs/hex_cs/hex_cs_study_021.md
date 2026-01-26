@@ -6,7 +6,7 @@
 
 ## 1) UseCaseってなに？🍳✨（「アプリのレシピ」だと思ってOK）
 
-![UseCase Recipe](./picture/hex_cs_study_021_usecase_recipe.png)
+![UseCase Recipe](./picture/hex_cs_study_021_app_recipe.png)
 
 ```mermaid
 flowchart LR

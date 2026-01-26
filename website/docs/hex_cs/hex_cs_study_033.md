@@ -7,7 +7,7 @@
 
 ## 1) なんでヘキサだと “Coreテスト” が楽なの？🔷🧠
 
-![Core Test](./picture/hex_cs_study_033_core_test.png)
+![Core Test](./picture/hex_cs_study_033_core_testing.png)
 
 ```mermaid
 flowchart LR

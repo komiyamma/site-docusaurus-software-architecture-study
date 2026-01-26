@@ -17,7 +17,7 @@
 
 ## 2) Outbound Port（Repository）って何？🤔🔌
 
-![Repository Interface](./picture/hex_cs_study_025_repository_interface.png)
+![Repository Interface](./picture/hex_cs_study_025_repo_promise.png)
 
 ```mermaid
 flowchart LR

@@ -20,7 +20,7 @@ IDEも **Visual Studio 2026** が提供されてる流れだよ🪟✨ ([Microso
 
 ## 35-1 エラーは3種類に分けるのが勝ち🧯✨
 
-![Final Fort](./picture/hex_cs_study_035_final_fort.png)
+![Final Fort](./picture/hex_cs_study_035_polished_app.png)
 
 ```mermaid
 mindmap

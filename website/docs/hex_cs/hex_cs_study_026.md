@@ -68,7 +68,7 @@ public interface IOrderRepository
 
 ## 6) InMemory Adapter 実装（外側）📦🧪
 
-![InMemory Box](./picture/hex_cs_study_026_in_memory_box.png)
+![InMemory Box](./picture/hex_cs_study_026_inmemory_box.png)
 
 ```mermaid
 classDiagram

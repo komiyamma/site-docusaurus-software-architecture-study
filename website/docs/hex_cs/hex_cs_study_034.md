@@ -35,7 +35,7 @@
 
 ## 🧱 テストの種類を整理（ここ超大事）🎯
 
-![Adapter Test](./picture/hex_cs_study_034_adapter_test.png)
+![Adapter Test](./picture/hex_cs_study_034_adapter_testing.png)
 
 ```mermaid
 flowchart LR

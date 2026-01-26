@@ -2,7 +2,7 @@
 
 ## 0. いきなり結論：Composition Root は「配線盤」だよ🧠⚡
 
-![Composition Root](./picture/hex_cs_study_032_composition_root.png)
+![Composition Root](./picture/hex_cs_study_032_wiring_center.png)
 
 ```mermaid
 flowchart TD

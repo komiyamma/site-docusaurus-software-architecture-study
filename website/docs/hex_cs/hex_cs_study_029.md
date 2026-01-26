@@ -8,7 +8,7 @@
 
 ## 1) 外部API/メールは「外の世界」🌍➡️🏠
 
-![Multiple Outbound](./picture/hex_cs_study_029_multiple_outbound.png)
+![Multiple Outbound](./picture/hex_cs_study_029_external_signals.png)
 
 ```mermaid
 flowchart LR

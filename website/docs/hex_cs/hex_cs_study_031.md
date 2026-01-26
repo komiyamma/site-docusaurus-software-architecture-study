@@ -37,7 +37,7 @@ app.Run();
 
 ## 3) 3大ライフタイム：AddTransient / AddScoped / AddSingleton 🕒✨
 
-![Lifetime Chart](./picture/hex_cs_study_031_lifetime_chart.png)
+![Lifetime Chart](./picture/hex_cs_study_031_di_vending.png)
 
 ```mermaid
 sequenceDiagram
