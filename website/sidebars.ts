@@ -135,6 +135,7 @@ const sidebars: SidebarsConfig = {
   hexCsSidebar: generateProjectSidebar('hex_cs'),
   hexTsSidebar: generateProjectSidebar('hex_ts'),
 
+  dpnRuleCsSidebar: generateProjectSidebar('dpn_rule_cs'),
   dpnRuleTsSidebar: generateProjectSidebar('dpn_rule_ts'),
 
   errModelCsSidebar: generateProjectSidebar('err_model_cs'),
