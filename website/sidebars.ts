@@ -132,12 +132,11 @@ const sidebars: SidebarsConfig = {
   dipTsSidebar: generateProjectSidebar('dip_ts'),
   isaHasaCsSidebar: generateProjectSidebar('isa_hasa_cs'),
   isaHasaTsSidebar: generateProjectSidebar('isa_hasa_ts'),
-
-  dpnRuleCsSidebar: generateProjectSidebar('dpn_rule_cs'),
-  dpnRuleTsSidebar: generateProjectSidebar('dpn_rule_ts'),
-
   hexCsSidebar: generateProjectSidebar('hex_cs'),
   hexTsSidebar: generateProjectSidebar('hex_ts'),
+
+  dpnRuleTsSidebar: generateProjectSidebar('dpn_rule_ts'),
+
   errModelCsSidebar: generateProjectSidebar('err_model_cs'),
 };
 
