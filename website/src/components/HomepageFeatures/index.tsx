@@ -293,6 +293,16 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/hex_cs/hex_cs_index',
   },
+  {
+    title: 'エラーモデリング C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        エラーを「仕様」として扱う設計手法を学びます。<br/>例外境界、Result型、ProblemDetailsなど、<br/>堅牢で運用しやすいエラー設計の実践パターン。<br/>
+      </>
+    ),
+    link: '/docs/err_model_cs/err_model_cs_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

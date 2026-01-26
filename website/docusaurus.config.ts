@@ -296,6 +296,12 @@ const config: Config = {
           position: 'left',
           label: 'ヘキサゴナル C#版',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'errModelCsSidebar',
+          position: 'left',
+          label: 'エラーモデリング C#版',
+        },
 
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
