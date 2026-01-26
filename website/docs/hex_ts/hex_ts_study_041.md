@@ -1,8 +1,6 @@
-﻿# 第41章　アンチパターン③：Repositoryが何でも屋になる 🧹😵
+# 第41章　アンチパターン③：Repositoryが何でも屋になる 🧹😵
 
-![Outbound Port (Repository Interface)](picture/hex_ts_study_020_outbound_port_repository_inter.png)
-
-
+![hex_ts_study_041](picture/hex_ts_study_041_anti_pattern_god_repository.png)
 
 ([Past chat][1])([Past chat][2])([Past chat][3])([Past chat][4])([Past chat][5])
 

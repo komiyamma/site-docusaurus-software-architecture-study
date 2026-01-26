@@ -1,5 +1,6 @@
 # 第11章　依存の向き②：Coreが外を知らない設計🛡️🚫
 
+
 ## まず今日の結論🎯
 
 **Core（業務ルール側）は、DB・Web・フレームワークの“名前”を知らない**のが勝ちです😊✨
@@ -213,4 +214,3 @@ public class EfOrderRepository : IOrderRepository
 [1]: https://learn.microsoft.com/ja-jp/ef/core/what-is-new/ef-core-10.0/whatsnew?utm_source=chatgpt.com "EF Core 10 の新機能"
 [2]: https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=visualstudio&utm_source=chatgpt.com "Architecture analysis & modeling tools - Visual Studio"
 [3]: https://github.com/TNG/ArchUnitNET?utm_source=chatgpt.com "TNG/ArchUnitNET: A C# architecture test library to specify ..."
-

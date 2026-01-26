@@ -1,8 +1,7 @@
-﻿# 第42章　直し方テンプレ：分解の手順書 🔧📌
+# 第42章　直し方テンプレ：分解の手順書 🔧📌
 
-![Refactoring and Design](picture/hex_ts_study_015_the_domain_layer.png)
-
-
+![hex_ts_study_042](picture/hex_ts_study_042_refactoring_steps.png)
+![hex_ts_study_042](picture/hex_ts_study_042_refactoring_template.png)
 
 # 第42章：直し方テンプレ📌🔧「混ざったコード」をヘキサゴナルに分解する手順書 🏰🔌🧩✨
 

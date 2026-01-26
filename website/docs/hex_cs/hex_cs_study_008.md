@@ -1,5 +1,6 @@
 # 第8章　Portって何？（約束のinterface）📝🔌
 
+
 この章のゴールはこれ！✨
 **「Port＝“約束の形（interface）”」**をちゃんと理解して、**Core（中心）を守れる境界**を作れるようになることだよ〜😊💕
 
@@ -268,4 +269,3 @@ public interface IClock
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface?utm_source=chatgpt.com "interface keyword - C# reference"
 [2]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
-

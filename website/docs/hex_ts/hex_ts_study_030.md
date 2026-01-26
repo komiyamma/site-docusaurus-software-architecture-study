@@ -1,7 +1,7 @@
-﻿# 第30章　HTTP導入②：Request→DTO変換、Response整形 🔁📮
+# 第30章　HTTP導入②：Request→DTO変換、Response整形 🔁📮
 
-![DTOs (Data Transfer Objects)](picture/hex_ts_study_010_dtos_data_transfer_objects.png)
-
+![hex_ts_study_030](picture/hex_ts_study_030_request_processing_flow.png)
+![hex_ts_study_030](picture/hex_ts_study_030_request_response_dtos.png)
 
 この章は「HTTPの入口（Inbound Adapter）」がやるべき **翻訳** を、ちゃんと“型”と“ルール”で固める回だよ〜😊💖
 やることはシンプル！

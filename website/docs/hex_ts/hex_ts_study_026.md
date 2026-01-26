@@ -1,7 +1,6 @@
-﻿# 第26章　Outbound Adapter①：InMemoryRepository 🧠📦
+# 第26章　Outbound Adapter①：InMemoryRepository 🧠📦
 
-![Outbound Driven Adapters](picture/hex_ts_study_007_the_right_side_driven_output.png)
-
+![hex_ts_study_026](picture/hex_ts_study_026_in_memory_repository.png)
 
 ここでは「DBの代わりにメモリ（配列/Map）に保存するRepository」を作って、**“差し替えできる気持ちよさ”**を体で覚えます😊🔁💖
 （あとで FileRepository や DB版に差し替える準備にもなるよ！）

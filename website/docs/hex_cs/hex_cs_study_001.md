@@ -1,6 +1,6 @@
 # 第1章　設計って何のため？（怖い変更を減らす）😵‍💫➡️😊
 
-![Core Protection](./picture/hex_cs_study_001_core_and_chaos.png)
+![hex_cs_study_001](./picture/hex_cs_study_001_core_and_chaos.png)
 
 ## 1. 今日のゴール🎯✨
 
@@ -241,4 +241,3 @@ AIは勢いで「全部1クラスにまとめがち」なので、チェック�
 
 [1]: https://alistair.cockburn.us/hexagonal-architecture "hexagonal-architecture"
 [2]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14 "C# 14 の新機能 | Microsoft Learn"
-

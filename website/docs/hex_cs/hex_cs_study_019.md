@@ -1,5 +1,6 @@
 # 第19章　Domain入門②：Entity（同一性）👤🪪
 
+
 この章は「**同じものを、ずっと追いかけられる**」って感覚をつかむ回だよ〜！😊
 ヘキサゴナルの**Core（中心）**で、ちゃんと「同一人物（同一注文）」を扱えるようになると、設計が一気に安定するよ🔷🛡️
 
@@ -251,4 +252,3 @@ Copilot/Codexにこう聞くと早いよ👇
 
 [1]: https://learn.microsoft.com/en-us/dotnet/api/system.guid.createversion7?view=net-10.0&utm_source=chatgpt.com "Guid.CreateVersion7 Method (System)"
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
-

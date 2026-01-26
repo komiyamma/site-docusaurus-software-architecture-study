@@ -1,6 +1,5 @@
 # 第35章　仕上げ：エラー・ログ・AI活用の“最低限セット”🎁✨
 
-[![Hexagonal Architecture - Ports and Adapters](https://tse1.mm.bing.net/th/id/OIP.0S3w8hqCZVjUol-nI5YsqQHaJI?pid=Api)](https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters?utm_source=chatgpt.com)
 
 この章は「動くようになったアプリ」を、**壊れにくく＆直しやすく**する最終仕上げだよ〜！🛠️💖
 （しかも、ヘキサの良さ＝**境界で整える**がめっちゃ効くところ✨）
@@ -364,4 +363,3 @@ GitHub公式でも「**関係あるファイルを開いて、関係ないのは
 [7]: https://opentelemetry.io/docs/languages/dotnet/?utm_source=chatgpt.com "NET"
 [8]: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/distributed-tracing-collection-walkthroughs?utm_source=chatgpt.com "Collect a distributed trace - .NET"
 [9]: https://docs.github.com/en/copilot/get-started/best-practices?utm_source=chatgpt.com "Best practices for using GitHub Copilot"
-

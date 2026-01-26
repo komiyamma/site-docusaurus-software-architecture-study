@@ -1,5 +1,6 @@
 # 第22章　Inbound Port設計①：ユースケースの入口をinterface化🚪📝
 
+
 ([Past chat][1])([Past chat][2])([Past chat][3])([Past chat][4])([Past chat][5])([Past chat][6])([Past chat][7])
 
 この章は「ユースケース（UseCase）を外側から呼ぶための“入口”を、`interface`として固定しよう！」がテーマだよ〜😊🔌
@@ -280,4 +281,3 @@ public class CreateOrderUseCaseTests
 [7]: https://chatgpt.com/c/6971d123-fea8-8322-9f32-6a5f069ca40f "第5章 ポートとアダプター"
 [8]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [9]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-history?utm_source=chatgpt.com "Visual Studio 2022 リリース履歴"
-

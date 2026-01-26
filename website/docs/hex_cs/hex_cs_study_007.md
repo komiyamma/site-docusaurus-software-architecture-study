@@ -1,5 +1,6 @@
 # 第7章　Outboundの考え方（中→外）➡️🗄️
 
+
 （DB/外部API/時計…「外部に頼る処理」を、Coreからキレイに追い出す回だよ〜😆🔌✨）
 
 ---
@@ -286,4 +287,3 @@ AIは雛形に強いけど、**境界ルール（Coreを汚さない）は人間
 [1]: https://alistair.cockburn.us/hexagonal-architecture "hexagonal-architecture"
 [2]: https://learn.microsoft.com/en-us/dotnet/standard/datetime/timeprovider-overview "What is the TimeProvider class - .NET | Microsoft Learn"
 [3]: https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview "What's new in .NET 10 | Microsoft Learn"
-

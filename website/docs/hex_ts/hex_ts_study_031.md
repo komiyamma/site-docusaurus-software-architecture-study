@@ -1,9 +1,6 @@
-﻿# 第31章　HTTP導入③：ユースケースはHTTPを知らない🙅‍♀️
+# 第31章　HTTP導入③：ユースケースはHTTPを知らない🙅‍♀️
 
-![Defining the Use Case](picture/hex_ts_study_016_defining_the_use_case.png)
-
-
-[![Ports & Adapters Architecture – @hgraca](https://tse4.mm.bing.net/th/id/OIP.j98PBR6pxKGe5zAIBQbUzAHaFX?pid=Api)](https://herbertograca.com/2017/09/14/ports-adapters-architecture/?utm_source=chatgpt.com)
+![hex_ts_study_031](picture/hex_ts_study_031_usecase_blindness_to_http.png)
 
 ## 1) この章のゴール 🎯💕
 

@@ -1,6 +1,6 @@
 # 第2章　ヘキサゴナルを一言で！🔷✨
 
-![Hexagonal Concept](./picture/hex_cs_study_002_core_boundary.png)
+![hex_cs_study_002](./picture/hex_cs_study_002_core_boundary.png)
 
 ## まず“一言”で言うと？🧡
 
@@ -241,4 +241,3 @@ AIはめっちゃ便利だけど、ヘキサで一番大事な「境界」は人
 次の章で、いよいよ **Core / Port / Adapter** の“登場人物紹介”に入って、ヘキサが一気に分かりやすくなるよ〜👥🔌✨
 
 [1]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
-

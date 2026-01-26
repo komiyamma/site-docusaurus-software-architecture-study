@@ -1,7 +1,6 @@
-﻿# 第1章　この章のゴール宣言 🎯✨
+# 第1章　この章のゴール宣言 🎯✨
 
-![Hexagonal Architecture Introduction](picture/hex_ts_study_001_introduction_to_hexagonal_arch.png)
-
+![hex_ts_study_001](picture/hex_ts_study_001_introduction_to_hexagonal_arch.png)
 
 ---
 

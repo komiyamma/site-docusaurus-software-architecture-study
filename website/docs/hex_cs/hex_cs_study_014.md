@@ -1,5 +1,6 @@
 # 第14章　他アーキとの関係②：レイヤード/クリーンとの“似てる所”🤝📚
 
+
 この章は「混乱しやすい“親戚アーキ”をスッキリ整理する回」だよ〜😆✨
 結論から言うと、**ヘキサ・クリーン・オニオンは“だいたい仲間”**で、**見てる地図（説明のしかた）が違う**だけ…って感じ！🗺️🔍
 
@@ -191,4 +192,3 @@ flowchart TD
 [3]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
 [4]: https://www.thoughtworks.com/insights/blog/architecture/demystify-software-architecture-patterns?utm_source=chatgpt.com "Demystifying software architecture patterns"
 [5]: https://zenn.dev/kkatou/articles/ports-and-adapters-explained?utm_source=chatgpt.com "Ports & Adapters パターン：Hexagonal Architecture ..."
-

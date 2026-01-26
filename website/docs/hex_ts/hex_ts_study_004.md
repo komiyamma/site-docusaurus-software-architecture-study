@@ -1,7 +1,6 @@
-﻿# 第4章　まず覚える合言葉3つ 🗣️✨
+# 第4章　まず覚える合言葉3つ 🗣️✨
 
-![Isolation of the Domain](picture/hex_ts_study_004_isolation_of_the_domain.png)
-
+![hex_ts_study_004](picture/hex_ts_study_004_isolation_of_the_domain.png)
 
 この章はね、細かい図とか理屈より先に、**一生モノの3つの合言葉**を体に入れる回だよ〜😊💕
 この3つさえ覚えておくと、あとでPort/Adapterを作るときに迷子になりにくいの！🧭✨

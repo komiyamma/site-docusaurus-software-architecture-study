@@ -1,5 +1,6 @@
 # 第30章　DI入門①：DIって何？なぜ必要？🧠🔧✨
 
+
 カフェ注文アプリ☕で、最初は **InMemory** で動いたけど…
 「よし！次はDBにしたい！」ってなった瞬間に、変更が一気に怖くなることあるよね😵‍💫💥
 
@@ -210,4 +211,3 @@ DIは“型と置き場所”が大事だから、AIに頼む時は指示をハ�
 
 [1]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [2]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection?utm_source=chatgpt.com "NET dependency injection"
-

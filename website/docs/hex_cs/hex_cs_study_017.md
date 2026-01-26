@@ -1,5 +1,6 @@
 # 第17章　フォルダ/プロジェクト構成（おすすめ）📦🏷️
 
+
 この章は「ぐちゃぐちゃ🍝を未然に防ぐための“住所決め”」だよ〜！😊✨
 最初にここをちゃんと決めると、あとで Port/Adapter を増やしても迷子になりにくいの🙌
 
@@ -290,4 +291,3 @@ AIは「住所決め」にも使えるよ〜😆🧠
 
 [1]: https://dotnet.microsoft.com/en-us/download/dotnet "Browse all .NET versions to download | .NET"
 [2]: https://github.com/BenMorris/NetArchTest?utm_source=chatgpt.com "BenMorris/NetArchTest: A fluent API for .Net that can ..."
-

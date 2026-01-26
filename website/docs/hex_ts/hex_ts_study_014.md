@@ -1,7 +1,6 @@
-﻿# 第14章　TypeScript設定②：品質の土台（Lint/Format/Test）🧹🧪
+# 第14章　TypeScript設定②：品質の土台（Lint/Format/Test）🧹🧪
 
-![The Application Layer](picture/hex_ts_study_014_the_application_layer.png)
-
+![hex_ts_study_014](picture/hex_ts_study_014_the_application_layer.png)
 
 ## この章のゴール🎯
 

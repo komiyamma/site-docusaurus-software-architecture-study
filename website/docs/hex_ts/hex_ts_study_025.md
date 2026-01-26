@@ -1,7 +1,6 @@
-﻿# 第25章　Inbound Adapter②：CLIの入力→DTO変換 🔁⌨️
+# 第25章　Inbound Adapter②：CLIの入力→DTO変換 🔁⌨️
 
-![DTOs (Data Transfer Objects)](picture/hex_ts_study_010_dtos_data_transfer_objects.png)
-
+![hex_ts_study_025](picture/hex_ts_study_025_validation_strategies.png)
 
 前の章（第24章）で「CLIからユースケースを呼べた！🎉」ところまで行ったので、今回は **“人間の入力（コマンド）” を “中心が食べられる形（DTO）” に翻訳**していくよ〜😊💕
 

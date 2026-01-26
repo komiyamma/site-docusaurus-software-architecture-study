@@ -1,5 +1,6 @@
 # 第32章 Composition Root：配線をここに集める📍🧩
 
+
 ## 0. いきなり結論：Composition Root は「配線盤」だよ🧠⚡
 
 ![Composition Root](./picture/hex_cs_study_032_wiring_center.png)
@@ -322,4 +323,3 @@ AIはこういうの得意〜！😆✨ でも **境界ルールは人間が守�
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [3]: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core?utm_source=chatgpt.com "NET and .NET Core official support policy"
 [4]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-usage?utm_source=chatgpt.com "Tutorial: Use dependency injection in .NET"
-

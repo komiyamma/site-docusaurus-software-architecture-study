@@ -1,5 +1,6 @@
 # 第13章　他アーキとの関係①：まずヘキサだけで覚えよう🔷📌✨
 
+
 前の章（10〜12章）で「依存の矢印はCoreに向ける」「Portで逆転できる（DIPの超入門）」までやったよね！🙂
 ここから急に「クリーンアーキだと〜」「レイヤードだと〜」って混ぜ始めると、**頭がごちゃっ🍝** になりやすいの🥲
 
@@ -194,4 +195,3 @@ Core側に置く outbound port として IOrderRepository を interface で作�
 次の第14章では、「似てるところ・違うところ」を“混乱しない順番”で整理していくよ〜😆💖
 
 [1]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
-

@@ -1,5 +1,6 @@
 # 第26章 Outbound Adapter①：InMemory実装でまず完成🧪📦
 
+
 まず今の “最新土台” は **.NET 10（LTS）**＆**C# 14**＆**Visual Studio 2026** が中心だよ〜！✨（.NET 10 は 2025/11/11 リリース、2026/1/13 時点の最新パッチは 10.0.2） ([Microsoft][1])
 C# 14 は .NET 10 SDK / Visual Studio 2026 で試せるよ〜 🧠✨ ([Microsoft Learn][2])
 
@@ -216,4 +217,3 @@ AIに雛形を作らせて、**“置き場所と責務” は人間がガード
 
 [1]: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core?utm_source=chatgpt.com "NET and .NET Core official support policy"
 [2]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "C# 14 の新機能"
-

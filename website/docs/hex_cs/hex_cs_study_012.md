@@ -1,5 +1,6 @@
 # 第12章　依存の向き③：Portで逆転する（DIPの超入門）🔁🧠❤️
 
+
 この章のゴールはこれだけ！👇
 **「Coreが“外側の実装”に依存しないように、Port（interface）で依存をひっくり返せる」**ようになることです😆✨
 ヘキサの心臓部❤️はここだよ〜！
@@ -306,4 +307,3 @@ AIは便利だけど、**境界ルールは人間が守る**🚦✨
 [2]: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 Release Notes"
 [3]: https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp?utm_source=chatgpt.com "C# Best Practices - Dangers of Violating SOLID Principles ..."
 [4]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection?utm_source=chatgpt.com "NET dependency injection"
-

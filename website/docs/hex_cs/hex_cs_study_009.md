@@ -1,5 +1,6 @@
 # 第9章 Adapterって何？（変換係）🔁🔌
 
+
 この章は「Adapter＝通訳＆変換係！」って感覚をつかむ回だよ〜😊✨
 Ports（約束）を“現実の世界”につなぐために、**外の都合を受け止めて、Coreに優しく渡す**のがAdapterの役目🧼🛡️
 
@@ -296,4 +297,3 @@ Adapterは定型が多いから、AIがめっちゃ得意😊✨
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
-

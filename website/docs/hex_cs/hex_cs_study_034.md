@@ -1,5 +1,6 @@
 # 第34章 テスト設計②：Adapterのテストは別物🔍🧪
 
+
 第33章で「Core（ユースケース）」の単体テストがスッと書ける快感を味わったよね？😆💖
 でも第34章はちょい別ジャンル！**Adapterのテストは“外の世界”が相手**になるから、目的もやり方も変わるよ〜🧭✨
 
@@ -276,4 +277,3 @@ AIに任せやすいのはここ👇
 [2]: https://dotnet.testcontainers.org/modules/postgres/?utm_source=chatgpt.com "PostgreSQL"
 [3]: https://xunit.net/?utm_source=chatgpt.com "xUnit.net: Home"
 [4]: https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1?view=aspnetcore-10.0&utm_source=chatgpt.com "WebApplicationFactory<TEntryPoint> Class"
-

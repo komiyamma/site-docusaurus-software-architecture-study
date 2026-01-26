@@ -1,5 +1,6 @@
 # 第23章　Inbound Port設計②：DTO（入力/出力）を作る📦✨
 
+
 前の章で「ユースケースの入口＝Inbound Port（interface）」を用意したよね？😊
 この章では、そのPortが受け取る **入力DTO** と、返す **出力DTO** を作っていくよ〜！🧁💕
 
@@ -232,4 +233,3 @@ DTOができたから、Controllerはスッキリしやすくなるはず😆✨
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://learn.microsoft.com/ja-jp/lifecycle/products/microsoft-net-and-net-core?utm_source=chatgpt.com "Microsoft .NET および .NET Core - Microsoft Lifecycle"
-

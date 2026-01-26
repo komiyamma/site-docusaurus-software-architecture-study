@@ -1,5 +1,6 @@
 # 第6章　Inboundの考え方（外→中）⬅️🚪
 
+
 （外がCoreを呼ぶ入口／Inboundは「呼び出し」を整える係／入口を薄くするメリット😊）
 
 ---
@@ -254,4 +255,3 @@ AIに作らせた後は、人間がここだけチェックしてね✅
 
 [1]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-10.0&utm_source=chatgpt.com "Minimal APIs quick reference"
-

@@ -1,5 +1,6 @@
 # 第29章　Outbound Adapter④：外部API/メールも同じ発想📡✉️✨
 
+
 この章は「DBに保存するのと同じノリで、外部API呼び出しやメール送信も“差し替え可能”にする」がゴールだよ〜😆🔁
 ポイントはたった1つ👇
 **Coreは “何をしたいか” だけ知ってて、 “どうやってやるか” は外側（Adapter）に押し出す** 🛡️✨
@@ -357,4 +358,3 @@ AIに任せやすいのはここ👇
 [1]: https://learn.microsoft.com/ja-jp/dotnet/core/resilience/http-resilience "回復性がある HTTP アプリを構築する: 主要な開発パターン - .NET | Microsoft Learn"
 [2]: https://learn.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-10.0 "SmtpClient Class (System.Net.Mail) | Microsoft Learn"
 [3]: https://dometrain.com/blog/sending-email-with-dotnet/?srsltid=AfmBOorv18Pho2TZ_VTR7dloBPs_tctLGZcCt5qzCp7mPM9bikdKdhVj&utm_source=chatgpt.com "Sending email with C# in .NET"
-

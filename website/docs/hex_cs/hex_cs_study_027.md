@@ -1,5 +1,6 @@
 # 第27章　Outbound Adapter②：DB実装に差し替え（考え方）🔁🗃️
 
+
 この章は「**InMemoryで動いたアプリを、DBに差し替えるときの“設計のコツ”**」を身につける回だよ〜！🥳
 次の第28章でDB実装の最低限サンプルをやる前に、ここで**迷子にならない地図**を作る感じ🗺️💕
 
@@ -228,4 +229,3 @@ AIに作らせたら、人間はここだけ見る👀✨
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [3]: https://dotnet.microsoft.com/ja-jp/platform/support/policy/dotnet-core?utm_source=chatgpt.com ".NET および .NET Core の公式サポート ポリシー"
 [4]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 リリース ノート"
-

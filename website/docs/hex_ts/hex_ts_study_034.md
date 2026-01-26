@@ -1,7 +1,6 @@
-﻿# 第34章　エラー設計②：外側のエラー（I/O失敗）😵‍💫
+# 第34章　エラー設計②：外側のエラー（I/O失敗）😵‍💫
 
-![Infrastructure Dependencies](picture/hex_ts_study_034_handling_i_o_errors_infra.png)
-
+![hex_ts_study_034](picture/hex_ts_study_034_handling_i_o_errors_infra.png)
 
 > この章は「ファイル読めない」「ネット落ちた」みたいな **外側（I/O）の事故**を、ヘキサゴナル的に“きれいに”扱えるようになる回だよ〜🧸✨
 > いきなり結論：**中心（ドメイン/ユースケース）は静かに🧠**、**外側（Adapter）で受け止めて、必要な形に翻訳する🧩**！

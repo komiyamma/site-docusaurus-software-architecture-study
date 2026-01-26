@@ -1,9 +1,6 @@
-﻿# 第28章　Adapterが薄いかチェック（太ったら負け）🥗⚠️
+# 第28章　Adapterが薄いかチェック（太ったら負け）🥗⚠️
 
-![The Domain Layer](picture/hex_ts_study_015_the_domain_layer.png)
-
-
-[![Hexagonal Architecture - Ports and Adapters](https://tse1.mm.bing.net/th/id/OIP.0S3w8hqCZVjUol-nI5YsqQHaJI?pid=Api)](https://journal.optivem.com/p/hexagonal-architecture-ports-and-adapters?utm_source=chatgpt.com)
+![hex_ts_study_028](picture/hex_ts_study_028_thin_adapter_principle.png)
 
 （テーマ：**「Adapterは翻訳係。ルールを抱えたら負け」**😇🔌🧩）
 

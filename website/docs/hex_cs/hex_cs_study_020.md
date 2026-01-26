@@ -1,5 +1,6 @@
 # 第20章　Domain入門③：ValueObject（値・不変）💎🔒
 
+
 この章では「値そのもの」をちゃんと“型”にして守る練習をするよ〜！😊✨
 カフェ注文アプリだと **金額💰／数量🔢／メール📧／住所🏠** みたいなのが主役になりやすいです。
 
@@ -259,4 +260,3 @@ AIが勢いで **EF用の属性** とか **DB都合** をDomainに混ぜがち�
 [4]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "C# 14 の新機能"
 [5]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record?utm_source=chatgpt.com "Records - C# reference"
 [6]: https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/record?utm_source=chatgpt.com "レコード - C# reference"
-

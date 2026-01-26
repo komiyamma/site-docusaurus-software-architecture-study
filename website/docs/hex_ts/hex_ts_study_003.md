@@ -1,9 +1,6 @@
-﻿# 第3章 ヘキサゴナルの「1枚絵」入門（城の中心を守る）🏰🛡️✨
+# 第3章 ヘキサゴナルの「1枚絵」入門（城の中心を守る）🏰🛡️✨
 
-![Dependency Rule Inward Only](picture/hex_ts_study_003_dependency_rule_inward_only.png)
-
-
-[![The Hexagonal Architecture Explained | Ports and Adapters Pattern](https://tse2.mm.bing.net/th/id/OIP.lU5TiVJSBybYh4lD38bsOgHaEK?pid=Api)](https://marcolenzo.eu/the-hexagonal-architecture-explained-ports-and-adapters-pattern/?utm_source=chatgpt.com)
+![hex_ts_study_003](picture/hex_ts_study_003_dependency_rule_inward_only.png)
 
 この章は「ヘキサゴナルって結局、何を守る絵なの？」を**1枚の図でスッと理解する**回だよ〜😊🌸
 ここが腑に落ちると、後の Port / Adapter / テストがぜんぶラクになる✨

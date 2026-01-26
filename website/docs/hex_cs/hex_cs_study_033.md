@@ -1,5 +1,6 @@
 # 第33章　テスト設計①：Coreの単体テストが簡単になる🧪💖
 
+
 この章では「DBなし・APIなし」で、**UseCase（Application層）とDomain（Domain層）をサクッと単体テストできる**ようになるよ〜！😆✨
 ヘキサゴナルの気持ちよさって、まさにここ！💥
 
@@ -348,4 +349,3 @@ Coreが固まってるからこそ、外側は安心して “別枠” で育�
 [6]: https://learn.microsoft.com/en-us/dotnet/core/testing/migrating-vstest-microsoft-testing-platform?utm_source=chatgpt.com "Migration guide from VSTest to Microsoft.Testing.Platform"
 [7]: https://learn.microsoft.com/en-us/dotnet/core/testing/microsoft-testing-platform-config?utm_source=chatgpt.com "Microsoft.Testing.Platform config options - .NET"
 [8]: https://learn.microsoft.com/ja-jp/dotnet/core/testing/unit-testing-mstest-runner-intro?utm_source=chatgpt.com "MSTest での Microsoft.Testing.Platform のサポート ..."
-

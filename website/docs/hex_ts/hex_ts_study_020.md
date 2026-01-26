@@ -1,7 +1,6 @@
-﻿# 第20章　ユースケース入門②：入力・出力の形（DTO）📮📤
+# 第20章　ユースケース入門②：入力・出力の形（DTO）📮📤
 
-![Outbound Port (Repository Interface)](picture/hex_ts_study_020_outbound_port_repository_inter.png)
-
+![hex_ts_study_020](picture/hex_ts_study_020_outbound_port_repository_inter.png)
 
 この章は「ユースケースが、外の世界（CLI/HTTP/画面/DB）とどう会話するか」を、**DTO（Data Transfer Object）**でスッキリさせる回だよ〜😊✨
 ここが決まると、あとで入口（CLI→HTTP）を差し替えても中心が揺れない💖

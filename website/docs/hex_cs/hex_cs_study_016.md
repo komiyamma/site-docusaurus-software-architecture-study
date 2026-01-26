@@ -1,5 +1,6 @@
 # 第16章　環境準備（Windows）🪟⚙️✨
 
+
 ここでやることはシンプルだよ〜！
 **「カフェ注文アプリ☕🧾」を、いつでも動かせて・テストも回せて・AI補助も効く状態**にするよ 🤖💪
 
@@ -185,4 +186,3 @@ dotnet new sln --format sln
 [7]: https://learn.microsoft.com/en-us/dotnet/core/compatibility/sdk/10.0/dotnet-new-sln-slnx-default?utm_source=chatgpt.com "`dotnet new sln` defaults to SLNX file format - .NET"
 [8]: https://learn.microsoft.com/ja-jp/dotnet/core/tools/dotnet-new-sdk-templates?utm_source=chatgpt.com "'dotnet new' の .NET の既定のテンプレート - .NET CLI"
 [9]: https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot?utm_source=chatgpt.com "Adding repository custom instructions for GitHub Copilot"
-

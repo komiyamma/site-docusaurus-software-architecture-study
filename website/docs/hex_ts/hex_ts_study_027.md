@@ -1,7 +1,6 @@
-﻿# 第27章　Outbound Adapter②：FileRepository（JSON保存）📄💾
+# 第27章　Outbound Adapter②：FileRepository（JSON保存）📄💾
 
-![Persistence Adapter Implementation](picture/hex_ts_study_009_adapters_implementation.png)
-
+![hex_ts_study_027](picture/hex_ts_study_027_file_repository_json.png)
 
 この章は「**InMemoryRepository を FileRepository に差し替えるだけで永続化できる**」って体験を作る回だよ〜😊🔁
 （ちなみに今の Node は **v24 が LTS**、TypeScript は **5.9 系が安定版**って状況だよ📌 ([Node.js][1])）

@@ -1,5 +1,6 @@
 # 第5章　中心（Core）が主役な理由🏠❤️
 
+
 この章は「ヘキサゴナルって結局、何を守りたい設計なの？」をハッキリさせる回だよ〜😊✨
 結論から言うと、**守りたいのは“変わりにくい業務ルール（Core）”**です🛡️
 
@@ -237,4 +238,3 @@ AIにはこう頼むと強いよ👇
 [1]: https://dotnet.microsoft.com/en-US/download/dotnet/10.0?utm_source=chatgpt.com "Download .NET 10.0 (Linux, macOS, and Windows) | .NET"
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [3]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 リリース ノート"
-

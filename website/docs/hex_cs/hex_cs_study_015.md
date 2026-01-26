@@ -1,5 +1,6 @@
 # 第15章　ミニ題材決定：カフェ注文アプリ ☕🧾✨
 
+
 ここからは「小さく作って、あとで差し替えて強さを体感する」フェーズに入るよ〜！😆💪
 題材は **カフェの注文（Order）** に決定！☕🍰
 
@@ -206,4 +207,3 @@ ASP.NET Core も .NET 10 で色々強化されてて、Minimal APIのバリデ�
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-10.0?view=aspnetcore-10.0&utm_source=chatgpt.com "What's new in ASP.NET Core in .NET 10"
-

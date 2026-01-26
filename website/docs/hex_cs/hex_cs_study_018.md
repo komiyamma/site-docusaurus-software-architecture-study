@@ -1,5 +1,6 @@
 # 第18章　Domain入門①：Domainってなに？🏠🌱
 
+
 ## 0. 今日のゴール🎯
 
 この章が終わると…👇
@@ -286,4 +287,3 @@ AIはめっちゃ頼れるんだけど、**境界ルール（何をDomainに入�
 [1]: https://dotnet.microsoft.com/en-US/download/dotnet/10.0?utm_source=chatgpt.com "Download .NET 10.0 (Linux, macOS, and Windows) | .NET"
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [3]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 リリース ノート"
-

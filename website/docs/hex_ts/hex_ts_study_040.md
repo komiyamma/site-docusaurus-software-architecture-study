@@ -1,8 +1,6 @@
-﻿# 第40章　アンチパターン②：巨大Port／太いAdapter 🐘🍔
+# 第40章　アンチパターン②：巨大Port／太いAdapter 🐘🍔
 
-![Outbound Port (Repository Interface)](picture/hex_ts_study_020_outbound_port_repository_inter.png)
-
-
+![hex_ts_study_040](picture/hex_ts_study_040_anti_pattern_huge_port_fat_ada.png)
 
 # 第40章：アンチパターン②「巨大Port／太いAdapter」🐘🍔🔌🧩
 

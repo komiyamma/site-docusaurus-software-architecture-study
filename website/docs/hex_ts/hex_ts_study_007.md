@@ -1,7 +1,6 @@
-﻿# 第7章　Inbound / Outbound の超やさしい整理 🚪➡️⬅️
+# 第7章　Inbound / Outbound の超やさしい整理 🚪➡️⬅️
 
-![Driven Output Adapters](picture/hex_ts_study_007_the_right_side_driven_output.png)
-
+![hex_ts_study_007](picture/hex_ts_study_007_the_right_side_driven_output.png)
 
 （ヘキサゴナル＝Ports & Adapters の“方向感覚”をゲットする回だよ〜🧭💕）
 

@@ -1,5 +1,6 @@
 # 第28章　Outbound Adapter③：DB実装（最低限の実例）🗃️⚙️
 
+
 ここでやることは超シンプルだよ〜！😆
 **「InMemory の Repository を、DB版に差し替える」** それだけ！
 しかも、**Core（Domain/Application）は1ミリも汚さない**のが今日の勝ち筋 🛡️💖
@@ -318,4 +319,3 @@ AIにお願いするのはめちゃアリ！😆 ただし守るルールはこ�
 [5]: https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?utm_source=chatgpt.com "Migrations Overview - EF Core"
 [6]: https://learn.microsoft.com/ja-jp/ef/core/dbcontext-configuration/?utm_source=chatgpt.com "DbContext の有効期間、構成、および初期化 - EF Core"
 [7]: https://learn.microsoft.com/en-us/ef/core/cli/dotnet?utm_source=chatgpt.com "EF Core tools reference (.NET CLI)"
-

@@ -1,5 +1,6 @@
 # 第25章　Outbound Port設計①：Repositoryの約束🗄️📝
 
+
 ここからいよいよ「Coreが外部（保存先）にお願いする約束＝Outbound Port」を作るよ〜！😆
 第25章は **Repository（リポジトリ）** を “Port（interface）” として定義する回です🔌✨
 
@@ -258,4 +259,3 @@ Task<IReadOnlyList<Order>> ListRecentAsync(int take, CancellationToken cancellat
 [2]: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design?utm_source=chatgpt.com "Designing the infrastructure persistence layer - .NET"
 [3]: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1068?utm_source=chatgpt.com "CA1068: CancellationToken parameters must come last"
 [4]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
-

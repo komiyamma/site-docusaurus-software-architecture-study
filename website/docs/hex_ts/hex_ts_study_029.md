@@ -1,7 +1,6 @@
-﻿# 第29章　HTTP導入①：ルーティング→ユースケース呼ぶだけ 🚪🌐
+# 第29章　HTTP導入①：ルーティング→ユースケース呼ぶだけ 🚪🌐
 
-![Defining the Use Case](picture/hex_ts_study_016_defining_the_use_case.png)
-
+![hex_ts_study_029](picture/hex_ts_study_029_http_adapter_express.png)
 
 この章は「**HTTPの入口を増やす**」回だよ😊
 CLIで動いてる中心（ユースケース/ドメイン）はそのままに、**HTTPを“差し込み口”として追加**します💖

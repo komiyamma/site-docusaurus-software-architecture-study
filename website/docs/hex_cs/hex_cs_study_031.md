@@ -1,5 +1,6 @@
 # 第31章　DI入門②：.NETのDI基本（AddScoped等）🔧🧰✨
 
+
 この章は「配線（ワイヤリング）」の基礎だよ〜！🧩💕
 ヘキサゴナル的には **“Coreは配線しない、外側でつなぐ”** のが大事で、その「外側でつなぐ」を .NET のDIが助けてくれる感じ✨
 
@@ -256,4 +257,3 @@ AIに頼むと速いところ👇
 必要なら、この章の内容を **カフェ注文アプリの具体コード（Port/Adapter/UseCase/Program.csの一式）** に落として、ちゃんと動く形でテンプレ化して渡すよ〜☕🧾💖
 
 [1]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection "Dependency injection - .NET | Microsoft Learn"
-

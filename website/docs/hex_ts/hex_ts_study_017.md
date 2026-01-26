@@ -1,7 +1,6 @@
-﻿# 第17章　ドメイン入門②：最小モデル（Todo）を作る 🧩📝
+# 第17章　ドメイン入門②：最小モデル（Todo）を作る 🧩📝
 
-![Domain Objects (Entities)](picture/hex_ts_study_017_domain_objects_entities.png)
-
+![hex_ts_study_017](picture/hex_ts_study_017_domain_objects_entities.png)
 
 この章は「**Todoって何者？**」を、**小さく・安全に**つくる回だよ😊
 このあとユースケースやAdapterを足していくけど、**まず中心（ドメイン）に “しっかりした芯”** を作るのが勝ちパターン🏰🛡️

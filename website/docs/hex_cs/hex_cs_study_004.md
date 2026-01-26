@@ -1,5 +1,6 @@
 # 第4章　よくある失敗：全部ぐちゃぐちゃ構造🍝😭
 
+
 この章は「ヘキサゴナルに入る前に、まず“地獄の形”をちゃんと見抜けるようになる」がゴールだよ〜！🔍✨
 （現場で一番多いの、ほんとこれ🥺）
 
@@ -296,4 +297,3 @@ C# も **C# 14（2025年11月リリース）** が最新安定として整理さ
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [3]: https://dotnet.microsoft.com/en-us/platform/support/policy?utm_source=chatgpt.com "The official .NET support policy"
 [4]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-version-history?utm_source=chatgpt.com "C# の歴史"
-

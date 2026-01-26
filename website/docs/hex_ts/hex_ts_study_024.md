@@ -1,7 +1,6 @@
-﻿# 第24章　Inbound Adapter①：CLIで最速成功⌨️🎉
+# 第24章　Inbound Adapter①：CLIで最速成功⌨️🎉
 
-![Inbound Driving Adapters](picture/hex_ts_study_006_the_left_side_driving_input.png)
-
+![hex_ts_study_024](picture/hex_ts_study_024_application_services.png)
 
 この章は「**とにかく動く！**」を最短で作って、ヘキサゴナルの気持ちよさを体で覚える回だよ〜😊💖
 GUIもHTTPもまだいらない！まずは **CLI（コマンド入力）**で、ユースケースを呼び出して成功体験しよ✨

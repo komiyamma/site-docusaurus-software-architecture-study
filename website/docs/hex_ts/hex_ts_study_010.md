@@ -1,7 +1,6 @@
-﻿# 第10章　Windows＋VS Code準備①：プロジェクト作成 🪟📦
+# 第10章　Windows＋VS Code準備①：プロジェクト作成 🪟📦
 
-![DTOs (Data Transfer Objects)](picture/hex_ts_study_010_dtos_data_transfer_objects.png)
-
+![hex_ts_study_010](picture/hex_ts_study_010_dtos_data_transfer_objects.png)
 
 この章は「まず動く状態」を最短で作ります😊✨
 あとでヘキサゴナルに育てていくために、**土台だけ**をきれいに作るよ〜🌱🔌

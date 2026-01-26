@@ -1,7 +1,6 @@
-﻿# 第23章　Outbound Port：Clockなど小さな外部依存を切る ⏰🔌
+# 第23章　Outbound Port：Clockなど小さな外部依存を切る ⏰🔌
 
-![Testing in Isolation](picture/hex_ts_study_011_testing_in_isolation.png)
-
+![hex_ts_study_023](picture/hex_ts_study_023_domain_services.png)
 
 ## 1) この章のゴール 🎯💖
 

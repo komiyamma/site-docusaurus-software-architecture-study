@@ -1,5 +1,6 @@
 # 第21章　UseCase入門：アプリの手順（Application層）🧭🛠️
 
+
 （いまのC#は **C# 14**、対応ランタイムは **.NET 10** が最新ど真ん中だよ〜✨） ([Microsoft Learn][1])
 
 ---
@@ -292,4 +293,3 @@ AIは雛形づくりが得意だよ〜😆
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures?utm_source=chatgpt.com "Common web application architectures - .NET"
 [3]: https://github.com/ardalis/CleanArchitecture?utm_source=chatgpt.com "ardalis/CleanArchitecture: Clean Architecture Solution ..."
-

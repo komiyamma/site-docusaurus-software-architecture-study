@@ -1,5 +1,6 @@
 # 第3章　登場人物：Core / Port / Adapter 👥🔌✨
 
+
 この章は「ヘキサって結局、誰が何するの？」をスッキリさせる回だよ〜😊✨
 ここが分かると、後の章（Inbound/OutboundとかDIとか）も一気にラクになるっ💖
 
@@ -378,4 +379,3 @@ AIは超便利だけど、**境界を守るのは人間の仕事**🚦😊
 [1]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
 [2]: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html?utm_source=chatgpt.com "Hexagonal architecture pattern - AWS Prescriptive Guidance"
 [3]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "C# 14 の新機能"
-

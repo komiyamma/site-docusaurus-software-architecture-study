@@ -1,7 +1,6 @@
-﻿# 第22章　Outbound Port：Repositoryを決める 💾🔌
+# 第22章　Outbound Port：Repositoryを決める 💾🔌
 
-![Outbound Port (Repository Interface)](picture/hex_ts_study_020_outbound_port_repository_inter.png)
-
+![hex_ts_study_022](picture/hex_ts_study_022_mocking_stubbing_for_tests.png)
 
 この章はひとことで言うと、**「アプリの中心（ユースケース）が、保存先の都合に振り回されないための“約束”を決める回」**だよ〜😊🌸
 Repository は **“保存のお願い窓口”**（Outbound Port）って感じ！🔌💖

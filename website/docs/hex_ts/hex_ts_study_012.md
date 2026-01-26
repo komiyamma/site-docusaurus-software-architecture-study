@@ -1,7 +1,6 @@
-﻿# 第12章　Windows＋VS Code準備③：AI拡張の準備 🤖💖
+# 第12章　Windows＋VS Code準備③：AI拡張の準備 🤖💖
 
-![Dependency Inversion Principle](picture/hex_ts_study_012_dependency_inversion_principle.png)
-
+![hex_ts_study_012](picture/hex_ts_study_012_dependency_inversion_principle.png)
 
 〜「AIは相棒✨ でも“設計の芯”はあなたが握る🛡️」〜
 

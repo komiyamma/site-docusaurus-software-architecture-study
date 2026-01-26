@@ -1,8 +1,6 @@
-﻿# 第43章　まとめ：今日の合言葉3つ（再掲）🎁💖
+# 第43章　まとめ：今日の合言葉3つ（再掲）🎁💖
 
-![Software Specifications](picture/hex_ts_study_043_the_three_mottos_summary.png)
-
-
+![hex_ts_study_043](picture/hex_ts_study_043_the_three_mottos_summary.png)
 
 ([Past chat][1])([Past chat][2])
 

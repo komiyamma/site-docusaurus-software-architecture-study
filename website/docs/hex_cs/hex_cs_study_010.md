@@ -1,5 +1,6 @@
 # 第10章　依存の向き①：依存ってそもそも何？🧲🙂
 
+
 ## 今日のゴール🎯✨
 
 * 「依存」って言葉を、コード上でちゃんと見つけられるようになる👀✅
@@ -236,4 +237,3 @@ public class MailNotificationService
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-versioning?utm_source=chatgpt.com "Language versioning - C# reference"
 [2]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
-

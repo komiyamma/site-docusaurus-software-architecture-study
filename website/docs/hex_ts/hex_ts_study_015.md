@@ -1,7 +1,6 @@
-﻿# 第15章　フォルダ構成を固定（迷子防止）📁🧭
+# 第15章　フォルダ構成を固定（迷子防止）📁🧭
 
-![The Domain Layer](picture/hex_ts_study_015_the_domain_layer.png)
-
+![hex_ts_study_015](picture/hex_ts_study_015_the_domain_layer.png)
 
 ファイルが増えてくるとね、**「どこに何置くんだっけ…？」**って迷子になりがち😵‍💫
 この章はそれを防ぐために、**フォルダの“住所”を最初に固定**しちゃう回だよ〜！🎀✨

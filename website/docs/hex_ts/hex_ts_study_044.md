@@ -1,8 +1,6 @@
-﻿# 第44章　次の一歩：クリーンアーキとの関係＆次章への橋渡し 🌉✨
+# 第44章　次の一歩：クリーンアーキとの関係＆次章への橋渡し 🌉✨
 
-![Dependency Injection](picture/hex_ts_study_044_clean_architecture_relation.png)
-
-
+![hex_ts_study_044](picture/hex_ts_study_044_clean_architecture_relation.png)
 
 ([Past chat][1])([Past chat][2])([Past chat][3])([Past chat][4])([Past chat][5])
 

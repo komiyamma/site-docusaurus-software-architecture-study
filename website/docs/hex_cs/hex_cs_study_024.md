@@ -1,5 +1,6 @@
 # 第24章　Inbound Adapter①：Controllerは薄く！🌐🙂
 
+
 この章はひとことで言うと、**「Controllerを“ただの受付”にする」**練習だよ〜！🧾➡️🧠➡️✅
 受付が薄いほど、変更に強くなるし、テストもしやすくなるの😊💕
 
@@ -275,4 +276,3 @@ Visual Studio 2026 は Copilot まわりの統合も強化され続けてるの�
 [2]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes "Visual Studio 2026 リリース ノート | Microsoft Learn"
 [3]: https://dotnet.microsoft.com/en-us/download/dotnet "Browse all .NET versions to download | .NET"
 [4]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-versioning?utm_source=chatgpt.com "Language versioning - C# reference"
-
