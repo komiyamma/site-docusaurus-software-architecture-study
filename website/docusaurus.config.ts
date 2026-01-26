@@ -72,7 +72,7 @@ const config: Config = {
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         hashed: true,
-        language: ["ja", "en"],
+        language: ["ja"],
         indexBlog: false,
         indexPages: false,
         // Split search index by top-level docs folders to avoid a huge single JSON.
