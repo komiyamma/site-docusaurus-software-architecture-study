@@ -1,0 +1,224 @@
+[
+    {
+        "filename": "err_model_cs_study_001_failure_route.png",
+        "visual": "A path splitting into two. Top path 'Success' (Green). Bottom path 'Failure' (Red). Both are cleanly drawn as 'Designed Routes'.",
+        "prompt": "Concept diagram. A flowchart path splitting into two. Top path 'Success' (Green). Bottom path 'Failure' (Red). Both paths are cleanly drawn and labeled as 'Designed'. Flat vector.",
+        "study_file": "err_model_cs_study_001.md"
+    },
+    {
+        "filename": "err_model_cs_study_001_purchase_flow.png",
+        "visual": "Flowchart of purchasing merch. Success path (Product -> Cart -> Pay). Failure checks (No Stock, No Budget, Network Error) branching off.",
+        "prompt": "Flowchart diagram. Main path: 'Product' -> 'Cart' -> 'Payment'. Branching red failure paths: 'No Stock', 'No Budget', 'Network Error'. A comprehensive view of failure points. Clean flat vector.",
+        "study_file": "err_model_cs_study_001.md"
+    },
+    {
+        "filename": "err_model_cs_study_002_tech_stack.png",
+        "visual": "Icons for VS 2026, .NET 10, C# 14. Futuristic and clean.",
+        "prompt": "Tech stack illustration. Icons for 'Visual Studio 2026' (Purple), '.NET 10' (Purple/Blue), 'C# 14' (Green). Futuristic flat style.",
+        "study_file": "err_model_cs_study_002.md"
+    },
+    {
+        "filename": "err_model_cs_study_003_throw_vs_throw_ex.png",
+        "visual": "Compare 'throw;' (Long continuous line) vs 'throw ex;' (Line cut short).",
+        "prompt": "Comparison diagram. Top: 'throw;' showing a long, continuous timeline of events. Bottom: 'throw ex;' showing the timeline cut short, losing history. Red cut mark. Minimalist.",
+        "study_file": "err_model_cs_study_003.md"
+    },
+    {
+        "filename": "err_model_cs_study_003_try_catch_finally.png",
+        "visual": "Flow diagram. 'Try' block execution. Arrow to 'Catch' on error. Both arrows meeting at 'Finally'.",
+        "prompt": "Flow diagram. Box 'Try'. Arrow to 'Catch' (Red, labeled 'Error'). Both flow into 'Finally' (Blue). 'Finally' runs in all cases. Clean lines flat vector.",
+        "study_file": "err_model_cs_study_003.md"
+    },
+    {
+        "filename": "err_model_cs_study_003_inner_exception_chain.png",
+        "visual": "A transparent box (Outer Exception) containing another box (Inner Exception).",
+        "prompt": "Concept illustration. A large transparent box labeled 'Outer Exception'. Inside it, a smaller box labeled 'Inner Exception'. Wrapping/Chaining metaphor. Modern flat style.",
+        "study_file": "err_model_cs_study_003.md"
+    },
+    {
+        "filename": "err_model_cs_study_004_swallowing_exceptions.png",
+        "visual": "A black hole (Empty Catch Block) swallowing a bomb (Exception). A warning sign overlay.",
+        "prompt": "Warning metaphor. A cartoon 'catch block' represented as a black hole swallowing a 'Time Bomb' (Error). Red 'No' sign overlay. Don't swallow errors.",
+        "study_file": "err_model_cs_study_004.md"
+    },
+    {
+        "filename": "err_model_cs_study_005_decision_scale.png",
+        "visual": "A balance scale. Left side: 'Domain Error' (Blue Box). Right side: 'Bug' (Red Bomb).",
+        "prompt": "Balance scale illustration. Left tray: 'Domain Error' (Blue Box) labeled 'Expected'. Right tray: 'Bug' (Red Bomb) labeled 'Unexpected'. different handling strategies.",
+        "study_file": "err_model_cs_study_005.md"
+    },
+    {
+        "filename": "err_model_cs_study_006_error_categories.png",
+        "visual": "Three distinct buckets/circles. Domain (Blue), Infra (Orange), Bug (Red).",
+        "prompt": "Three pillars diagram. Left: 'Domain' (Blue). Center: 'Infrastructure' (Orange). Right: 'Bug' (Red). Classification of error types. Clean flat vector.",
+        "study_file": "err_model_cs_study_006.md"
+    },
+    {
+        "filename": "err_model_cs_study_006_classification_flow.png",
+        "visual": "A flowchart for classifying errors. Q1 'Domain?' -> Blue. Q2 'Infra?' -> Orange. Q3 'Bug?' -> Red.",
+        "prompt": "Flowchart diagram. Step 1: 'Domain Rule?' (Yes -> Blue). Step 2: 'External I/O?' (Yes -> Orange). Step 3: 'Unexpected?' (Yes -> Red). A decision tree for error classification. Clean flat vector.",
+        "study_file": "err_model_cs_study_006.md"
+    },
+    {
+        "filename": "err_model_cs_study_007_error_card.png",
+        "visual": "An ID card representing an Error. Fields shown: Code, Message.",
+        "prompt": "Data structure visualization. An ID card labeled 'Error'. Fields: 'Code' (Tag), 'Message' (Speech Bubble), 'Retryable' (Refresh Icon). Flat design.",
+        "study_file": "err_model_cs_study_007.md"
+    },
+    {
+        "filename": "err_model_cs_study_007_input_vs_domain.png",
+        "visual": "Comparison. Input Error (Format check) vs Domain Error (Business Rule).",
+        "prompt": "Comparison illustration. Left: 'Input Error' showing a form field with invalid email format (Red). Right: 'Domain Error' showing a 'Sold Out' tag on a valid product request. Different validation layers.",
+        "study_file": "err_model_cs_study_007.md"
+    },
+    {
+        "filename": "err_model_cs_study_008_transient_vs_permanent.png",
+        "visual": "Left: Rain Cloud (Transient - Wait and it clears). Right: Collapsed Bridge (Permanent - Waiting won't help).",
+        "prompt": "Comparison concept. Left: 'Transient' showing a rain cloud (temporary). Right: 'Permanent' showing a collapsed bridge (requires repair). Blue vs Orange theme.",
+        "study_file": "err_model_cs_study_008.md"
+    },
+    {
+        "filename": "err_model_cs_study_008_retry_decision_logic.png",
+        "visual": "A logic flow. 'Transient (503)' leads to a Green 'Retry Loop'. 'Permanent (401)' leads to a Red 'Stop'.",
+        "prompt": "Decision logic diagram. Input: 'Error Type'. Path A: 'Transient (e.g. 503)' -> Green 'Retry Loop'. Path B: 'Permanent (e.g. 401)' -> Red 'Stop'. Clear logic flow. Flat vector.",
+        "study_file": "err_model_cs_study_008.md"
+    },
+    {
+        "filename": "err_model_cs_study_009_fail_fast_guard.png",
+        "visual": "A security guard stopping Invalid Input at the very gate.",
+        "prompt": "Security guard illustration. A guard stopping a red 'Invalid Input' block at the very entrance gate. 'Fail Fast' label. Shield icon.",
+        "study_file": "err_model_cs_study_009.md"
+    },
+    {
+        "filename": "err_model_cs_study_010_castle_wall.png",
+        "visual": "A castle wall. Outside arrows (Exceptions) bounce off. Inside is calm (Results).",
+        "prompt": "Boundary defense diagram. A castle wall. Outside: 'Exceptions' (Spiky shapes) bouncing off. Inside: 'Results' (Smooth round shapes). Protection metaphor.",
+        "study_file": "err_model_cs_study_010.md"
+    },
+    {
+        "filename": "err_model_cs_study_011_plug_and_socket.png",
+        "visual": "Domain (Socket/Interface) and Infra (Plug/Implementation) connecting.",
+        "prompt": "Plug and socket illustration. 'Domain' represented as a socket (Interface). 'Infrastructure' represented as a plug (Implementation). Connecting together. Clean lines.",
+        "study_file": "err_model_cs_study_011.md"
+    },
+    {
+        "filename": "err_model_cs_study_011_layer_architecture.png",
+        "visual": "Concentric circles. Center: 'Domain'. Middle: 'UseCase'. Outer: 'Infra'.",
+        "prompt": "Layered architecture diagram. Concentric circles. Core center: 'Domain Errors' (Blue). Middle ring: 'Application' (Green). Outer ring: 'Infrastructure' (Orange). Arrows pointing inward. Clean flat vector.",
+        "study_file": "err_model_cs_study_011.md"
+    },
+    {
+        "filename": "err_model_cs_study_012_conversion_machine.png",
+        "visual": "A machine taking a jagged Rock (Exception) and turning it into a polished Gem (InfraError).",
+        "prompt": "Conversion machine. Input: 'Exception' (Jagged red rock). Processing: Gears turning. Output: 'InfraError' (Polished orange gem). Transformation metaphor.",
+        "study_file": "err_model_cs_study_012.md"
+    },
+    {
+        "filename": "err_model_cs_study_013_catalog_book.png",
+        "visual": "A well-organized library book labeled 'Error Catalog'.",
+        "prompt": "Icon illustration. A thick book labeled 'Error Catalog'. Open pages showing strict codes and definitions. Organized and structured.",
+        "study_file": "err_model_cs_study_013.md"
+    },
+    {
+        "filename": "err_model_cs_study_014_record_equality.png",
+        "visual": "Two identical Error cards with an '=' sign.",
+        "prompt": "Equality check. Two separate but identical index cards labeled 'Error'. An '=' sign between them. Represents value-based equality. Flat vector.",
+        "study_file": "err_model_cs_study_014.md"
+    },
+    {
+        "filename": "err_model_cs_study_015_result_box.png",
+        "visual": "A box labeled 'Result'. It can contain a Checkmark (Success) OR an X (Failure), never both.",
+        "prompt": "Concept icon. A box labeled 'Result<T>'. Inside, it can hold either a 'Value' (Green Check) OR an 'Error' (Red X), but never both. Exclusive content.",
+        "study_file": "err_model_cs_study_015.md"
+    },
+    {
+        "filename": "err_model_cs_study_016_toggle_switch.png",
+        "visual": "A toggle switch. Up is Success (Green). Down is Failure (Red).",
+        "prompt": "Toggle switch illustration. Position A: 'Success' (Green Light). Position B: 'Failure' (Red Light). Only one state active at a time.",
+        "study_file": "err_model_cs_study_016.md"
+    },
+    {
+        "filename": "err_model_cs_study_017_app_error_structure.png",
+        "visual": "An exploded view of an AppError object. Core: Code. Orbiting: UserMsg, Category, Action.",
+        "prompt": "Infographic of an error object. Central core: 'Code'. Satellites: 'UserMsg' (Bubble), 'Category' (Color), 'Retryable' (Icon). Deconstructive view.",
+        "study_file": "err_model_cs_study_017.md"
+    },
+    {
+        "filename": "err_model_cs_study_017_ui_vs_log.png",
+        "visual": "Split screen. Left: UI showing a simple toast 'Out of Stock'. Right: Log showing a detailed JSON block. Separation of concerns.",
+        "prompt": "Comparison illustration. Split screen. Left side: 'UI' showing a simple phone notification 'Out of Stock'. Right side: 'Log' showing a detailed JSON data block with internal IDs. separation of concerns. Flat vector.",
+        "study_file": "err_model_cs_study_017.md"
+    },
+    {
+        "filename": "err_model_cs_study_018_railway_switch.png",
+        "visual": "Train tracks splitting. Main line (Success). Siding (Failure).",
+        "prompt": "Railway tracks splitting. Main track enters 'Match'. Splits into 'Success' path (Green scenery) and 'Failure' path (Red warning signs). Flow control.",
+        "study_file": "err_model_cs_study_018.md"
+    },
+    {
+        "filename": "err_model_cs_study_019_railway_stations.png",
+        "visual": "A train line with 3 stations. Success train passes all. Failure train takes an early exit at station 1 or 2.",
+        "prompt": "Railway Oriented Programming diagram. Three stations in a row. Green track connects them all. Red exit tracks at each station. 'Early Return' concept.",
+        "study_file": "err_model_cs_study_019.md"
+    },
+    {
+        "filename": "err_model_cs_study_019_guard_clause_stairs.png",
+        "visual": "Comparison. Nested (Deep stairs) vs Guard Clause (Flat road).",
+        "prompt": "Comparison metaphor. Left: 'Nested Code' shown as deep, dangerous stairs going down. Right: 'Guard Clause' shown as a flat, straight road with small side exits. Readability visualization.",
+        "study_file": "err_model_cs_study_019.md"
+    },
+    {
+        "filename": "err_model_cs_study_020_translation_map.png",
+        "visual": "A table mapping 'Exception' to 'Error Code'. Arrows connecting them.",
+        "prompt": "Translation table. Left column: 'Exceptions' (Code text). Right column: 'Error Codes' (Tags). Arrows connecting them. Mapping logic.",
+        "study_file": "err_model_cs_study_020.md"
+    },
+    {
+        "filename": "err_model_cs_study_021_http_traffic_lights.png",
+        "visual": "Traffic lights. Green (200), Yellow (4xx), Red (5xx).",
+        "prompt": "Traffic lights metaphor. '200 OK' (Green Light). '400 Bad Request' (Yellow/Orange Light). '500 Server Error' (Red Light). Status buckets.",
+        "study_file": "err_model_cs_study_021.md"
+    },
+    {
+        "filename": "err_model_cs_study_021_status_decision_tree.png",
+        "visual": "A long vertical decision tree. Auth? -> 401. Exists? -> 404. Validation? -> 400. Logic? -> 409.",
+        "prompt": "Decision tree for HTTP status. Top node: 'Auth?'. Branches to '401/403'. Next node: 'Exists?'. Branches to '404'. Next node: 'Input?'. Branches to '400'. Vertical flow. Flat vector.",
+        "study_file": "err_model_cs_study_021.md"
+    },
+    {
+        "filename": "err_model_cs_study_021_409_vs_422.png",
+        "visual": "Comparison. 409 (Conflict) vs 422 (Unprocessable).",
+        "prompt": "Comparison metaphor. '409 Conflict': Two cars trying to park in the same spot. '422 Unprocessable': A machine rejecting a weirdly shaped part (correct material, wrong shape). Status code visual.",
+        "study_file": "err_model_cs_study_021.md"
+    },
+    {
+        "filename": "err_model_cs_study_022_problem_details_doc.png",
+        "visual": "A standardized document icon labeled RFC 9457. Sections: type, title, status.",
+        "prompt": "Document icon. A sheet of paper labeled 'RFC 9457'. structured sections: 'type', 'title', 'status'. Standardized format symbol.",
+        "study_file": "err_model_cs_study_022.md"
+    },
+    {
+        "filename": "err_model_cs_study_023_ui_feedback.png",
+        "visual": "A screen showing a Toast (Network Error) and an Input Error (Field).",
+        "prompt": "UI composition. Top: A toaster notification labeled 'Network Error'. Bottom: A red input field labeled 'Invalid Email'. Different error presentations.",
+        "study_file": "err_model_cs_study_023.md"
+    },
+    {
+        "filename": "err_model_cs_study_023_ui_patterns.png",
+        "visual": "4 UI patterns. Field, Banner, Dialog, Toast.",
+        "prompt": "UI patterns catalog. Four mini-screens arranged in a grid. 1. Field Error (Red text). 2. Top Banner (Warning). 3. Center Dialog (Critical). 4. Bottom Toast (Info). Web design components.",
+        "study_file": "err_model_cs_study_023.md"
+    },
+    {
+        "filename": "err_model_cs_study_024_structured_log.png",
+        "visual": "A clean JSON block representing a log entry. Searchable.",
+        "prompt": "Data visualization. A log entry shown as a neat JSON block. Keys: 'UserId', 'Path', 'Error'. Searchable structure metaphor.",
+        "study_file": "err_model_cs_study_024.md"
+    },
+    {
+        "filename": "err_model_cs_study_025_correlation_thread.png",
+        "visual": "A glowing thread connecting User -> API -> DB. Labeled 'TraceID'.",
+        "prompt": "Traceability diagram. A simplified glowing thread passing through 'Client', 'API', 'DB'. The thread is labeled 'TraceID'. Continuity metaphor.",
+        "study_file": "err_model_cs_study_025.md"
+    }
+]
