@@ -20,6 +20,8 @@ Repositoryはひと言でいうと…
 * でも「保存する」「取り出す」は必要だよね？
 * だから **“こういう形で保存/取得できるよ”という約束（interface）** を先に決める✨
 
+![Repositoryの窓口イメージ](picture/entity_obj_ts_study_019_repository_window.png)
+
 ---
 
 ## DIP入門：依存の向きをひっくり返す🔁🧲
@@ -37,15 +39,36 @@ Repositoryはひと言でいうと…
 
 ドメインは「約束（interface）」だけ知って、DB側がそれを実装する✨
 
-```text
-（内側）domain  ──「約束」──▶  OrderRepository（interface）
-     ▲                               ▲
-     │                               │ implements
-（中）app/usecase ───── depends ──────┘
-     ▲
-     │
-（外側）infra/db（DB実装やAPI実装）
+```mermaid
+classDiagram
+    direction TB
+    
+    namespace Domain_内側 {
+        class OrderRepository {
+            <<interface>>
+            +save(order: Order)
+            +findById(id: OrderId)
+        }
+    }
+
+    namespace App_中 {
+        class PlaceOrderUseCase {
+            +execute()
+        }
+    }
+
+    namespace Infra_外側 {
+        class InMemoryOrderRepository {
+            +save(order: Order)
+            +findById(id: OrderId)
+        }
+    }
+
+    PlaceOrderUseCase ..> OrderRepository : 依存 (Use)
+    InMemoryOrderRepository ..|> OrderRepository : 実装 (Implements)
 ```
+
+![DIPのイメージ](picture/entity_obj_ts_study_019_dip_inversion.png)
 
 この「外側が内側に合わせる」感じがDIP（依存性逆転）だよ〜🌀✨
 
@@ -233,6 +256,23 @@ export class PlaceOrderUseCase {
     return id;
   }
 }
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Client as クライアント
+    participant UC as PlaceOrderUseCase
+    participant Order as Order (Entity)
+    participant Repo as OrderRepository
+
+    Client->>UC: execute()
+    UC->>Order: 生成 (new)
+    UC->>Order: submit()
+    note right of Order: ステータスが Submitted になる
+    UC->>Repo: save(order)
+    Repo-->>UC: 完了
+    UC-->>Client: OrderIdを返す
 ```
 
 実行例（ちょい確認）👇
