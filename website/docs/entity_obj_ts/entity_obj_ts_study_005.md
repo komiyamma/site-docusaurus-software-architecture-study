@@ -24,8 +24,6 @@ VOは **「値そのものを、ちゃんとした“部品”にしたもの」
 
 ---
 
----
-
 ```mermaid
 graph TD
     VO[Value Object]
