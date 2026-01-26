@@ -1,6 +1,6 @@
 ﻿# 第33章　エラー設計①：中心のエラー（仕様）📌😌
 
-![Software Specifications](picture/hex_ts_study_012_software_specifications.png)
+![Software Specifications](picture/hex_ts_study_033_handling_domain_errors.png)
 
 
 この章はね、めちゃ大事なことをやります✨

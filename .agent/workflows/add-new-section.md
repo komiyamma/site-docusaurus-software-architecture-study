@@ -9,7 +9,7 @@ This workflow describes the steps to integrate a new study section (e.g., `new_t
 ## Prerequisites
 
 1.  **Content Preparation**: Ensure the documentation files are placed in `website/docs/<topic_name>/`.
-2.  **Index File**: Ensure there is an index file (e.g., `website/docs/<topic_name>/<topic_name>_index.md`) with `sidebar_position: 0`.
+2.  **Index File**: Ensure there is an index file (e.g., `website/docs/<topic_name>/<topic_name>_index.md`).
 
 ## Steps
 

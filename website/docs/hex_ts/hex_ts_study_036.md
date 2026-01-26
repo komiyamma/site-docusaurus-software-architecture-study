@@ -1,6 +1,6 @@
 ﻿# 第36章　観測ちょい入門：ログをどこに置く？🪪📊
 
-![Monitoring and Observability](picture/hex_ts_study_014_monitoring_and_observability.png)
+![Monitoring and Observability](picture/hex_ts_study_036_observability_logging.png)
 
 
 

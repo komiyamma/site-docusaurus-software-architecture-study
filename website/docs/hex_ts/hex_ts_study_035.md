@@ -1,6 +1,6 @@
 ﻿# 第35章　Composition Root：依存の組み立て（合体場所）🧩🏗️
 
-![Dependency Injection](picture/hex_ts_study_018_dependency_injection.png)
+![Dependency Injection](picture/hex_ts_study_035_composition_root.png)
 
 
 

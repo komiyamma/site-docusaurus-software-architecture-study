@@ -1,6 +1,3 @@
----
-sidebar_position: 0
----
 # ヘキサゴナル（Ports & Adapters）35章 詳細アウトライン 🔷🔌✨
 
 （前提：TS初中級／設計超入門／Windows＋VS Code／AI拡張あり🤖✨）

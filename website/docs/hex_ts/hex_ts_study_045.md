@@ -1,6 +1,6 @@
 ﻿# 第45章　自主課題（提出形式まで）📝🎀
 
-![AI-Assisted Development](picture/hex_ts_study_013_ai_assisted_development.png)
+![AI-Assisted Development](picture/hex_ts_study_045_final_assessment_trophy.png)
 
 
 

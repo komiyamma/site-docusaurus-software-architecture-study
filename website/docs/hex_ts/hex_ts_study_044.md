@@ -1,6 +1,6 @@
 ﻿# 第44章　次の一歩：クリーンアーキとの関係＆次章への橋渡し 🌉✨
 
-![Dependency Injection](picture/hex_ts_study_018_dependency_injection.png)
+![Dependency Injection](picture/hex_ts_study_044_clean_architecture_relation.png)
 
 
 

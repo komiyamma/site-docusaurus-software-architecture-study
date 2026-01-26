@@ -1,6 +1,6 @@
 ﻿# 第34章　エラー設計②：外側のエラー（I/O失敗）😵‍💫
 
-![Infrastructure Dependencies](picture/hex_ts_study_017_infrastructure_dependencies.png)
+![Infrastructure Dependencies](picture/hex_ts_study_034_handling_i_o_errors_infra.png)
 
 
 > この章は「ファイル読めない」「ネット落ちた」みたいな **外側（I/O）の事故**を、ヘキサゴナル的に“きれいに”扱えるようになる回だよ〜🧸✨

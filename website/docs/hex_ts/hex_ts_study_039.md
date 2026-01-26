@@ -1,6 +1,6 @@
 ﻿# 第39章　アンチパターン①：中心がHTTP/DB型を知っちゃう 😱
 
-![Infrastructure Dependencies](picture/hex_ts_study_017_infrastructure_dependencies.png)
+![Infrastructure Dependencies](picture/hex_ts_study_039_anti_pattern_center_knowing_ou.png)
 
 
 

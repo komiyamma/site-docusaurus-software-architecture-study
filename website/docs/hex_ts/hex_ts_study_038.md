@@ -1,6 +1,6 @@
 ﻿# 第38章　AI活用②：レビュー用プロンプト集（そのまま使える）📝🤖
 
-![AI-Assisted Development](picture/hex_ts_study_013_ai_assisted_development.png)
+![AI-Assisted Development](picture/hex_ts_study_038_ai_review_prompts.png)
 
 （まず最新情報をWebで確認してから、教材本文＋コピペ用プロンプト集＋運用手順を作ります）
 
