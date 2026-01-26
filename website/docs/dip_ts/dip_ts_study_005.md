@@ -47,6 +47,27 @@ import { SmtpNotifier } from "./infra/SmtpNotifier";
 
 type Item = { sku: string; price: number; qty: number };
 
+export class CheckoutService {
+  // ❌ 上位のはずなのに、下位の具体クラスを直newしてる
+  private repo = new PostgresOrderRepository();
+  private payment = new StripePaymentClient(process.env.STRIPE_SECRET_KEY!);
+  private notifier = new SmtpNotifier(process.env.SMTP_URL!);
+
+  async checkout(userId: string, items: Item[]) {
+    // ❌ 時間も直取り（テストがしんどくなる）
+    const now = new Date();
+
+    const order = await this.repo.createOrder(userId, items, now);
+    const charge = await this.payment.charge(order.total, order.id);
+
+    await this.repo.markPaid(order.id, charge.transactionId);
+    await this.notifier.sendReceipt(order.email, order.id);
+
+    return order.id;
+  }
+}
+```
+
 ```mermaid
 classDiagram
     class CheckoutService {
@@ -68,27 +89,6 @@ classDiagram
     CheckoutService *-- PostgresOrderRepository : 依存 (new)
     CheckoutService *-- StripePaymentClient : 依存 (new)
     CheckoutService *-- SmtpNotifier : 依存 (new)
-```
-
-export class CheckoutService {
-  // ❌ 上位のはずなのに、下位の具体クラスを直newしてる
-  private repo = new PostgresOrderRepository();
-  private payment = new StripePaymentClient(process.env.STRIPE_SECRET_KEY!);
-  private notifier = new SmtpNotifier(process.env.SMTP_URL!);
-
-  async checkout(userId: string, items: Item[]) {
-    // ❌ 時間も直取り（テストがしんどくなる）
-    const now = new Date();
-
-    const order = await this.repo.createOrder(userId, items, now);
-    const charge = await this.payment.charge(order.total, order.id);
-
-    await this.repo.markPaid(order.id, charge.transactionId);
-    await this.notifier.sendReceipt(order.email, order.id);
-
-    return order.id;
-  }
-}
 ```
 
 「やりたいこと」を書いてるはずの `CheckoutService` が、

@@ -62,7 +62,7 @@ flowchart TD
 
 ## 3. “迷わない判定フロー”の完成形（テンプレ）🗺️✨
 
-![Entity VO Decision Tree](picture/entity_obj_ts_study_007_entity_vo_decision_tree.png)
+![Entity VO Decision Tree](./picture/entity_obj_ts_study_007_entity_vo_decision_tree.png)
 
 まずはテンプレをそのまま使ってOK！
 （あとで自分の題材に合わせてカスタムするよ〜☺️🎀）

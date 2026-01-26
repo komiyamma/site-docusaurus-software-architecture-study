@@ -6,7 +6,7 @@
 
 ## 1) UseCaseってなに？🍳✨（「アプリのレシピ」だと思ってOK）
 
-![UseCase Recipe](../picture/hex_cs_study_021_usecase_recipe.png)
+![UseCase Recipe](./picture/hex_cs_study_021_usecase_recipe.png)
 
 ```mermaid
 flowchart LR
@@ -292,3 +292,4 @@ AIは雛形づくりが得意だよ〜😆
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures?utm_source=chatgpt.com "Common web application architectures - .NET"
 [3]: https://github.com/ardalis/CleanArchitecture?utm_source=chatgpt.com "ardalis/CleanArchitecture: Clean Architecture Solution ..."
+

@@ -6,7 +6,7 @@
 
 ## 1) まずは超たとえ話🧸🪪
 
-![Identity Haircut](picture/entity_obj_ts_study_004_identity_haircut.png)
+![Identity Haircut](./picture/entity_obj_ts_study_004_identity_haircut.png)
 
 たとえば、あなたが今日「髪型を変えた」💇‍♀️✨
 **見た目（値）は変わった**けど、**あなた本人は同じ人**だよね？
@@ -83,7 +83,7 @@ flowchart TD
 
 ## 5) 図解イメージ：同一性ってこういう感じ🖼️⏳🪪
 
-![Identity Timeline](picture/entity_obj_ts_study_004_identity_timeline.png)
+![Identity Timeline](./picture/entity_obj_ts_study_004_identity_timeline.png)
 
 **同じIDの“同じ注文”**が、時間で変わっていくイメージ👇
 

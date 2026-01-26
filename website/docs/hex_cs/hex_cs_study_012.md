@@ -158,7 +158,7 @@ public class SqlOrderRepository : IOrderRepository
 
 ## 6) ここが「依存が逆転」してる瞬間⚡🔁
 
-![DIP Arrow](../picture/hex_cs_study_012_dip_arrow.png)
+![DIP Arrow](./picture/hex_cs_study_012_dip_arrow.png)
 
 ### Before（事故）😭
 
@@ -306,3 +306,4 @@ AIは便利だけど、**境界ルールは人間が守る**🚦✨
 [2]: https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 Release Notes"
 [3]: https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp?utm_source=chatgpt.com "C# Best Practices - Dangers of Violating SOLID Principles ..."
 [4]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection?utm_source=chatgpt.com "NET dependency injection"
+

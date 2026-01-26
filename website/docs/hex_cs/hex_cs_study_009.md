@@ -15,7 +15,7 @@ Ports（約束）を“現実の世界”につなぐために、**外の都合�
 
 ## 2) Adapterを一言でいうと？🗣️🔌
 
-![Translation Layer](../picture/hex_cs_study_009_translation_layer.png)
+![Translation Layer](./picture/hex_cs_study_009_translation_layer.png)
 
 **Adapter＝Port（interface）の形に合わせて、外側を“変換”してつなぐ人**だよ😆🔁
 
@@ -296,3 +296,4 @@ Adapterは定型が多いから、AIがめっちゃ得意😊✨
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
+

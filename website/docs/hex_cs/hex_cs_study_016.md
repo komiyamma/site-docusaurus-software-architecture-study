@@ -51,7 +51,7 @@ Visual Studio Installer を開いたら、だいたいこれでOK！
 
 ## 3) ソリューション作成（カフェ注文アプリ☕）📦✨
 
-![Solution Building](../picture/hex_cs_study_016_solution_structure.png)
+![Solution Building](./picture/hex_cs_study_016_solution_structure.png)
 
 ```mermaid
 classDiagram
@@ -185,3 +185,4 @@ dotnet new sln --format sln
 [7]: https://learn.microsoft.com/en-us/dotnet/core/compatibility/sdk/10.0/dotnet-new-sln-slnx-default?utm_source=chatgpt.com "`dotnet new sln` defaults to SLNX file format - .NET"
 [8]: https://learn.microsoft.com/ja-jp/dotnet/core/tools/dotnet-new-sdk-templates?utm_source=chatgpt.com "'dotnet new' の .NET の既定のテンプレート - .NET CLI"
 [9]: https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot?utm_source=chatgpt.com "Adding repository custom instructions for GitHub Copilot"
+

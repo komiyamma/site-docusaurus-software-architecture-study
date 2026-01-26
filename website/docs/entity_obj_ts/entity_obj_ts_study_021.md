@@ -15,7 +15,7 @@
 
 ## 2) ACLってなに？（超やさしく）🧸🌉
 
-![ACL Filter](picture/entity_obj_ts_study_021_acl_shield.png)
+![ACL Filter](./picture/entity_obj_ts_study_021_acl_shield.png)
 
 **ACL（Anti-Corruption Layer）**は、
 

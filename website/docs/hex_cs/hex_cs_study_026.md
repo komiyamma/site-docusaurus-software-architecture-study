@@ -68,7 +68,7 @@ public interface IOrderRepository
 
 ## 6) InMemory Adapter 実装（外側）📦🧪
 
-![InMemory Box](../picture/hex_cs_study_026_in_memory_box.png)
+![InMemory Box](./picture/hex_cs_study_026_in_memory_box.png)
 
 ```mermaid
 classDiagram
@@ -216,3 +216,4 @@ AIに雛形を作らせて、**“置き場所と責務” は人間がガード
 
 [1]: https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core?utm_source=chatgpt.com "NET and .NET Core official support policy"
 [2]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "C# 14 の新機能"
+

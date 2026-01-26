@@ -86,7 +86,7 @@ Inbound（だいたい「Inbound Adapter」って呼ぶよ🔌）は、次を担
 
 ## 5) ミニ図で理解しよ〜🖼️🔷
 
-![InterpreterMetaphor](../picture/hex_cs_study_006_interpreter.png)
+![InterpreterMetaphor](./picture/hex_cs_study_006_interpreter.png)
 
 ```mermaid
 flowchart LR
@@ -254,3 +254,4 @@ AIに作らせた後は、人間がここだけチェックしてね✅
 
 [1]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-10.0&utm_source=chatgpt.com "Minimal APIs quick reference"
+

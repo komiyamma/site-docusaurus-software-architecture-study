@@ -8,7 +8,7 @@
 
 ## 1) 外部API/メールは「外の世界」🌍➡️🏠
 
-![Multiple Outbound](../picture/hex_cs_study_029_multiple_outbound.png)
+![Multiple Outbound](./picture/hex_cs_study_029_multiple_outbound.png)
 
 ```mermaid
 flowchart LR
@@ -357,3 +357,4 @@ AIに任せやすいのはここ👇
 [1]: https://learn.microsoft.com/ja-jp/dotnet/core/resilience/http-resilience "回復性がある HTTP アプリを構築する: 主要な開発パターン - .NET | Microsoft Learn"
 [2]: https://learn.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-10.0 "SmtpClient Class (System.Net.Mail) | Microsoft Learn"
 [3]: https://dometrain.com/blog/sending-email-with-dotnet/?srsltid=AfmBOorv18Pho2TZ_VTR7dloBPs_tctLGZcCt5qzCp7mPM9bikdKdhVj&utm_source=chatgpt.com "Sending email with C# in .NET"
+

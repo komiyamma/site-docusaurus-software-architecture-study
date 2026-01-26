@@ -7,7 +7,7 @@
 
 ## 1) Entityってなに？ひとことで言うと…📝✨
 
-![Entity Identity](../picture/hex_cs_study_019_entity_identity.png)
+![Entity Identity](./picture/hex_cs_study_019_entity_identity.png)
 
 ```mermaid
 flowchart LR
@@ -251,3 +251,4 @@ Copilot/Codexにこう聞くと早いよ👇
 
 [1]: https://learn.microsoft.com/en-us/dotnet/api/system.guid.createversion7?view=net-10.0&utm_source=chatgpt.com "Guid.CreateVersion7 Method (System)"
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
+

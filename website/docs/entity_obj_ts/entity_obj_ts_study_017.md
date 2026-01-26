@@ -21,7 +21,7 @@
 
 ## 1. 境界（Boundary）ってなに？🚪🙂
 
-![Boundary Gate](picture/entity_obj_ts_study_017_boundary_gate.png)
+![Boundary Gate](./picture/entity_obj_ts_study_017_boundary_gate.png)
 
 境界は「外の世界（信用できない）」と「内の世界（安全）」の **関所** だよ〜🏯✨
 
@@ -76,7 +76,7 @@ DTO（string/number/null/optionalだらけ） ← まだ危険⚠️
 
 ## 3. Result型と例外、どっち使う？🤔⚖️
 
-![Result Tracks](picture/entity_obj_ts_study_017_result_tracks.png)
+![Result Tracks](./picture/entity_obj_ts_study_017_result_tracks.png)
 
 ### ✅ ざっくり結論
 

@@ -289,6 +289,7 @@ class Program
         Console.ReadLine();
     }
 }
+```
 
 ```mermaid
 graph TD
@@ -314,7 +315,6 @@ graph TD
     
     style Production fill:#fff0f0,stroke:#333
     style Test fill:#f0f8ff,stroke:#333
-```
 ```
 
 ✅ これで「**時刻固定で再現できる**」「**通知が外に漏れない**」が一気にできたね！🎉

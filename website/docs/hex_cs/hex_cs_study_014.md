@@ -7,7 +7,7 @@
 
 ## 1) まず大前提：みんな「中心を守りたい」🛡️❤️
 
-![Arch Friends](../picture/hex_cs_study_014_arch_friends.png)
+![Arch Friends](./picture/hex_cs_study_014_arch_friends.png)
 
 * **中心（Core）＝業務ルール（変わりにくいポリシー）**
 * **外側＝UI/DB/外部API/フレームワーク（変わりやすい仕組み）**
@@ -89,7 +89,7 @@
 
 ## 7) 違いまとめ（混乱ポイントを1発でほどく）🧠✨
 
-![Layered vs Hex](../picture/hex_cs_study_014_layered_vs_hex.png)
+![Layered vs Hex](./picture/hex_cs_study_014_layered_vs_hex.png)
 
 ```mermaid
 flowchart TD
@@ -191,3 +191,4 @@ flowchart TD
 [3]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
 [4]: https://www.thoughtworks.com/insights/blog/architecture/demystify-software-architecture-patterns?utm_source=chatgpt.com "Demystifying software architecture patterns"
 [5]: https://zenn.dev/kkatou/articles/ports-and-adapters-explained?utm_source=chatgpt.com "Ports & Adapters パターン：Hexagonal Architecture ..."
+

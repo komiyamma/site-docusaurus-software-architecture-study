@@ -36,12 +36,15 @@
 
 イメージはこんな感じ👇
 
-```text
-[外側 I/O]  ←変化しやすい→   Console / File / DB / Web / Time …
-      |
-      |  (境界🚧)
-      v
-[内側 ロジック] ←安定させたい→  計算・判断・ルール
+```mermaid
+flowchart TD
+    Outer[外側 I/O 🌪️<br>変化しやすい<br>Console/File/DB/Web/Time]
+    Inner[内側 ロジック 🧠<br>安定させたい<br>計算・判断・ルール]
+    
+    Outer -->|境界🚧| Inner
+    
+    style Outer fill:#fff3e0,stroke:#e65100
+    style Inner fill:#e1f5fe,stroke:#01579b
 ```
 
 ここを分けると何が嬉しいかというと…
@@ -161,6 +164,7 @@ class Program
         Console.WriteLine($"最終価格は {finalPrice} 円だよ〜✨");
     }
 }
+```
 
 ```mermaid
 flowchart TD
@@ -183,7 +187,7 @@ flowchart TD
     style IO_Input fill:#fff3e0,stroke:#e65100
     style IO_Output fill:#fff3e0,stroke:#e65100
 ```
-```
+
 
 ---
 

@@ -21,7 +21,7 @@
 
 ## 1. 今日のお題：レガシーOrderをVO化するよ🛒💥➡️💎
 
-![Refactoring Validation](picture/entity_obj_ts_study_023_safety_net.png)
+![Refactoring Validation](./picture/entity_obj_ts_study_023_safety_net.png)
 
 ありがちな“動くけど怖い”やつを用意するね…！😇  
 **Order が string/number/Date を抱えすぎ**てて、バリデーションもあちこちに散らばってる状態。

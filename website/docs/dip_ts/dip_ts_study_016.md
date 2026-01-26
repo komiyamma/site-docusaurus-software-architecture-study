@@ -74,6 +74,13 @@ export interface FileSystem {
 // 上位が依存していい「ただの型（値）」
 // （よく引用される定義の「2つの文」だよ）([Stackify][4])
 
+// 上位が欲しい「設定」の形（型付き）⚙️
+export type AppConfig = {
+  appMode: "dev" | "prod";
+  reportPath: string;
+};
+```
+
 ```mermaid
 graph TD
     subgraph Bad["❌ 依存が深い (Bad)"]
@@ -88,13 +95,6 @@ graph TD
 
     style Bad fill:#fff0f0,stroke:#ffcccc
     style Good fill:#f0fff0,stroke:#ccffcc
-```
-
-// 上位が欲しい「設定」の形（型付き）⚙️
-export type AppConfig = {
-  appMode: "dev" | "prod";
-  reportPath: string;
-};
 ```
 
 ---

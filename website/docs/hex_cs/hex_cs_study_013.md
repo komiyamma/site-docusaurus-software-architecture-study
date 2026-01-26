@@ -41,7 +41,7 @@ Cockburnの説明でも、Portは“目的のある会話（conversation）”�
 
 ## 3) 「それPort？Adapter？」秒速判定ルール⚡🔍
 
-![Sorting Hat](../picture/hex_cs_study_013_sorting_hat.png)
+![Sorting Hat](./picture/hex_cs_study_013_sorting_hat.png)
 
 迷ったらこの3ステップでOK！😊✨
 
@@ -194,3 +194,4 @@ Core側に置く outbound port として IOrderRepository を interface で作�
 次の第14章では、「似てるところ・違うところ」を“混乱しない順番”で整理していくよ〜😆💖
 
 [1]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
+

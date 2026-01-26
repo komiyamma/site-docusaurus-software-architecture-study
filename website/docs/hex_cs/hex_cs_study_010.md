@@ -68,7 +68,7 @@
 
 ## 4) “矢印” の意味を固定しよう➡️📌
 
-![Dependency Arrows](../picture/hex_cs_study_010_dependency_arrows.png)
+![Dependency Arrows](./picture/hex_cs_study_010_dependency_arrows.png)
 
 図で「A → B」って書いたら、基本こう思ってOK🙆‍♀️
 
@@ -236,3 +236,4 @@ public class MailNotificationService
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-versioning?utm_source=chatgpt.com "Language versioning - C# reference"
 [2]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
+

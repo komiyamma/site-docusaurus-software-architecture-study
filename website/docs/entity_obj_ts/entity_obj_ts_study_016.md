@@ -70,7 +70,7 @@ stateDiagram-v2
 
 ## 4. 遷移表（テーブル）を作ると一気にバグ減る📋✨
 
-![Transition Map](picture/entity_obj_ts_study_016_transition_map.png)
+![Transition Map](./picture/entity_obj_ts_study_016_transition_map.png)
 
 状態とイベントの「許可/禁止」を表にすると、抜けが見えるよ〜👀
 

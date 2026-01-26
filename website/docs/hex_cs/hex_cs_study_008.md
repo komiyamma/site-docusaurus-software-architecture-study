@@ -7,7 +7,7 @@
 
 ## 1) Portを一言でいうと？🔌✨
 
-![Plug Shape](../picture/hex_cs_study_008_plug_shape.png)
+![Plug Shape](./picture/hex_cs_study_008_plug_shape.png)
 
 Portはね、**Coreと外側（UI/DB/外部APIなど）をつなぐ“コンセントの口”**みたいなものだよ⚡️😊
 で、その“口の形”をC#で表すのが **`interface`** って感じ！
@@ -268,3 +268,4 @@ public interface IClock
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface?utm_source=chatgpt.com "interface keyword - C# reference"
 [2]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/?utm_source=chatgpt.com "Announcing .NET 10"
+

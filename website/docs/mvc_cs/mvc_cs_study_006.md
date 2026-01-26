@@ -278,6 +278,16 @@ public class TodoController
         }
     }
 
+
+    private void HandleList()
+    {
+        // Controllerは「取ってきて表示して〜」って段取りするだけ
+        var items = _store.GetAll();
+        _view.ShowList(items);
+    }
+}
+```
+
 ```mermaid
 flowchart TD
     Start([開始]) --> Welcome[Welcome表示]
@@ -295,15 +305,6 @@ flowchart TD
     Help --> Prompt
     Unknown --> Prompt
     Exit --> Stop([停止])
-```
-
-    private void HandleList()
-    {
-        // Controllerは「取ってきて表示して〜」って段取りするだけ
-        var items = _store.GetAll();
-        _view.ShowList(items);
-    }
-}
 ```
 
 ---

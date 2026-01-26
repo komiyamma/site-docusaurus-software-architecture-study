@@ -53,7 +53,7 @@ Adapters（Outbound側のプロジェクト）に入れるよ！
 
 ## 2) 方針：DomainモデルとDBモデルは分ける 💎🆚🗄️
 
-![DB Adapter](../picture/hex_cs_study_028_db_adapter.png)
+![DB Adapter](./picture/hex_cs_study_028_db_adapter.png)
 
 ```mermaid
 flowchart LR
@@ -318,3 +318,4 @@ AIにお願いするのはめちゃアリ！😆 ただし守るルールはこ�
 [5]: https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?utm_source=chatgpt.com "Migrations Overview - EF Core"
 [6]: https://learn.microsoft.com/ja-jp/ef/core/dbcontext-configuration/?utm_source=chatgpt.com "DbContext の有効期間、構成、および初期化 - EF Core"
 [7]: https://learn.microsoft.com/en-us/ef/core/cli/dotnet?utm_source=chatgpt.com "EF Core tools reference (.NET CLI)"
+

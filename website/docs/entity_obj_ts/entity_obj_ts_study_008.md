@@ -19,7 +19,7 @@
 
 ## 8-2. まずはイメージ図🧠➡️🧱
 
-![Validation Gate](picture/entity_obj_ts_study_008_validation_gate.png)
+![Validation Gate](./picture/entity_obj_ts_study_008_validation_gate.png)
 
 「VO」は入口で止めるのが命！🔥
 

@@ -182,7 +182,7 @@ graph LR
 
 ## 5) 図解イメージ：更新は「入口1本化」🚪✨
 
-![Update Entry Point](picture/entity_obj_ts_study_006_update_entry_point.png)
+![Update Entry Point](./picture/entity_obj_ts_study_006_update_entry_point.png)
 
 ```text
 外の世界🌍

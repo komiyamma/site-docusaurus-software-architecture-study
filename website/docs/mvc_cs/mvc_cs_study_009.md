@@ -192,18 +192,6 @@ public sealed class TodoItem
         );
     }
 
-```mermaid
-flowchart TD
-    Start([Create呼び出し]) --> Norm[タイトルの空白削除]
-    Norm --> CheckTitle{空 or 長すぎ?}
-    CheckTitle -- Yes --> Err1[例外: Titleエラー]
-    CheckTitle -- No --> CheckDate{期限が過去?}
-    CheckDate -- Yes --> Err2[例外: DueDateエラー]
-    CheckDate -- No --> CheckEnum{Priority不正?}
-    CheckEnum -- Yes --> Err3[例外: Enumエラー]
-    CheckEnum -- No --> Success([正常作成🎉])
-```
-
     public void Rename(string newTitle)
     {
         var normalized = NormalizeTitle(newTitle);
@@ -239,6 +227,18 @@ flowchart TD
     private static string NormalizeTitle(string? title)
         => (title ?? "").Trim();
 }
+```
+
+```mermaid
+flowchart TD
+    Start([Create呼び出し]) --> Norm[タイトルの空白削除]
+    Norm --> CheckTitle{空 or 長すぎ?}
+    CheckTitle -- Yes --> Err1[例外: Titleエラー]
+    CheckTitle -- No --> CheckDate{期限が過去?}
+    CheckDate -- Yes --> Err2[例外: DueDateエラー]
+    CheckDate -- No --> CheckEnum{Priority不正?}
+    CheckEnum -- Yes --> Err3[例外: Enumエラー]
+    CheckEnum -- No --> Success([正常作成🎉])
 ```
 
 ### 🌟ここが「MVCの美しさ」ポイント

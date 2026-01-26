@@ -10,7 +10,7 @@
 
 ## 1) まずイメージ！Mapperってどこにいるの？🗺️✨
 
-![Mapper Bridge](picture/entity_obj_ts_study_020_mapper_bridge.png)
+![Mapper Bridge](./picture/entity_obj_ts_study_020_mapper_bridge.png)
 
 ドメイン（あなたの世界のルール）を、DBの形に合わせてねじ曲げたくない…！😵‍💫
 そこで「翻訳係」= **Mapper** が入るよ💁‍♀️💕

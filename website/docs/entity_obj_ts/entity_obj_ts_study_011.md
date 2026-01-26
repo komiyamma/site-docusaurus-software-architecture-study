@@ -278,7 +278,7 @@ describe("Tags", () => {
 
 ## 10) ミニ図解：Set / List 判断マップ🗺️✨
 
-![Set vs List Sign](picture/entity_obj_ts_study_011_set_vs_list_sign.png)
+![Set vs List Sign](./picture/entity_obj_ts_study_011_set_vs_list_sign.png)
 
 * 重複NG & 順序意味なし → **Set（集合）** 🧺
 * 順序が意味あり → **List（配列）** 📜

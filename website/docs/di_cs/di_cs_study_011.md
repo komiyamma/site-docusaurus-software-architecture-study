@@ -81,6 +81,7 @@ public static class Program
         service.Export(); // 実行時に落ちる可能性大💥
     }
 }
+```
 
 ```mermaid
 flowchart TD
@@ -92,7 +93,7 @@ flowchart TD
     
     style D fill:#ffcccc,stroke:#d00
 ```
-```
+
 
 ### ✅ After：コンストラクタ注入に直す（王道🥇）
 

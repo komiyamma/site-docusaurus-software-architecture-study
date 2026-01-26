@@ -7,7 +7,7 @@
 
 ## 0. まず結論：差し替えで変えたいのは“外側だけ”🛡️✨
 
-![Adapter Swap](../picture/hex_cs_study_027_adapter_swap.png)
+![Adapter Swap](./picture/hex_cs_study_027_adapter_swap.png)
 
 ```mermaid
 flowchart TD
@@ -228,3 +228,4 @@ AIに作らせたら、人間はここだけ見る👀✨
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [3]: https://dotnet.microsoft.com/ja-jp/platform/support/policy/dotnet-core?utm_source=chatgpt.com ".NET および .NET Core の公式サポート ポリシー"
 [4]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 リリース ノート"
+

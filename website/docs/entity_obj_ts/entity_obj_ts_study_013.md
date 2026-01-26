@@ -17,7 +17,7 @@
 
 ## 1. まずは“差し替え”って何？🔁🤔
 
-![Swappable Battery](picture/entity_obj_ts_study_013_swappable_battery.png)
+![Swappable Battery](./picture/entity_obj_ts_study_013_swappable_battery.png)
 
 たとえば、会員のメールアドレスを変更したいとするよね📧
 
@@ -57,7 +57,7 @@ Orderが持つVOはこんな感じ👇
 
 ## 3. 図解イメージ（頭の中でOK）🧠🗺️
 
-![VO Replacement Flow](picture/entity_obj_ts_study_013_vo_replacement_flow.png)
+![VO Replacement Flow](./picture/entity_obj_ts_study_013_vo_replacement_flow.png)
 
 * 外から来るのはだいたいプリミティブ（string/number）
 * 中に入れるときにVOで固める💎

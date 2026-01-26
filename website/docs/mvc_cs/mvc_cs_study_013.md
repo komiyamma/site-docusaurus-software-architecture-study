@@ -168,16 +168,6 @@ public sealed class TodoFileStore
         }
     }
 
-```mermaid
-flowchart TD
-    Start([Save呼び出し]) --> Serialize[JSON化]
-    Serialize --> WriteTmp[1. .tmpファイルに書き込み]
-    WriteTmp --> Replace[2. File.Replace実行]
-    Replace --> Atom{原子的に置き換え}
-    Atom -->|成功| Done([完了])
-    Atom -->|失敗| Safe[元のファイルは無事]
-```
-
     private void EnsureDirectory()
     {
         var dir = Path.GetDirectoryName(_filePath);
@@ -190,6 +180,16 @@ flowchart TD
     private static TodoFileData NewEmpty()
         => new(SchemaVersion: 1, NextId: 1, Items: new List<TodoItemDto>());
 }
+```
+
+```mermaid
+flowchart TD
+    Start([Save呼び出し]) --> Serialize[JSON化]
+    Serialize --> WriteTmp[1. .tmpファイルに書き込み]
+    WriteTmp --> Replace[2. File.Replace実行]
+    Replace --> Atom{原子的に置き換え}
+    Atom -->|成功| Done([完了])
+    Atom -->|失敗| Safe[元のファイルは無事]
 ```
 
 > ちょい注意⚠️

@@ -12,7 +12,7 @@ Visual Studio 2022を使ってる場合も、2026年1月時点で 17.14 系が�
 
 ## 1) Inbound Portってなに？🤔🔌
 
-![Inbound Port Door](../picture/hex_cs_study_022_inbound_port_door.png)
+![Inbound Port Door](./picture/hex_cs_study_022_inbound_port_door.png)
 
 ```mermaid
 flowchart LR
@@ -280,3 +280,4 @@ public class CreateOrderUseCaseTests
 [7]: https://chatgpt.com/c/6971d123-fea8-8322-9f32-6a5f069ca40f "第5章 ポートとアダプター"
 [8]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [9]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2022/release-history?utm_source=chatgpt.com "Visual Studio 2022 リリース履歴"
+

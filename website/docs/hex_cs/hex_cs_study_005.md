@@ -51,7 +51,7 @@
 
 ## 3) Coreが主役って、どういう形？🔷🏠
 
-![Stable Core](../picture/hex_cs_study_005_stable_core.png)
+![Stable Core](./picture/hex_cs_study_005_stable_core.png)
 
 イメージはこう👇（ざっくりでOK！）
 
@@ -237,3 +237,4 @@ AIにはこう頼むと強いよ👇
 [1]: https://dotnet.microsoft.com/en-US/download/dotnet/10.0?utm_source=chatgpt.com "Download .NET 10.0 (Linux, macOS, and Windows) | .NET"
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [3]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 リリース ノート"
+

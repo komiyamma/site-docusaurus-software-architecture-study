@@ -7,7 +7,7 @@
 
 ## 1) なんでヘキサだと “Coreテスト” が楽なの？🔷🧠
 
-![Core Test](../picture/hex_cs_study_033_core_test.png)
+![Core Test](./picture/hex_cs_study_033_core_test.png)
 
 ```mermaid
 flowchart LR
@@ -348,3 +348,4 @@ Coreが固まってるからこそ、外側は安心して “別枠” で育�
 [6]: https://learn.microsoft.com/en-us/dotnet/core/testing/migrating-vstest-microsoft-testing-platform?utm_source=chatgpt.com "Migration guide from VSTest to Microsoft.Testing.Platform"
 [7]: https://learn.microsoft.com/en-us/dotnet/core/testing/microsoft-testing-platform-config?utm_source=chatgpt.com "Microsoft.Testing.Platform config options - .NET"
 [8]: https://learn.microsoft.com/ja-jp/dotnet/core/testing/unit-testing-mstest-runner-intro?utm_source=chatgpt.com "MSTest での Microsoft.Testing.Platform のサポート ..."
+

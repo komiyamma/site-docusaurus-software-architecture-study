@@ -44,7 +44,7 @@ graph TD
 
 ## 2) VOの三大キモ💎💎💎
 
-![VO Three Pillars](picture/entity_obj_ts_study_005_vo_three_pillars.png)
+![VO Three Pillars](./picture/entity_obj_ts_study_005_vo_three_pillars.png)
 
 ### ① 不変（Immutable）🔒
 

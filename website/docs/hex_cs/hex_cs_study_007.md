@@ -6,7 +6,7 @@
 
 ## 7.1 Outboundってなに？まずは一言で！🧠✨
 
-![Outbound Plug](../picture/hex_cs_study_007_outbound_plug.png)
+![Outbound Plug](./picture/hex_cs_study_007_outbound_plug.png)
 
 Outbound（アウトバウンド）は、**Core（中心のロジック）が、外部の何かを使いたいときの“出口”**だよ〜➡️🚪
 
@@ -286,3 +286,4 @@ AIは雛形に強いけど、**境界ルール（Coreを汚さない）は人間
 [1]: https://alistair.cockburn.us/hexagonal-architecture "hexagonal-architecture"
 [2]: https://learn.microsoft.com/en-us/dotnet/standard/datetime/timeprovider-overview "What is the TimeProvider class - .NET | Microsoft Learn"
 [3]: https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview "What's new in .NET 10 | Microsoft Learn"
+

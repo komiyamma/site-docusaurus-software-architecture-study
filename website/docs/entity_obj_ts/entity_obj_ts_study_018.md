@@ -10,7 +10,7 @@
 
 ## まず結論：DBは“保管庫”、ドメインは“ルールの世界”🏦📘
 
-![Shape Shifter](picture/entity_obj_ts_study_018_shape_shifter.png)
+![Shape Shifter](./picture/entity_obj_ts_study_018_shape_shifter.png)
 
 DB（永続化）は、データを安全に保管して取り出すための都合（型・正規化・ID・JOIN・NULL・インデックス…）がいっぱい😵‍💫
 でもドメイン（業務ルール）は、「支払い済みはキャンセルできない」とか「金額はマイナス禁止」みたいな**意味**が中心💡💖

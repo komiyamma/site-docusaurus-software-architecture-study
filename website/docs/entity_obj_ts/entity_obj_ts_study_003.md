@@ -93,7 +93,7 @@ stateDiagram-v2
 
 ## 5) 次に「名詞」と「動詞」を抜き出す🧠🔍
 
-![Mining Words](picture/entity_obj_ts_study_003_mining_words.png)
+![Mining Words](./picture/entity_obj_ts_study_003_mining_words.png)
 
 仕様から、単語を拾うだけでOK！
 
@@ -160,7 +160,7 @@ stateDiagram-v2
 
 ## 8) 図解イメージ（今日やったこと）🗺️✨
 
-![Modeling Flow](picture/entity_obj_ts_study_003_modeling_flow.png)
+![Modeling Flow](./picture/entity_obj_ts_study_003_modeling_flow.png)
 
 ```txt
 超ミニ仕様（10行）

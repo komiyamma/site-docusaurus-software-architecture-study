@@ -20,7 +20,7 @@ Repositoryはひと言でいうと…
 * でも「保存する」「取り出す」は必要だよね？
 * だから **“こういう形で保存/取得できるよ”という約束（interface）** を先に決める✨
 
-![Repositoryの窓口イメージ](picture/entity_obj_ts_study_019_repository_window.png)
+![Repositoryの窓口イメージ](./picture/entity_obj_ts_study_019_repository_window.png)
 
 ---
 
@@ -68,7 +68,7 @@ classDiagram
     InMemoryOrderRepository ..|> OrderRepository : 実装 (Implements)
 ```
 
-![DIPのイメージ](picture/entity_obj_ts_study_019_dip_inversion.png)
+![DIPのイメージ](./picture/entity_obj_ts_study_019_dip_inversion.png)
 
 この「外側が内側に合わせる」感じがDIP（依存性逆転）だよ〜🌀✨
 

@@ -7,7 +7,7 @@
 
 ## 1) 「ぐちゃぐちゃ構造」ってどんな状態？🍝😵‍💫
 
-![Spaghetti Controller](../picture/hex_cs_study_004_spaghetti_controller.png)
+![Spaghetti Controller](./picture/hex_cs_study_004_spaghetti_controller.png)
 
 ざっくり言うと、
 
@@ -193,7 +193,7 @@ public class OrdersController : ControllerBase
 
 ## 7) どう直す？（ヘキサへの“脱出ルート”）🚪🔷✨
 
-![Escape Steps](../picture/hex_cs_study_004_escape_steps.png)
+![Escape Steps](./picture/hex_cs_study_004_escape_steps.png)
 
 この章では“完成形”まで行かなくてOK！
 まずは **分け方の順番** を覚えよう😊
@@ -296,3 +296,4 @@ C# も **C# 14（2025年11月リリース）** が最新安定として整理さ
 [2]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [3]: https://dotnet.microsoft.com/en-us/platform/support/policy?utm_source=chatgpt.com "The official .NET support policy"
 [4]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-version-history?utm_source=chatgpt.com "C# の歴史"
+

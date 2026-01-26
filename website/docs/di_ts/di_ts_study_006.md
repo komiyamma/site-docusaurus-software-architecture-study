@@ -15,7 +15,9 @@ sequenceDiagram
     Note over Main, Func: Step 2: 入力だけで使う (Inputのみ)
     Main->>Func: registerUser("a@b.com")
     Func-->>Main: { userId: "..." }
-```分かると、あとが一気にラクになる✨
+```
+
+分かると、あとが一気にラクになる✨
 
 ---
 
@@ -58,7 +60,7 @@ classDiagram
     Logger <|.. ConsoleLogger : 実装
     Clock <|.. SystemClock : 実装
     KeyValueStore <|.. LsStore : 実装
-```きる🔑📦
+```
 
 ---
 
@@ -156,7 +158,7 @@ flowchart TD
     Handler -->|"2. データ渡す"| Logic
     Logic -->|"3. 結果返す"| Handler
     Handler -->|"4. 保存"| IO_DB
-```の？🔑（＝実行時にいるもの）
+```
 
 TypeScriptでDIするときのキーはだいたいこのへん👇
 

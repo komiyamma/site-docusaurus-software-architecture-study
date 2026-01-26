@@ -7,7 +7,7 @@
 
 ## 1) 今日のゴール🎯✨
 
-![Thin Controller](../picture/hex_cs_study_024_thin_controller.png)
+![Thin Controller](./picture/hex_cs_study_024_thin_controller.png)
 
 ```mermaid
 flowchart TD
@@ -275,3 +275,4 @@ Visual Studio 2026 は Copilot まわりの統合も強化され続けてるの�
 [2]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes "Visual Studio 2026 リリース ノート | Microsoft Learn"
 [3]: https://dotnet.microsoft.com/en-us/download/dotnet "Browse all .NET versions to download | .NET"
 [4]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-versioning?utm_source=chatgpt.com "Language versioning - C# reference"
+

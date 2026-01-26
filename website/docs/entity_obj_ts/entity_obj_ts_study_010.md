@@ -30,7 +30,7 @@ Periodは「点」じゃなくて「範囲」だよ〜！✨
 
 ## 2) いきなり実装しないで！まず「ルール決め」📝✨
 
-![Period Range](picture/entity_obj_ts_study_010_period_range.png)
+![Period Range](./picture/entity_obj_ts_study_010_period_range.png)
 
 期間って、**どっちも正しそうなルールが複数ある** のが難しいポイント😵‍💫
 だから最初に “言葉と仕様” を決めちゃうのがコツだよ💡

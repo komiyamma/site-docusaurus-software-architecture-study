@@ -35,7 +35,7 @@
 
 ## 今日の主役：入口で守る、ってどういうこと？🚪🛡️
 
-![Gatekeeper](picture/entity_obj_ts_study_015_gatekeeper.png)
+![Gatekeeper](./picture/entity_obj_ts_study_015_gatekeeper.png)
 
 ポイントはコレ👇✨
 

@@ -313,23 +313,6 @@ public sealed class TodoController
         return true;
     }
 
-```mermaid
-sequenceDiagram
-    participant C as Controller
-    participant M as Model (TodoList)
-    participant V as View
-
-    C->>M: Add(title)
-    alt タイトルOK
-        M-->>C: 成功
-        C->>V: ShowMessage("追加したよ")
-        C->>V: Render(items)
-    else タイトル空 (ArgumentException)
-        M-->>C: 例外発生
-        C->>V: ShowMessage("追加できなかったよ")
-    end
-```
-
     private bool HandleDone(string numberText)
     {
         if (!int.TryParse(numberText.Trim(), out var n))
@@ -350,6 +333,23 @@ sequenceDiagram
         return true;
     }
 }
+```
+
+```mermaid
+sequenceDiagram
+    participant C as Controller
+    participant M as Model (TodoList)
+    participant V as View
+
+    C->>M: Add(title)
+    alt タイトルOK
+        M-->>C: 成功
+        C->>V: ShowMessage("追加したよ")
+        C->>V: Render(items)
+    else タイトル空 (ArgumentException)
+        M-->>C: 例外発生
+        C->>V: ShowMessage("追加できなかったよ")
+    end
 ```
 
 ここが第7章の核心💖

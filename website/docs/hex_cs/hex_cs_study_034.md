@@ -35,7 +35,7 @@
 
 ## 🧱 テストの種類を整理（ここ超大事）🎯
 
-![Adapter Test](../picture/hex_cs_study_034_adapter_test.png)
+![Adapter Test](./picture/hex_cs_study_034_adapter_test.png)
 
 ```mermaid
 flowchart LR
@@ -276,3 +276,4 @@ AIに任せやすいのはここ👇
 [2]: https://dotnet.testcontainers.org/modules/postgres/?utm_source=chatgpt.com "PostgreSQL"
 [3]: https://xunit.net/?utm_source=chatgpt.com "xUnit.net: Home"
 [4]: https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1?view=aspnetcore-10.0&utm_source=chatgpt.com "WebApplicationFactory<TEntryPoint> Class"
+

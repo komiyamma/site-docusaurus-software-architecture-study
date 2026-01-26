@@ -21,7 +21,9 @@ flowchart LR
     Waiter -- "伝達(Fetch)" --> Customer
     Customer -- "食事(Data)" --> Waiter
     Waiter -- "料理(Return)" --> Logic
-```🧪✨） ([Vitest][2])
+```
+
+ ([Vitest][2])
 
 ---
 

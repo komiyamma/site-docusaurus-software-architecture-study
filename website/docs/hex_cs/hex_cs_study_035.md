@@ -20,7 +20,7 @@ IDEも **Visual Studio 2026** が提供されてる流れだよ🪟✨ ([Microso
 
 ## 35-1 エラーは3種類に分けるのが勝ち🧯✨
 
-![Final Fort](../picture/hex_cs_study_035_final_fort.png)
+![Final Fort](./picture/hex_cs_study_035_final_fort.png)
 
 ```mermaid
 mindmap
@@ -364,3 +364,4 @@ GitHub公式でも「**関係あるファイルを開いて、関係ないのは
 [7]: https://opentelemetry.io/docs/languages/dotnet/?utm_source=chatgpt.com "NET"
 [8]: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/distributed-tracing-collection-walkthroughs?utm_source=chatgpt.com "Collect a distributed trace - .NET"
 [9]: https://docs.github.com/en/copilot/get-started/best-practices?utm_source=chatgpt.com "Best practices for using GitHub Copilot"
+

@@ -59,7 +59,7 @@ Domainを中心にすると、外側（UI/DB/API）が変わっても耐えら�
 
 ## 4. カフェ注文アプリ：Domainの“言葉”を集めよう📝☕
 
-![Word Mapping](../picture/hex_cs_study_018_word_mapping.png)
+![Word Mapping](./picture/hex_cs_study_018_word_mapping.png)
 
 ```mermaid
 mindmap
@@ -286,3 +286,4 @@ AIはめっちゃ頼れるんだけど、**境界ルール（何をDomainに入�
 [1]: https://dotnet.microsoft.com/en-US/download/dotnet/10.0?utm_source=chatgpt.com "Download .NET 10.0 (Linux, macOS, and Windows) | .NET"
 [2]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [3]: https://learn.microsoft.com/ja-jp/visualstudio/releases/2026/release-notes?utm_source=chatgpt.com "Visual Studio 2026 リリース ノート"
+

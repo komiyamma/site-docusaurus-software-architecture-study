@@ -9,7 +9,7 @@
 
 ## 1) DIを一言でいうと？🧩✨
 
-![DI Injection](../picture/hex_cs_study_030_di_injection.png)
+![DI Injection](./picture/hex_cs_study_030_di_injection.png)
 
 ```mermaid
 flowchart LR
@@ -210,3 +210,4 @@ DIは“型と置き場所”が大事だから、AIに頼む時は指示をハ�
 
 [1]: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-10.0&utm_source=chatgpt.com "Dependency injection in ASP.NET Core"
 [2]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection?utm_source=chatgpt.com "NET dependency injection"
+

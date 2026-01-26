@@ -341,6 +341,8 @@ public sealed class TodoService
         => _repo.DeleteAsync(id);
 }
 
+```
+
 ```mermaid
 sequenceDiagram
     participant S as Service
@@ -350,10 +352,9 @@ sequenceDiagram
 
     S->>R: AddAsync(item)
     R->>F: Load()
-    F-->>R: List&lt;TodoItem&gt;
+    F-->>R: List of TodoItem
     R->>R: items.Add(item)
     R->>F: Save(items)
-```
 ```
 
 ---

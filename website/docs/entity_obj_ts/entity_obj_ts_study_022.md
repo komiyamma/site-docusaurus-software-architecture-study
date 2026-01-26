@@ -44,7 +44,7 @@ VitestはVite由来で高速＆設定が軽め、TSとも相性が良いのが�
 3. **境界テスト（DTO→ドメイン）**：5〜10% 🚪⚠️
 4. **Mapperテスト（Domain↔Record）**：5〜10% 🔁💾
 
-![Test Distribution Cake](picture/entity_obj_ts_study_022_test_distribution_cake.png)
+![Test Distribution Cake](./picture/entity_obj_ts_study_022_test_distribution_cake.png)
 
 ```mermaid
 block-beta

@@ -15,7 +15,7 @@
 
 ## 1) まずは一枚絵でイメージ🖼️🔷
 
-![Roles Trio](../picture/hex_cs_study_003_roles_trio.png)
+![Roles Trio](./picture/hex_cs_study_003_roles_trio.png)
 
 ざっくりこういう関係だよ👇
 
@@ -378,3 +378,4 @@ AIは超便利だけど、**境界を守るのは人間の仕事**🚦😊
 [1]: https://alistair.cockburn.us/hexagonal-architecture?utm_source=chatgpt.com "hexagonal-architecture - Alistair Cockburn"
 [2]: https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html?utm_source=chatgpt.com "Hexagonal architecture pattern - AWS Prescriptive Guidance"
 [3]: https://learn.microsoft.com/ja-jp/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "C# 14 の新機能"
+

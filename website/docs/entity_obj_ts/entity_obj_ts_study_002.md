@@ -18,7 +18,7 @@
 
 ## 1. まず入れるもの（最小セット）📦✨
 
-![Modern Toolkit](picture/entity_obj_ts_study_002_modern_toolkit.png)
+![Modern Toolkit](./picture/entity_obj_ts_study_002_modern_toolkit.png)
 
 ### ✅ VS Code
 

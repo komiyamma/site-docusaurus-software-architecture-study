@@ -27,7 +27,7 @@
 
 ## 2. EntityとVOを30秒でつかむ⌛🧸
 
-![Entity vs Value](picture/entity_obj_ts_study_001_identity_vs_value.png)
+![Entity vs Value](./picture/entity_obj_ts_study_001_identity_vs_value.png)
 
 ```mermaid
 mindmap
@@ -137,7 +137,7 @@ flowchart TD
 
 ## 6. 図解イメージ（頭の中の地図）🗺️✨
 
-![Entity VO Map](picture/entity_obj_ts_study_001_entity_vo_map.png)
+![Entity VO Map](./picture/entity_obj_ts_study_001_entity_vo_map.png)
 
 「追跡したいもの（Entity）」の中に、「ちゃんとした値（VO）」を入れていく感じだよ😊
 

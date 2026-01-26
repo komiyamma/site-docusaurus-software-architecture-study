@@ -20,7 +20,7 @@
 
 ## 1) MoneyをVOにする理由（ここ超大事）💡💰
 
-![Money Separation](picture/entity_obj_ts_study_009_money_separation.png)
+![Money Separation](./picture/entity_obj_ts_study_009_money_separation.png)
 
 ### ❌ `number` のお金が危険な理由
 
@@ -85,7 +85,7 @@ flowchart LR
 
 ## 4) 図解イメージ（責務の置き場所）🧩🎨
 
-![Money Responsibility](picture/entity_obj_ts_study_009_money_responsibility.png)
+![Money Responsibility](./picture/entity_obj_ts_study_009_money_responsibility.png)
 
 * Entity（例：Order）は「何をしたいか（目的）」
 * Money は「お金計算の正しさ（ルール）」

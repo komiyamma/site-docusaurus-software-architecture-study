@@ -17,7 +17,7 @@
 
 ## 2) Outbound Port（Repository）って何？🤔🔌
 
-![Repository Interface](../picture/hex_cs_study_025_repository_interface.png)
+![Repository Interface](./picture/hex_cs_study_025_repository_interface.png)
 
 ```mermaid
 flowchart LR
@@ -258,3 +258,4 @@ Task<IReadOnlyList<Order>> ListRecentAsync(int take, CancellationToken cancellat
 [2]: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design?utm_source=chatgpt.com "Designing the infrastructure persistence layer - .NET"
 [3]: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1068?utm_source=chatgpt.com "CA1068: CancellationToken parameters must come last"
 [4]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
+

@@ -9,7 +9,7 @@
 
 ## 1) なんで「Core→DB参照」がダメなの？🥲🗄️
 
-![No Outside Deps](../picture/hex_cs_study_011_no_outside_deps.png)
+![No Outside Deps](./picture/hex_cs_study_011_no_outside_deps.png)
 
 ### 理由①：差し替えたくなった瞬間、Coreが巻き添え💥
 
@@ -50,7 +50,7 @@ flowchart TD
 
 ## 3) NG例：CoreがEF Coreを直に呼んでしまう😱🧨
 
-![Bad Reference](../picture/hex_cs_study_011_bad_reference.png)
+![Bad Reference](./picture/hex_cs_study_011_bad_reference.png)
 
 「動くからOK」でやりがちなやつ…！でも後で泣きます😭
 
@@ -213,3 +213,4 @@ public class EfOrderRepository : IOrderRepository
 [1]: https://learn.microsoft.com/ja-jp/ef/core/what-is-new/ef-core-10.0/whatsnew?utm_source=chatgpt.com "EF Core 10 の新機能"
 [2]: https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=visualstudio&utm_source=chatgpt.com "Architecture analysis & modeling tools - Visual Studio"
 [3]: https://github.com/TNG/ArchUnitNET?utm_source=chatgpt.com "TNG/ArchUnitNET: A C# architecture test library to specify ..."
+

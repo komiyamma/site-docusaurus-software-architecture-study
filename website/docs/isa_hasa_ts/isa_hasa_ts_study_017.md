@@ -228,6 +228,8 @@ export class OrderPricing {
   }
 }
 
+```
+
 ```mermaid
 classDiagram
   class OrderPricing {
@@ -242,7 +244,6 @@ classDiagram
   OrderPricing --> DiscountPolicy
   OrderPricing --> ShippingStrategy
   OrderPricing --> GiftFeePolicy
-```
 ```
 
 ### Step D：テストが通ることを確認✅🎉

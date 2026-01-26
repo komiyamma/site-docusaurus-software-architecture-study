@@ -236,3 +236,4 @@ C#初級〜中級／設計超入門／ヘキサ初めて／Windows／Visual Stud
   * Port/Adapterが役割通り？
   * InMemory↔DB差し替えできる？ 🔁
 
+

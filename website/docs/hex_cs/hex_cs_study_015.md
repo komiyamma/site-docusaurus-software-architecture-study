@@ -14,7 +14,7 @@
 
 ## 15.2 今回つくるミニアプリの姿 ☕🧾
 
-![Cafe Concept](../picture/hex_cs_study_015_cafe_concept.png)
+![Cafe Concept](./picture/hex_cs_study_015_cafe_concept.png)
 
 ```mermaid
 flowchart LR
@@ -206,3 +206,4 @@ ASP.NET Core も .NET 10 で色々強化されてて、Minimal APIのバリデ�
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-10.0?view=aspnetcore-10.0&utm_source=chatgpt.com "What's new in ASP.NET Core in .NET 10"
+

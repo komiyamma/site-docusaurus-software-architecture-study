@@ -37,7 +37,7 @@ app.Run();
 
 ## 3) 3大ライフタイム：AddTransient / AddScoped / AddSingleton 🕒✨
 
-![Lifetime Chart](../picture/hex_cs_study_031_lifetime_chart.png)
+![Lifetime Chart](./picture/hex_cs_study_031_lifetime_chart.png)
 
 ```mermaid
 sequenceDiagram
@@ -256,3 +256,4 @@ AIに頼むと速いところ👇
 必要なら、この章の内容を **カフェ注文アプリの具体コード（Port/Adapter/UseCase/Program.csの一式）** に落として、ちゃんと動く形でテンプレ化して渡すよ〜☕🧾💖
 
 [1]: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection "Dependency injection - .NET | Microsoft Learn"
+

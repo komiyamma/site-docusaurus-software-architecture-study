@@ -68,6 +68,15 @@ export type Result<T, E> =
 ```ts
 // 上位に見せていい「失敗」だけを厳選する🧹✨
 
+export type PaymentError =
+  | { kind: "timeout" }                        // 時間切れ⏰
+  | { kind: "network" }                        // ネットワーク不調📶
+  | { kind: "unauthorized" }                   // 認証系🔑
+  | { kind: "rate_limited"; retryAfterSec?: number } // 混雑🚦
+  | { kind: "declined"; reason?: string }      // 支払い拒否🙅‍♀️
+  | { kind: "unexpected"; message: string };   // 想定外😵
+```
+
 ```mermaid
 sequenceDiagram
     participant Biz as 上位 (Service)
@@ -87,14 +96,6 @@ sequenceDiagram
     end
 ```
 
-export type PaymentError =
-  | { kind: "timeout" }                        // 時間切れ⏰
-  | { kind: "network" }                        // ネットワーク不調📶
-  | { kind: "unauthorized" }                   // 認証系🔑
-  | { kind: "rate_limited"; retryAfterSec?: number } // 混雑🚦
-  | { kind: "declined"; reason?: string }      // 支払い拒否🙅‍♀️
-  | { kind: "unexpected"; message: string };   // 想定外😵
-```
 
 ## ✅ 境界（Port）インターフェース🧩🚪
 

@@ -53,7 +53,7 @@ DB版（EF Core など）は第28章あたりで増やせばOKだから、今は
 
 ## 3) どこに何を置く？「住所」テンプレ📮✨
 
-![Folder Organization](../picture/hex_cs_study_017_filing_system.png)
+![Folder Organization](./picture/hex_cs_study_017_filing_system.png)
 
 ```mermaid
 mindmap
@@ -290,3 +290,4 @@ AIは「住所決め」にも使えるよ〜😆🧠
 
 [1]: https://dotnet.microsoft.com/en-us/download/dotnet "Browse all .NET versions to download | .NET"
 [2]: https://github.com/BenMorris/NetArchTest?utm_source=chatgpt.com "BenMorris/NetArchTest: A fluent API for .Net that can ..."
+

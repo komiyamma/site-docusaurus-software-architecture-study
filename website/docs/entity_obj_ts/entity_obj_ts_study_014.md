@@ -54,7 +54,7 @@ Aggregate（集約）はひとことで言うと…
 
 ## 3) 図でイメージ掴も〜🖼️✨
 
-![Aggregate Root Gate](picture/entity_obj_ts_study_014_aggregate_root_gate.png)
+![Aggregate Root Gate](./picture/entity_obj_ts_study_014_aggregate_root_gate.png)
 
 ### 🙅‍♀️ダメな構造（外から子を直接触れる）
 

@@ -58,24 +58,6 @@ type Entry = { userId: string; grade: 1 | 2 | 3 | 4; wantsAfterParty: boolean };
 
 export async function submitEntry(entry: Entry) {
 
-```mermaid
-flowchart TD
-    Func[submitEntry]
-    Calc[Calc: total]
-    Log[SideEffect: console.log]
-    Net[SideEffect: fetch]
-    Time[SideEffect: Date.now]
-    
-    Func --> Calc
-    Func --> Log
-    Func --> Net
-    Func --> Time
-    
-    style Calc fill:#fff9c4
-    style Log fill:#ffcdd2
-    style Net fill:#ffcdd2
-    style Time fill:#ffcdd2
-```
   const base = 1200;
   const gradeDiscount = entry.grade >= 3 ? 200 : 0;
   const afterPartyFee = entry.wantsAfterParty ? 800 : 0;
@@ -93,6 +75,25 @@ flowchart TD
 
   return total;
 }
+```
+
+```mermaid
+flowchart TD
+    Func[submitEntry]
+    Calc[Calc: total]
+    Log[SideEffect: console.log]
+    Net[SideEffect: fetch]
+    Time[SideEffect: Date.now]
+    
+    Func --> Calc
+    Func --> Log
+    Func --> Net
+    Func --> Time
+    
+    style Calc fill:#fff9c4
+    style Log fill:#ffcdd2
+    style Net fill:#ffcdd2
+    style Time fill:#ffcdd2
 ```
 
 このコードのツラさ👇😵‍💫

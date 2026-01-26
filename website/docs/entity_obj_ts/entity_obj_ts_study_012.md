@@ -7,7 +7,7 @@ Value Object（VO）は前の章で作ってきたけど、Entityは **“更新
 
 ## 1) 今日つくる「Entityの骨格」ってなに？🦴🪪
 
-![Entity Blueprint](picture/entity_obj_ts_study_012_entity_blueprint.png)
+![Entity Blueprint](./picture/entity_obj_ts_study_012_entity_blueprint.png)
 
 Entityの骨格は、だいたいこの3点セットでできてるよ👇
 

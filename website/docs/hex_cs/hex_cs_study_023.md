@@ -10,7 +10,7 @@
 
 ## 1) DTOってなに？なんで必要？🤔📦
 
-![DTO Box](../picture/hex_cs_study_023_dto_box.png)
+![DTO Box](./picture/hex_cs_study_023_dto_box.png)
 
 ```mermaid
 sequenceDiagram
@@ -232,3 +232,4 @@ DTOができたから、Controllerはスッキリしやすくなるはず😆✨
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14?utm_source=chatgpt.com "What's new in C# 14"
 [2]: https://learn.microsoft.com/ja-jp/lifecycle/products/microsoft-net-and-net-core?utm_source=chatgpt.com "Microsoft .NET および .NET Core - Microsoft Lifecycle"
+

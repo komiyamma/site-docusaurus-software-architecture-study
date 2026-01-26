@@ -48,7 +48,7 @@
 
 ## 3) 全体の形（図解イメージ）🗺️✨
 
-![Module Map](picture/entity_obj_ts_study_024_project_architecture.png)
+![Module Map](./picture/entity_obj_ts_study_024_project_architecture.png)
 
 ポイントはこれ👇
 **ドメインは外側に依存しない**（依存の向きが“外→内”）🎯
