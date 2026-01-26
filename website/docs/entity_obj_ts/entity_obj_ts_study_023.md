@@ -9,11 +9,11 @@
 
 ## 0. まず“最新”メモ（いまの相場感）🗞️✨
 
-- TypeScript は npm の `typescript` パッケージ最新が **5.9.3**（2025-09-30公開）だよ 📦✨ :contentReference[oaicite:0]{index=0}  
-- 次の大きな流れとして **TypeScript 6.0 は「橋渡し」的な位置づけ**で、TypeScript 7（ネイティブ移行）へ寄せる方針が公式ブログで語られてるよ 🧭 :contentReference[oaicite:1]{index=1}  
-- Node は **v24 が Active LTS**（安定運用寄りでおすすめ）✨ :contentReference[oaicite:2]{index=2}  
-- ESLint は **v10 がRC**に入ってきてる（移行するなら破壊的変更チェック大事）⚠️ :contentReference[oaicite:3]{index=3}  
-- テストは Vitest の **v4 系**が今の主流ラインだよ 🧪 :contentReference[oaicite:4]{index=4}  
+- TypeScript は npm の `typescript` パッケージ最新が **5.9.3**（2025-09-30公開）だよ 📦✨  
+- 次の大きな流れとして **TypeScript 6.0 は「橋渡し」的な位置づけ**で、TypeScript 7（ネイティブ移行）へ寄せる方針が公式ブログで語られてるよ 🧭  
+- Node は **v24 が Active LTS**（安定運用寄りでおすすめ）✨  
+- ESLint は **v10 がRC**に入ってきてる（移行するなら破壊的変更チェック大事）⚠️  
+- テストは Vitest の **v4 系**が今の主流ラインだよ 🧪  
 
 （ここは「最新を調べたよ〜」の証拠メモだけ！本編は設計と手順がメインだよ🙂）
 
