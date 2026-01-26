@@ -294,6 +294,16 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/hex_cs/hex_cs_index',
   },
   {
+    title: 'ヘキサゴナル TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶヘキサゴナルアーキテクチャ。<br/>Port/Adapterによる外部依存の分離と、<br/>「中心」を汚さない設計思想を体感します。<br/>
+      </>
+    ),
+    link: '/docs/hex_ts/hex_ts_index',
+  },
+  {
     title: 'エラーモデリング C#版',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (

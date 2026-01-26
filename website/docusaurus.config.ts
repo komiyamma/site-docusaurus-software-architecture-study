@@ -298,6 +298,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'hexTsSidebar',
+          position: 'left',
+          label: 'ヘキサゴナル TS版',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'errModelCsSidebar',
           position: 'left',
           label: 'エラーモデリング C#版',
