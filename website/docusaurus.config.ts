@@ -290,6 +290,12 @@ const config: Config = {
           position: 'left',
           label: '依存関係ルール TS版',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'hexCsSidebar',
+          position: 'left',
+          label: 'ヘキサゴナル C#版',
+        },
 
         {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',

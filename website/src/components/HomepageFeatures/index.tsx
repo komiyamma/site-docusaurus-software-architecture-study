@@ -283,6 +283,16 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/entity_obj_ts/entity_obj_ts_index',
   },
+  {
+    title: 'ヘキサゴナル C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶヘキサゴナルアーキテクチャ。<br/>Ports & Adaptersの基本概念から、<br/>外部依存に振り回されない堅牢な設計へ。<br/>
+      </>
+    ),
+    link: '/docs/hex_cs/hex_cs_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
