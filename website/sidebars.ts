@@ -139,6 +139,9 @@ const sidebars: SidebarsConfig = {
   dpnRuleTsSidebar: generateProjectSidebar('dpn_rule_ts'),
 
   errModelCsSidebar: generateProjectSidebar('err_model_cs'),
+
+  observerCsSidebar: generateProjectSidebar('observer_cs'),
+  observerTsSidebar: generateProjectSidebar('observer_ts'),
 };
 
 export default sidebars;

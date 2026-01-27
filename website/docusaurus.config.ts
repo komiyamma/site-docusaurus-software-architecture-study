@@ -346,6 +346,19 @@ const config: Config = {
         },
 
         {
+          type: 'docSidebar',
+          sidebarId: 'observerCsSidebar',
+          position: 'left',
+          label: 'Observer C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'observerTsSidebar',
+          position: 'left',
+          label: 'Observer TS版',
+        },
+
+        {
           href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
           label: 'GitHub',
           position: 'right',

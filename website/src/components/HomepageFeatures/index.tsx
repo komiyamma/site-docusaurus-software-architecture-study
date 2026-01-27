@@ -313,6 +313,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/err_model_cs/err_model_cs_index',
   },
+  {
+    title: 'Observer C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        C#で学ぶObserverパターン。<br/>イベント駆動やデータバインディングの<br/>基礎となる重要なパターン。<br/>
+      </>
+    ),
+    link: '/docs/observer_cs/observer_cs_index',
+  },
+  {
+    title: 'Observer TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶObserverパターン。<br/>RxJSやリスナー登録など、<br/>非同期処理と状態監視の基礎。<br/>
+      </>
+    ),
+    link: '/docs/observer_ts/observer_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
