@@ -314,6 +314,16 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/err_model_cs/err_model_cs_index',
   },
   {
+    title: 'エラーモデリング TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶエラーモデリング。<br/>型安全なエラー処理とResult型の実装。<br/>例外に頼らない堅牢な設計パターン。<br/>
+      </>
+    ),
+    link: '/docs/err_model_ts/err_model_ts_index',
+  },
+  {
     title: 'Observer C#版',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
