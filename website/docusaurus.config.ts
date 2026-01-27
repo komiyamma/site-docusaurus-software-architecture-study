@@ -91,6 +91,7 @@ const config: Config = {
           "docs/entity_obj_cs",
           "docs/entity_obj_ts",
           "docs/err_model_cs",
+          "docs/err_model_ts",
           "docs/hc_lc_cs",
           "docs/hc_lc_ts",
           "docs/hex_cs",
@@ -343,6 +344,12 @@ const config: Config = {
           sidebarId: 'errModelCsSidebar',
           position: 'left',
           label: 'エラーモデリング C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'errModelTsSidebar',
+          position: 'left',
+          label: 'エラーモデリング TS版',
         },
 
         {
