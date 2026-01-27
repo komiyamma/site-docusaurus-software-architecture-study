@@ -37,7 +37,7 @@ Google のインシデント対応フレームワーク（ICSベース）では�
 
 ## 3. 事故が起きたら最初の10分でやる「型」⏱️🧯（テンプレで動く！）
 
-![画像を挿入予定](./picture/observer_cs_study_030_postmortem.png)
+
 
 ### ✅ 3.1 インシデント宣言（早め・多めが正義）📣
 
@@ -68,6 +68,8 @@ stateDiagram-v2
 ---
 
 ## 4. 役割分担：IC / OL / CL（＋おすすめでScribe）👥✨
+
+![役割分担](./picture/observer_cs_study_030_incident_roles.png)
 
 Google のやり方だと主要ロールはこの3つ（超大事！） ([Google SRE][3])
 
