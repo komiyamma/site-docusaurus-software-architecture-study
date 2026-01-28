@@ -329,6 +329,18 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'layerCsSidebar',
+          position: 'left',
+          label: 'レイヤー C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'layerTsSidebar',
+          position: 'left',
+          label: 'レイヤー TS版',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'hexCsSidebar',
           position: 'left',
           label: 'ヘキサゴナル C#版',

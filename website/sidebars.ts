@@ -138,6 +138,9 @@ const sidebars: SidebarsConfig = {
   dpnRuleCsSidebar: generateProjectSidebar('dpn_rule_cs'),
   dpnRuleTsSidebar: generateProjectSidebar('dpn_rule_ts'),
 
+  layerCsSidebar: generateProjectSidebar('layer_cs'),
+  layerTsSidebar: generateProjectSidebar('layer_ts'),
+
   errModelCsSidebar: generateProjectSidebar('err_model_cs'),
   errModelTsSidebar: generateProjectSidebar('err_model_ts'),
 

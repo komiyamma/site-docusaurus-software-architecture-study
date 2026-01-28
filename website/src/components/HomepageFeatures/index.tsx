@@ -264,6 +264,26 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/dpn_rule_ts/dpn_rule_ts_index',
   },
   {
+    title: 'レイヤー C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        C#で学ぶレイヤードアーキテクチャ。<br/>関心の分離と依存性の制御。<br/>
+      </>
+    ),
+    link: '/docs/layer_cs/layer_cs_index',
+  },
+  {
+    title: 'レイヤー TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶレイヤードアーキテクチャ。<br/>フロントエンドの階層化設計。<br/>
+      </>
+    ),
+    link: '/docs/layer_ts/layer_ts_index',
+  },
+  {
     title: 'Entity/VO C#版',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
