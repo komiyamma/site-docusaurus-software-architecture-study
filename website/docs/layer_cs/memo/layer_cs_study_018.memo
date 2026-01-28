@@ -1,0 +1,1 @@
+エラーをDomain、App、Infraの3種に分類。想定内はResult型、想定外はProblemDetailsに変換する設計を解説。安全性と統一性を両立する手法を学びます。

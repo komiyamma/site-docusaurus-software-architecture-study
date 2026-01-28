@@ -1,0 +1,1 @@
+Presentation層の役割と薄いUI設計を解説。HTTPとUseCaseの翻訳に徹し、DTOでの隔離、Filterでの検証、ProblemDetails整形など、.NET 10環境での構成を習得します。
