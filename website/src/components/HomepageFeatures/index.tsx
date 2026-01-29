@@ -363,6 +363,30 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/observer_ts/observer_ts_index',
   },
+  {
+    title: 'クリーンアーキ C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶクリーンアーキテクチャ。<br/>
+        依存関係のルール、4層の責務、<br/>
+        テスト容易な設計を体得します。<br/>
+      </>
+    ),
+    link: '/docs/clean_cs/clean_cs_index',
+  },
+  {
+    title: 'クリーンアーキ TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶクリーンアーキテクチャ。<br/>
+        Port/AdapterパターンやDIを駆使し、<br/>
+        外部依存に振り回されない核を作ります。<br/>
+      </>
+    ),
+    link: '/docs/clean_ts/clean_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

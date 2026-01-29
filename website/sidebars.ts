@@ -84,6 +84,25 @@ const dddModules = [
   { title: "第7部：【継続と成長】AI時代に生き残る設計者になる", start: 91, end: 100 },
 ];
 
+const cleanCsModules = [
+  { title: "Part 0：クリーンアーキの芯", start: 1, end: 7 },
+  { title: "Part 1：Entities（Enterprise Business Rules）を厚く", start: 8, end: 16 },
+  { title: "Part 2：Use Cases（Application Business Rules）を厚く", start: 17, end: 28 },
+  { title: "Part 3：Interface Adapters（変換層）を厚く", start: 29, end: 38 },
+  { title: "Part 4：Frameworks & Drivers（外側）を“外に閉じる”", start: 39, end: 42 },
+  { title: "Part 5：テストと“依存ルール強制”は中核の一部", start: 43, end: 45 },
+];
+
+const cleanTsModules = [
+  { title: "Part 1：核をつかむ", start: 1, end: 7 },
+  { title: "Part 2：Entities（中心のルール）を作る", start: 8, end: 13 },
+  { title: "Part 3：Use Cases（アプリの方針）を作る", start: 14, end: 23 },
+  { title: "Part 4：Ports（差し替え口）を最小で設計", start: 24, end: 29 },
+  { title: "Part 5：Interface Adapters（変換して繋ぐ）を作る", start: 30, end: 38 },
+  { title: "Part 6：Frameworks & Drivers（外側に押し出す）", start: 39, end: 42 },
+  { title: "Part 7：Composition Root（組み立て）で完成", start: 43, end: 45 },
+];
+
 /**
  * Creating a sidebar enables you to:
  - create an ordered group of docs
@@ -146,6 +165,22 @@ const sidebars: SidebarsConfig = {
 
   observerCsSidebar: generateProjectSidebar('observer_cs'),
   observerTsSidebar: generateProjectSidebar('observer_ts'),
+
+  cleanCsSidebar: [
+    {
+      type: 'doc',
+      id: 'clean_cs/clean_cs_index',
+    },
+    ...generateSidebarItems('clean_cs', 'clean_cs', cleanCsModules),
+  ],
+
+  cleanTsSidebar: [
+    {
+      type: 'doc',
+      id: 'clean_ts/clean_ts_index',
+    },
+    ...generateSidebarItems('clean_ts', 'clean_ts', cleanTsModules),
+  ],
 };
 
 export default sidebars;

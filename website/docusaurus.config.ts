@@ -108,6 +108,8 @@ const config: Config = {
           "docs/solid_ts",
           "docs/yagni_cs",
           "docs/yagni_ts",
+          "docs/clean_cs",
+          "docs/clean_ts",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -375,6 +377,18 @@ const config: Config = {
           sidebarId: 'observerTsSidebar',
           position: 'left',
           label: 'Observer TS版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cleanCsSidebar',
+          position: 'left',
+          label: 'クリーンアーキ C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cleanTsSidebar',
+          position: 'left',
+          label: 'クリーンアーキ TS版',
         },
 
         {
