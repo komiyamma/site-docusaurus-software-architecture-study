@@ -110,6 +110,8 @@ const config: Config = {
           "docs/yagni_ts",
           "docs/clean_cs",
           "docs/clean_ts",
+          "docs/cqs_cs",
+          "docs/cqs_ts",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -389,6 +391,18 @@ const config: Config = {
           sidebarId: 'cleanTsSidebar',
           position: 'left',
           label: 'クリーンアーキ TS版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cqsCsSidebar',
+          position: 'left',
+          label: 'CQS C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cqsTsSidebar',
+          position: 'left',
+          label: 'CQS TS版',
         },
 
         {

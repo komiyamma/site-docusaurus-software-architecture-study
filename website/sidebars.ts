@@ -181,6 +181,8 @@ const sidebars: SidebarsConfig = {
     },
     ...generateSidebarItems('clean_ts', 'clean_ts', cleanTsModules),
   ],
+  cqsCsSidebar: generateProjectSidebar('cqs_cs'),
+  cqsTsSidebar: generateProjectSidebar('cqs_ts'),
 };
 
 export default sidebars;

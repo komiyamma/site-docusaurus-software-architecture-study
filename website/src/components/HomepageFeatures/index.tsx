@@ -387,6 +387,30 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/clean_ts/clean_ts_index',
   },
+  {
+    title: 'CQS C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶCQS（コマンド・クエリ分離）。<br/>
+        「変更するなら返さない」原則を徹底し、<br/>
+        読みやすくテストしやすいコードを目指します。<br/>
+      </>
+    ),
+    link: '/docs/cqs_cs/cqs_cs_index',
+  },
+  {
+    title: 'CQS TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶCQS。<br/>
+        副作用の制御と型安全な参照の分離。<br/>
+        堅牢なアプリケーション設計の基礎を学びます。<br/>
+      </>
+    ),
+    link: '/docs/cqs_ts/cqs_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
