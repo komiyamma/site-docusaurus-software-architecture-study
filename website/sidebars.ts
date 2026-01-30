@@ -162,6 +162,9 @@ const sidebars: SidebarsConfig = {
   cqrsTsSidebar: generateProjectSidebar('cqrs_ts'),
   invariantsCsSidebar: generateProjectSidebar('invariants_cs'),
   invariantsTsSidebar: generateProjectSidebar('invariants_ts'),
+
+  svbcCsSidebar: generateProjectSidebar('svbc_cs'),
+  svbcTsSidebar: generateProjectSidebar('svbc_ts'),
 };
 
 export default sidebars;

@@ -116,6 +116,8 @@ const config: Config = {
           "docs/cqrs_ts",
           "docs/invariants_cs",
           "docs/invariants_ts",
+          "docs/svbc_cs",
+          "docs/svbc_ts",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -431,6 +433,18 @@ const config: Config = {
           sidebarId: 'invariantsTsSidebar',
           position: 'left',
           label: '不変条件 TS版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'svbcCsSidebar',
+          position: 'left',
+          label: 'SemVer C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'svbcTsSidebar',
+          position: 'left',
+          label: 'SemVer TS版',
         },
 
         {

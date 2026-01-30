@@ -451,6 +451,30 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/invariants_ts/invariants_ts_index',
   },
+  {
+    title: 'SemVer C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        セマンティックバージョニング（SemVer）と互換性ポリシーを学びます。<br/>
+        C#環境でのバージョン管理、破壊的変更の判断、<br/>
+        NuGetパッケージの運用まで実践的に習得。<br/>
+      </>
+    ),
+    link: '/docs/svbc_cs/svbc_cs_index',
+  },
+  {
+    title: 'SemVer TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで学ぶセマンティックバージョニング。<br/>
+        npm依存管理、型の互換性判断、<br/>
+        プレリリースとリリース自動化の実践。<br/>
+      </>
+    ),
+    link: '/docs/svbc_ts/svbc_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {
