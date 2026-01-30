@@ -46,7 +46,11 @@ function generateStudyIds(folder: string, prefix: string, start: number, end: nu
   const ids: string[] = [];
   for (let i = start; i <= end; i++) {
     const idStr = i.toString().padStart(3, '0');
-    ids.push(`${folder}/${prefix}_study_${idStr}`);
+    const id = `${folder}/${prefix}_study_${idStr}`;
+    const filePath = path.join(__dirname, 'docs', `${id}.md`);
+    if (fs.existsSync(filePath)) {
+      ids.push(id);
+    }
   }
   return ids;
 }
@@ -121,6 +125,24 @@ const cqrsTsModules = [
   { title: "第25章〜第29章：投影（Projection）と整合性", start: 25, end: 29 },
   { title: "第30章〜第33章：冪等性とRead最適化", start: 30, end: 33 },
   { title: "第34章〜第37章：API設計と卒業制作", start: 34, end: 37 },
+];
+
+const invariantsCsModules = [
+  { title: "第1章〜第6章：不変条件の基本と境界", start: 1, end: 6 },
+  { title: "第7章〜第11章：失敗の表現と型の導入", start: 7, end: 11 },
+  { title: "第12章〜第15章：値オブジェクトの実装", start: 12, end: 15 },
+  { title: "第16章〜第20章：不変条件のパターンと集合", start: 16, end: 20 },
+  { title: "第21章〜第25章：更新処理と状態管理", start: 21, end: 25 },
+  { title: "第26章〜第30章：境界の設計と仕上げ", start: 26, end: 30 },
+];
+
+const invariantsTsModules = [
+  { title: "第1章〜第6章：不変条件の基本とTypeScript", start: 1, end: 6 },
+  { title: "第7章〜第11章：型の武器（プリミティブ地獄からの脱却）", start: 7, end: 11 },
+  { title: "第12章〜第16章：値オブジェクトと更新設計", start: 12, end: 16 },
+  { title: "第17章〜第21章：境界の設計と検証", start: 17, end: 21 },
+  { title: "第22章〜第25章：エラー設計と状態", start: 22, end: 25 },
+  { title: "第26章〜第30章：永続化・テスト・仕上げ", start: 26, end: 30 },
 ];
 
 /**
@@ -218,6 +240,20 @@ const sidebars: SidebarsConfig = {
       id: 'cqrs_ts/cqrs_ts_index',
     },
     ...generateSidebarItems('cqrs_ts', 'cqrs_ts', cqrsTsModules),
+  ],
+  invariantsCsSidebar: [
+    {
+      type: 'doc',
+      id: 'invariants_cs/invariants_cs_index',
+    },
+    ...generateSidebarItems('invariants_cs', 'invariants_cs', invariantsCsModules),
+  ],
+  invariantsTsSidebar: [
+    {
+      type: 'doc',
+      id: 'invariants_ts/invariants_ts_index',
+    },
+    ...generateSidebarItems('invariants_ts', 'invariants_ts', invariantsTsModules),
   ],
 };
 

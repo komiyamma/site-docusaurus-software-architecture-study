@@ -431,6 +431,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/cqrs_ts/cqrs_ts_index',
   },
+  {
+    title: '不変条件 C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        「正しい状態しか存在させない」設計手法を学びます。<br/>ガード節、値オブジェクト、状態遷移のガードなど、<br/>C#での実践的なパターン。<br/>
+      </>
+    ),
+    link: '/docs/invariants_cs/invariants_cs_index',
+  },
+  {
+    title: '不変条件 TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptの型システムとバリデーションを組み合わせ、<br/>「不正な値をドメイン層に入れない」<br/>境界設計を学びます。<br/>
+      </>
+    ),
+    link: '/docs/invariants_ts/invariants_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

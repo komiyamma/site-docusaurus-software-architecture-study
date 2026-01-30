@@ -114,6 +114,8 @@ const config: Config = {
           "docs/cqs_ts",
           "docs/cqrs_cs",
           "docs/cqrs_ts",
+          "docs/invariants_cs",
+          "docs/invariants_ts",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -417,6 +419,18 @@ const config: Config = {
           sidebarId: 'cqrsTsSidebar',
           position: 'left',
           label: 'CQRS TS版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'invariantsCsSidebar',
+          position: 'left',
+          label: '不変条件 C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'invariantsTsSidebar',
+          position: 'left',
+          label: '不変条件 TS版',
         },
 
         {
