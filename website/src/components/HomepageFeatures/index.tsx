@@ -411,6 +411,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/cqs_ts/cqs_ts_index',
   },
+  {
+    title: 'CQRS C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        C#で学ぶCQRS（コマンド・クエリ責務分離）。<br/>「読む」と「書く」の責務を明確に分け、<br/>拡張性とパフォーマンスを両立させた設計を学びます。<br/>
+      </>
+    ),
+    link: '/docs/cqrs_cs/cqrs_cs_index',
+  },
+  {
+    title: 'CQRS TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptで実践するCQRS。<br/>CommandとQueryの分離から、<br/>ドメインイベントを用いた非同期投影（Projection）まで。<br/>
+      </>
+    ),
+    link: '/docs/cqrs_ts/cqrs_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

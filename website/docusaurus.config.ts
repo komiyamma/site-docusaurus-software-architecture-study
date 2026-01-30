@@ -112,6 +112,8 @@ const config: Config = {
           "docs/clean_ts",
           "docs/cqs_cs",
           "docs/cqs_ts",
+          "docs/cqrs_cs",
+          "docs/cqrs_ts",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -403,6 +405,18 @@ const config: Config = {
           sidebarId: 'cqsTsSidebar',
           position: 'left',
           label: 'CQS TS版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cqrsCsSidebar',
+          position: 'left',
+          label: 'CQRS C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cqrsTsSidebar',
+          position: 'left',
+          label: 'CQRS TS版',
         },
 
         {

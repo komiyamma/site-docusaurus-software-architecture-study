@@ -103,6 +103,26 @@ const cleanTsModules = [
   { title: "Part 7：Composition Root（組み立て）で完成", start: 43, end: 45 },
 ];
 
+const cqrsCsModules = [
+  { title: "第1章〜第10章：CQRSの基礎と準備", start: 1, end: 10 },
+  { title: "第11章〜第16章：Command（書き込み）の基本", start: 11, end: 16 },
+  { title: "第17章〜第21章：Query（読み取り）の基本", start: 17, end: 21 },
+  { title: "第22章〜第25章：API層とDispatcherの仕組み", start: 22, end: 25 },
+  { title: "第26章〜第28章：横断関心（ログ・エラー・検証）", start: 26, end: 28 },
+  { title: "第29章〜第33章：テストとパフォーマンス", start: 29, end: 33 },
+  { title: "第34章〜第37章：Readモデルの分離と仕上げ", start: 34, end: 37 },
+];
+
+const cqrsTsModules = [
+  { title: "第1章〜第7章：CQRSの基本と体験", start: 1, end: 7 },
+  { title: "第8章〜第15章：Command（書き込み）側の設計", start: 8, end: 15 },
+  { title: "第16章〜第20章：Query（読み取り）側の設計", start: 16, end: 20 },
+  { title: "第21章〜第24章：エラー設計とテスト", start: 21, end: 24 },
+  { title: "第25章〜第29章：投影（Projection）と整合性", start: 25, end: 29 },
+  { title: "第30章〜第33章：冪等性とRead最適化", start: 30, end: 33 },
+  { title: "第34章〜第37章：API設計と卒業制作", start: 34, end: 37 },
+];
+
 /**
  * Creating a sidebar enables you to:
  - create an ordered group of docs
@@ -183,6 +203,22 @@ const sidebars: SidebarsConfig = {
   ],
   cqsCsSidebar: generateProjectSidebar('cqs_cs'),
   cqsTsSidebar: generateProjectSidebar('cqs_ts'),
+
+  cqrsCsSidebar: [
+    {
+      type: 'doc',
+      id: 'cqrs_cs/cqrs_cs_index',
+    },
+    ...generateSidebarItems('cqrs_cs', 'cqrs_cs', cqrsCsModules),
+  ],
+
+  cqrsTsSidebar: [
+    {
+      type: 'doc',
+      id: 'cqrs_ts/cqrs_ts_index',
+    },
+    ...generateSidebarItems('cqrs_ts', 'cqrs_ts', cqrsTsModules),
+  ],
 };
 
 export default sidebars;
