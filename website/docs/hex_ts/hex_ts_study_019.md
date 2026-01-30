@@ -1,6 +1,6 @@
 # 第19章　ユースケース入門①：アプリの中心って何？ 🎮➡️🧠
 
-![hex_ts_study_019](picture/hex_ts_study_019_inbound_port_usecase_interface.png)
+![hex_ts_study_019[(./picture/hex_ts_study_019_inbound_port_usecase_interface.png)
 
 この章は「**アプリの中心（=やりたいことの手順と判断）**」を、ToDoミニで “体験” しちゃう回だよ〜😊📝💕
 

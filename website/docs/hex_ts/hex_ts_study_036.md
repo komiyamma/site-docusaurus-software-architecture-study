@@ -1,6 +1,6 @@
 # 第36章　観測ちょい入門：ログをどこに置く？🪪📊
 
-![hex_ts_study_036](picture/hex_ts_study_036_observability_logging.png)
+![hex_ts_study_036[(./picture/hex_ts_study_036_observability_logging.png)
 
 ([Past chat][1])([Past chat][2])([Past chat][3])([Past chat][4])([Past chat][5])
 

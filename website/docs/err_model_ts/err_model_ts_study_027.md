@@ -37,7 +37,7 @@ OWASPも「セキュリティ観点のログ設計」を強く推してます。
 ログは人が読むもの…だからこそ、漏れると最悪😱
 Sentryみたいな監視ツールでも「送る前にセンシティブ情報をスクラブ（除去）できる」仕組みが前提になってます🧽 ([Sentry Docs][2])
 
-![安全なログ金庫：秘密情報を守りつつ記録する](picture/err_model_ts_study_027_safe_log_vault.png)
+![安全なログ金庫：秘密情報を守りつつ記録する[(./picture/err_model_ts_study_027_safe_log_vault.png)
 
 ---
 

@@ -32,7 +32,7 @@ MDNでも「メッセージを解析させるより、区別できる仕組み�
 
 ## 2) カスタムErrorに入れておくと強い情報たち🧺✨
 
-![なぜ Error を継承するの？](picture/err_model_ts_study_005_rich_error_card.png)
+![なぜ Error を継承するの？[(./picture/err_model_ts_study_005_rich_error_card.png)
 
 最低限ここが強いよ👇
 
@@ -48,7 +48,7 @@ TypeScript側でも、ES2022ターゲット/ライブラリで「new Error の c
 
 ## 3) まずは土台：AppError（共通の親）を作ろう🏗️✨
 
-![改善の方向性](picture/err_model_ts_study_004_inheritance_tree.png)
+![改善の方向性[(./picture/err_model_ts_study_004_inheritance_tree.png)
 
 ポイントはこれ👇🙂
 
@@ -101,7 +101,7 @@ export class AppError extends Error {
 
 ## 4) 3種類のErrorクラスを作って投げ分けよう🎯🪄
 
-![まずは土台：AppError（共通の親）を作ろう](picture/err_model_ts_study_013_three_robots.png)
+![まずは土台：AppError（共通の親）を作ろう[(./picture/err_model_ts_study_013_three_robots.png)
 
 ここからが本番！✨
 「ドメイン」「インフラ」「バグ（不変条件）」の3つに寄せた例だよ🙂💕

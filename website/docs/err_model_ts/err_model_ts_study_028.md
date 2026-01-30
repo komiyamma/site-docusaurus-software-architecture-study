@@ -17,7 +17,7 @@
 * 例：ログが100万行あっても、`requestId=abc123` で絞ればその件だけ見れる✨
 * 障害調査が「当てずっぽう」から「一本道の追跡」になる🧵🚶‍♀️
 
-![追跡の糸：迷宮の中で一本の道しるべを辿る](picture/err_model_ts_study_028_trace_thread.png)
+![追跡の糸：迷宮の中で一本の道しるべを辿る[(./picture/err_model_ts_study_028_trace_thread.png)
 
 ---
 

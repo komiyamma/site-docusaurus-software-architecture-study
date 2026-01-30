@@ -83,7 +83,7 @@ export type UiError =
 
 この「kind」が超重要で、さっきの4種類に対応してるよ🎀🪞
 
-![UI境界の鏡：エラーの実体を、トーストやダイアログとして映し出す](picture/err_model_ts_study_026_ui_boundary_mirror.png)
+![UI境界の鏡：エラーの実体を、トーストやダイアログとして映し出す[(./picture/err_model_ts_study_026_ui_boundary_mirror.png)
 
 ---
 

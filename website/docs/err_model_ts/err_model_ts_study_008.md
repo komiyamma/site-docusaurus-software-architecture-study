@@ -134,7 +134,7 @@ Promiseの拒否は「いつハンドルされるか」が非同期でズレる�
 
 ### ✅ 7-1) render事故は Error Boundary（出口：フォールバックUI）🪞
 
-![render事故は Error Boundary](picture/err_model_ts_study_008_boundary_vs_trycatch.png)
+![render事故は Error Boundary[(./picture/err_model_ts_study_008_boundary_vs_trycatch.png)
 
 ```ts
 import React from "react";
@@ -169,7 +169,7 @@ export class AppErrorBoundary extends React.Component<Props, { hasError: boolean
 
 ### ✅ 7-2) クリック/送信は try/catch（入口：イベント）🖱️🧯
 
-![クリック/送信は try/catch](picture/err_model_ts_study_008_event_firefighter.png)
+![クリック/送信は try/catch[(./picture/err_model_ts_study_008_event_firefighter.png)
 
 Error Boundaryはイベント内を拾わないので、ここは自力で守るよ💪([legacy.reactjs.org][3])
 

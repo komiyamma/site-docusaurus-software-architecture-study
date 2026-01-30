@@ -1,6 +1,6 @@
 # 第45章　自主課題（提出形式まで）📝🎀
 
-![hex_ts_study_045](picture/hex_ts_study_045_final_assessment_trophy.png)
+![hex_ts_study_045[(./picture/hex_ts_study_045_final_assessment_trophy.png)
 
 # 第45章：自主課題（提出形式つき）📝🎀
 

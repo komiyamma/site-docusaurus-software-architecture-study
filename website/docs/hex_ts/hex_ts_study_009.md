@@ -1,6 +1,6 @@
 # 第9章　今回の題材を決める（ToDoミニ）📝🍰
 
-![hex_ts_study_009](picture/hex_ts_study_009_adapters_implementation.png)
+![hex_ts_study_009[(./picture/hex_ts_study_009_adapters_implementation.png)
 
 （ここから「実作業」に入るよ〜！😊💻✨）
 

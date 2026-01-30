@@ -85,7 +85,7 @@ APIを作ってると、失敗の扱いがこうなりがち👇
    }
 ```
 
-![ミドルウェアフィルター：不純物（例外）を取り除いて綺麗なレスポンスにする](picture/err_model_ts_study_024_middleware_filter.png)
+![ミドルウェアフィルター：不純物（例外）を取り除いて綺麗なレスポンスにする[(./picture/err_model_ts_study_024_middleware_filter.png)
 
 ---
 

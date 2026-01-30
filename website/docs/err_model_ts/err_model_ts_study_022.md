@@ -25,7 +25,7 @@
 
 ## 2) “失敗の種類”を地図にする🗺️🏷️
 
-![HTTP信号機：通信エラー、HTTP失敗、正常応答を振り分ける](picture/err_model_ts_study_022_http_traffic_light.png)
+![HTTP信号機：通信エラー、HTTP失敗、正常応答を振り分ける[(./picture/err_model_ts_study_022_http_traffic_light.png)
 
 ここから先、HTTPクライアントの結果を **いつも同じ形**に揃えます✨
 

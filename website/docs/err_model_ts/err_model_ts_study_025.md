@@ -22,7 +22,7 @@ JSONとして返すときのContent-Typeは **`application/problem+json`** が�
 
 ## 2) Problem Detailsの“基本5点セット”🧾🖐️
 
-![エラーダッシュボード：問題を構造化して表示](picture/err_model_ts_study_025_error_dashboard.png)
+![エラーダッシュボード：問題を構造化して表示[(./picture/err_model_ts_study_025_error_dashboard.png)
 
 Problem Detailsは「JSONオブジェクト」で、代表的なメンバーがこの5つ👇([IETF Datatracker][1])
 

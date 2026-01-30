@@ -22,7 +22,7 @@
 * **キャンセル**🛑：もう要らない処理を止める
 * **リトライ**🔁：条件つきで再挑戦する
 
-![リトライ時計：タイミングを見計らって再挑戦](picture/err_model_ts_study_029_retry_clock.png)
+![リトライ時計：タイミングを見計らって再挑戦[(./picture/err_model_ts_study_029_retry_clock.png)
 
 ---
 

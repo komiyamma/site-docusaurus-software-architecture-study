@@ -31,7 +31,7 @@ MDN でも `throw` は “例外の値を投げる” と説明されてて、�
 
 ### 🛡️ 対策の基本：catch したらまず疑う（unknown で受ける）
 
-![対策の基本：catch したらまず疑う](picture/err_model_ts_study_002_catch_mystery.png)
+![対策の基本：catch したらまず疑う[(./picture/err_model_ts_study_002_catch_mystery.png)
 
 TypeScript には「catch の変数を `unknown` 扱いにする」設定があります✅
 これを有効にすると「投げられた値は信用できない」前提で安全に書けます🛡️✨ ([typescriptlang.org][2])

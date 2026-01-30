@@ -1,6 +1,6 @@
 # 第18章　ドメイン入門③：ミニ不変条件（Invariants）🧷✨
 
-![hex_ts_study_018](picture/hex_ts_study_018_value_objects.png)
+![hex_ts_study_018[(./picture/hex_ts_study_018_value_objects.png)
 
 この章はね、**「どんな入口（CLI/HTTP/将来のGUI）が増えても、アプリのルールが絶対に壊れない」**ようにする回だよ〜😊💖
 ヘキサゴナルでいう「中心を守る🛡️」の**いちばん地味で、いちばん強い武器**が“不変条件”なのです✨

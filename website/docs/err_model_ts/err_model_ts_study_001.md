@@ -9,7 +9,7 @@
 
 ## 1. まず結論：失敗は“仕様の一部”🧩📘
 
-![try-catch の本当の役割](picture/err_model_ts_study_001_catch_net.png)
+![try-catch の本当の役割[(./picture/err_model_ts_study_001_catch_net.png)
 
 アプリって、成功する時だけ考えて作ると、あとでこうなる👇
 
@@ -29,7 +29,7 @@
 
 ## 2. 失敗は3種類に分けると一気にラク😊🗂️
 
-![3つの「失敗の種類」](picture/err_model_ts_study_002_three_layers.png)
+![3つの「失敗の種類」[(./picture/err_model_ts_study_002_three_layers.png)
 
 この教材の最初は、細かい型設計よりも「仕分け感覚」を作るのが大事💗
 今日覚える分類はこの3つ👇

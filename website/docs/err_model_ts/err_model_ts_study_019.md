@@ -21,7 +21,7 @@ AsyncResult はひとことで言うとこれ👇
 * Result：同期の「成功/失敗の箱」🎁
 * AsyncResult：非同期版で「Promiseで包まれたResult」🎁⚡
 
-![AsyncResult：Promiseで包まれたResult](picture/err_model_ts_study_019_promise_wrapper.png)
+![AsyncResult：Promiseで包まれたResult[(./picture/err_model_ts_study_019_promise_wrapper.png)
 
 つまり…
 

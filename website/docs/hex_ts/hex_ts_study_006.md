@@ -1,6 +1,6 @@
 # 第6章　Adapterってなに？（変換器＝実装）🧩✨
 
-![hex_ts_study_006](picture/hex_ts_study_006_the_left_side_driving_input.png)
+![hex_ts_study_006[(./picture/hex_ts_study_006_the_left_side_driving_input.png)
 
 ### この章のゴール 🎯💖
 

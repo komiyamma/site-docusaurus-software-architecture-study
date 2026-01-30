@@ -44,7 +44,7 @@
 
 ## 7-3 罠その1　1つ落ちた瞬間に全体が落ちる　でも裏で他は動く😱⚡
 
-![罠その1　1つ落ちた瞬間に全体が落ちる](picture/err_model_ts_study_007_domino_chain.png)
+![罠その1　1つ落ちた瞬間に全体が落ちる[(./picture/err_model_ts_study_007_domino_chain.png)
 
 たとえばこんな感じ👇
 

@@ -1,6 +1,6 @@
 # 第32章　テスト①：ユースケース単体テスト（最優先）🧪💪
 
-![hex_ts_study_032](picture/hex_ts_study_032_unit_testing_usecases.png)
+![hex_ts_study_032[(./picture/hex_ts_study_032_unit_testing_usecases.png)
 
 ([Past chat][1])([Past chat][2])([Past chat][3])([Past chat][4])([Past chat][5])
 

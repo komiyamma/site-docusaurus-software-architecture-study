@@ -78,7 +78,7 @@ export type AppError = DomainError | InfraError | BugError;
 
 ## 4) 正規化の “基本ルール” 🗺️🧼
 
-![「正規化」ってなに？（洗濯機だよ！）](picture/err_model_ts_study_015_laundry_filter.png)
+![「正規化」ってなに？（洗濯機だよ！）[(./picture/err_model_ts_study_015_laundry_filter.png)
 
 正規化は、**優先順位**が大事だよ〜！
 

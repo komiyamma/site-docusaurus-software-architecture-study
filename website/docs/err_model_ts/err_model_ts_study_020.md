@@ -10,7 +10,7 @@
 TypeScriptの型は、**コンパイル後に消える**（= 実行時には守ってくれない）からだよ😳💦
 つまり…
 
-![実行時チェック：未知のデータを通す検問](picture/err_model_ts_study_020_border_control.png)
+![実行時チェック：未知のデータを通す検問[(./picture/err_model_ts_study_020_border_control.png)
 
 * `fetch()`で受け取ったJSON
 * フォーム入力

@@ -1,6 +1,6 @@
 # 第33章　エラー設計①：中心のエラー（仕様）📌😌
 
-![hex_ts_study_033](picture/hex_ts_study_033_handling_domain_errors.png)
+![hex_ts_study_033[(./picture/hex_ts_study_033_handling_domain_errors.png)
 
 この章はね、めちゃ大事なことをやります✨
 **「エラーも仕様の一部」**として、ヘキサゴナルの**中心（domain/app）に“きれいに置く”**練習だよ〜😊🔌🧩
@@ -152,7 +152,7 @@ export const completeTodo = (todo: Todo): Result<Todo, DomainError> => {
 * **例外じゃない**からテストが読みやすい🧪✨
 * `Result`で **成功/失敗が必ず返る**（抜け道が減る）🛡️
 
-![hex_ts_study_033](picture/hex_ts_study_033_result_type_railway.png)
+![hex_ts_study_033[(./picture/hex_ts_study_033_result_type_railway.png)
 
 
 ---

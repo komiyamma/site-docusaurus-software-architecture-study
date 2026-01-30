@@ -12,7 +12,7 @@ TypeScriptは **判別可能ユニオン（discriminated union）** が超強い
 
 **成功 or 失敗を「戻り値で」表す** 型だよ😊
 
-![Result型：成功（Ok）と失敗（Err）の箱](picture/err_model_ts_study_017_ok_err_boxes.png)
+![Result型：成功（Ok）と失敗（Err）の箱[(./picture/err_model_ts_study_017_ok_err_boxes.png)
 throwしないで、
 
 * 成功なら ✅ Ok（値が入ってる）

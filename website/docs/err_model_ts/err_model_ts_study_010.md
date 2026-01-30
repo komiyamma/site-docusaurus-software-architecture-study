@@ -17,7 +17,7 @@
 
 ## 2. なんで“例外（throw）”にしないの？🙅‍♀️💥
 
-![「例外（throw）」と「戻り値（Result）」の違い](picture/err_model_ts_study_003_railway_switch.png)
+![「例外（throw）」と「戻り値（Result）」の違い[(./picture/err_model_ts_study_003_railway_switch.png)
 
 ドメインエラーは **「想定内」** だから、例外にしちゃうとこうなりがち😵‍💫
 
@@ -97,7 +97,7 @@ const err = <E>(error: E): Result<never, E> => ({ ok: false, error });
 
 ### 5.2 購入処理は「例外」じゃなく「Result」で返す🙂
 
-![購入処理は「例外」じゃなく「Result」で返す](picture/err_model_ts_study_010_result_package.png)
+![購入処理は「例外」じゃなく「Result」で返す[(./picture/err_model_ts_study_010_result_package.png)
 
 ```ts
 type PurchaseReceipt = { purchaseId: string };

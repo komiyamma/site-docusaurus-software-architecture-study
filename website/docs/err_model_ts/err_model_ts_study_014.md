@@ -11,7 +11,7 @@
 
 ## 14.1 なぜ「包む」が必要なの？🥺💭
 
-![なぜ「包む」が必要なの？](picture/err_model_ts_study_014_nesting_dolls.png)
+![なぜ「包む」が必要なの？[(./picture/err_model_ts_study_014_nesting_dolls.png)
 
 たとえば、DBやAPIが落ちたときに、画面側でこんな風にしがち👇
 

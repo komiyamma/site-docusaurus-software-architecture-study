@@ -19,7 +19,7 @@
 
 > 「このアプリに存在するエラーの一覧表」＋「運用ルール」🗂️✨
 
-![エラーカタログ（エラー台帳）](picture/err_model_ts_study_016_catalog_shelf.png)
+![エラーカタログ（エラー台帳）[(./picture/err_model_ts_study_016_catalog_shelf.png)
 
 ### よくある地獄🔥😇
 

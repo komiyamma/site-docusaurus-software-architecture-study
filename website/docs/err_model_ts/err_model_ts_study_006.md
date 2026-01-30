@@ -73,7 +73,7 @@ async function main(): Promise<void> {
 
 ### あるある②：火付け役（fire-and-forget）で燃える🔥😱
 
-![火付け役（fire-and-forget）で燃える](picture/err_model_ts_study_006_fire_and_forget.png)
+![火付け役（fire-and-forget）で燃える[(./picture/err_model_ts_study_006_fire_and_forget.png)
 
 「待たなくていいから投げっぱなしで！」ってやるやつ。
 実はこれ、設計としてアリなんだけど…**必ず後始末が必要**🧹✨

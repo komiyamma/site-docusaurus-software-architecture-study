@@ -9,7 +9,7 @@
 * **formError（全体）**：フォーム全体の問題（例：送信できない、矛盾がある）を伝える🧾
 * **再入力ガイド**：直し方まで短く案内する🗺️✨
 
-![フォームアシスト：入力欄の横で優しくガイドする妖精](picture/err_model_ts_study_021_form_assist.png)
+![フォームアシスト：入力欄の横で優しくガイドする妖精[(./picture/err_model_ts_study_021_form_assist.png)
 
 ---
 

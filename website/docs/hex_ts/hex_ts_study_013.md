@@ -1,6 +1,6 @@
 # 第13章　TypeScript設定①：strict最小セット 🛡️✨
 
-![hex_ts_study_013](picture/hex_ts_study_013_primary_vs_secondary_adapters.png)
+![hex_ts_study_013[(./picture/hex_ts_study_013_primary_vs_secondary_adapters.png)
 
 この章は「**strict を“怖い先生”から“頼れる相棒”にする**」回だよ〜😊💖
 ヘキサゴナル的にも、**Port（interface）で“約束”を守る**のが大事だから、ここで型の守りを作っておくと後がめちゃ楽になるよ🔌✨

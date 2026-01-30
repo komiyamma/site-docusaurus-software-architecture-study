@@ -1,6 +1,6 @@
 # 第2章　直結コードの「つらさ」あるある 😵‍💫💥
 
-![hex_ts_study_002](picture/hex_ts_study_002_the_layered_architecture_probl.png)
+![hex_ts_study_002[(./picture/hex_ts_study_002_the_layered_architecture_probl.png)
 
 この章は、ざっくり言うと「**なんで“設計”が必要になるの？**」を体感する回だよ〜😊✨
 ヘキサゴナル（Ports & Adapters）は、中心（ルール）を外側（UI/DB/外部API）から守って、**交換しやすく＆テストしやすく**する考え方なんだけど、まずは「守られてない世界」のしんどさを見ちゃおう…！🏰🧨 ([AWS ドキュメント][1])
