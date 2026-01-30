@@ -46,7 +46,7 @@
 * Writeモデル：正確・整合性が命（更新しやすい形）🧱
 * Readモデル：速さ・検索のしやすさが命（表示しやすい形）⚡
  
- ![解決の発想：「一覧用に、できあがった料理を置いとこ」🍱✨](./picture/cqrs_cs_study_034_prepared_bento.png)
+ ![解決の発想：「一覧用に、できあがった料理を置いとこ」🍱✨](./picture/cqrs_cs_study_034_bento_shop.png)
 
 これを作る作業が…
 

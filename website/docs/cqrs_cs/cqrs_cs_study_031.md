@@ -27,7 +27,7 @@ flowchart TD
   V -- 効果なし --> M
 ```
 
-![Diagnosing health with tools.](./picture/cqrs_cs_study_031_performance.png)
+![Diagnosing health with tools.](./picture/cqrs_cs_study_031_thermometer.png)
 
 パフォーマンスって、測り方がブレるとすぐ事故るの…😇
 なので、最初に **測定ルール（実験条件）** を固定するよ！
@@ -284,6 +284,8 @@ CQRSのQuery側として、よくある原因仮説を5つ挙げて。今は最�
 * ベースラインがない改善は、だいたい気分🥺
 * `dotnet-counters` で体調チェック📟、VSプロファイラで犯人捜し🕵️
 * 変更は1個ずつ、再計測で勝ち確🔁✨
+ 
+ ![まとめ：計測から改善までのサイクル](./picture/cqrs_cs_study_031_performance.png)
 
 ---
 

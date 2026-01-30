@@ -31,7 +31,7 @@ mindmap
       WHERE/JOINが遅い
 ```
 
-![Efficient search vs inefficient searching.](./picture/cqrs_cs_study_032_conclusion.png)
+![Efficient search vs inefficient searching.](./picture/cqrs_cs_study_032_library_search.png)
 
 **1回で終わるはずの読み取りが、ループのせいで何回もDBに行っちゃう**やつ！
 
@@ -314,6 +314,8 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
   * DTO投影で1クエリ🌟（おすすめ）
   * Includeは便利だけど爆発注意💥（必要ならSplit Queryも検討）([Microsoft Learn][3])
 * インデックスは「WHERE/JOIN/ORDER BYがキー」「SELECTはINCLUDE候補」📌([Microsoft Learn][4])
+ 
+ ![まとめ：インデックスとN+1を制して爆速へ！](./picture/cqrs_cs_study_032_conclusion.png)
 
 ---
 
