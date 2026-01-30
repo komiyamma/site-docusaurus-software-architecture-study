@@ -475,6 +475,26 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/svbc_ts/svbc_ts_index',
   },
+  {
+    title: '状態機械 C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        「学食モバイル注文」の題材を通して、<br/>状態機械の設計と実装を詳しく学びます。<br/>if文地獄からの脱却、単体テスト、永続化まで。<br/>
+      </>
+    ),
+    link: '/docs/state_machine_cs/state_machine_cs_index',
+  },
+  {
+    title: '状態機械 TS版',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        TypeScriptの型システムを駆使して、<br/>「型で守る」状態機械の構築を学びます。<br/>副作用の分離、Reducerパターン、非同期処理の管理。<br/>
+      </>
+    ),
+    link: '/docs/state_machine_ts/state_machine_ts_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

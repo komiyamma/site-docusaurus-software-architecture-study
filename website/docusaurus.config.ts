@@ -118,6 +118,8 @@ const config: Config = {
           "docs/invariants_ts",
           "docs/svbc_cs",
           "docs/svbc_ts",
+          "docs/state_machine_cs",
+          "docs/state_machine_ts",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -445,6 +447,18 @@ const config: Config = {
           sidebarId: 'svbcTsSidebar',
           position: 'left',
           label: 'SemVer TS版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'stateMachineCsSidebar',
+          position: 'left',
+          label: '状態機械 C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'stateMachineTsSidebar',
+          position: 'left',
+          label: '状態機械 TS版',
         },
 
         {
