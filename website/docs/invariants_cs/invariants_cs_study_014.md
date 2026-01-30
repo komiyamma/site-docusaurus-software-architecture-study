@@ -1,6 +1,6 @@
 # 第14章 record / immutable を味方にする❄️🧊
 
-![Immutable Iceblock](./picture/invariants_cs_study_014_ice.png)
+![Immutable Iceblock](./picture/invariants_cs_study_014_immutable.png)
 
 
 この章は「**途中で壊れないデータ**」を増やして、不変条件を守るのをラクにする回だよ〜😊🛡️
@@ -102,7 +102,7 @@ flowchart TD
 
 ## 5. “浅いコピー事故”を体験してみよ👀💣（超だいじ）
 
-![Shared Reference Danger](./picture/invariants_cs_study_014_shared_ref.png)
+![Shared Reference Danger](./picture/invariants_cs_study_014_immutable.png)
 
 ### 5.1 やらかし例（List を持つ record）😵‍💫
 

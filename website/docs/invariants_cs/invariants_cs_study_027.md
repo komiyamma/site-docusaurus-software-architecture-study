@@ -2,7 +2,7 @@
 
 ## この章のゴール🎯
 
-![API Mailbox](./picture/invariants_cs_study_027_mailbox.png)
+![API Mailbox](./picture/invariants_cs_study_027_controller.png)
 
 
 * API の入口（Controller / Minimal API）を **“薄く”** 保てるようになる🙂✨

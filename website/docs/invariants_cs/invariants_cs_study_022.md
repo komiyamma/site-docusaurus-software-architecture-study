@@ -41,7 +41,7 @@ member.Email = "a@b.com";      // 正しそうに見えるけど正規化され�
 
 ## 2. 発想チェンジ💡「更新メソッド＝入口（境界）」になる🚪✨
 
-![Entry Method](./picture/invariants_cs_study_022_check_apply.png)
+![Entry Method](./picture/invariants_cs_study_022_ok.png)
 
 
 第3章で「入力の入口＝境界」ってやったよね🙂

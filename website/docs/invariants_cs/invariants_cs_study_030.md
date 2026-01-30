@@ -1,6 +1,6 @@
 # 第30章 仕上げ総合演習：不変条件の壁を完成🏁🎉🛡️
 
-![Architecture Fortress](./picture/invariants_cs_study_030_fortress.png)
+![Architecture Fortress](./picture/invariants_cs_study_030_fortress_diagram.png)
 
 
 この章は「入口（境界）→ 型（VO）→ 更新 → 状態 → DB → テスト」まで、**ぜんぶを一本につなげる最終回**だよ〜！🥳✨
