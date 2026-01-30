@@ -1,6 +1,6 @@
 # 第6章 失敗の表現①：例外って何者？⚡😵‍💫
 
-![Exceptions Bell](./picture/invariants_cs_study_006_bell.png)
+![Exceptions Bell](./picture/invariants_cs_study_006_red_emergency.png)
 
 
 この章は「例外（Exception）」を **“雑に投げない・雑に握りつぶさない”** ための基礎だよ〜🫶✨
@@ -174,7 +174,7 @@ public record RegisterRequest(string? Email);
 
 ## ③ 観察してみよう👀📝（ここが演習の本体！）
 
-![Exception Flow](./picture/invariants_cs_study_006_exception_flow.png)
+![Exception Flow](./picture/invariants_cs_study_006_comparison_error.png)
 
 ✅ ここで感じる「例外の扱いにくさ」あるある👇
 

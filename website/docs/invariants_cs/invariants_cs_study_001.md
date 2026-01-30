@@ -10,7 +10,7 @@
 
 ## 1) 不変条件ってなに？🌼
 
-![Intro Invariants](./picture/invariants_cs_study_001_shield.png)
+![Intro Invariants](./picture/invariants_cs_study_001_invariants.png)
 
 
 不変条件（Invariant）は、ざっくり言うと…
@@ -78,7 +78,7 @@ graph TD
 
 ## 3) “チェックする”と“守る”は別物だよ🛡️🚪
 
-![Check vs Protect](./picture/invariants_cs_study_001_check_vs_protect.png)
+![Check vs Protect](./picture/invariants_cs_study_001_comparative_left.png)
 
 ここ、めっちゃ大事💡✨
 

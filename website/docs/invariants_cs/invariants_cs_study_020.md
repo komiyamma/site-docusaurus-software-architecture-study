@@ -32,7 +32,7 @@
 
 ## 3. 整合性のコツ（結論）✨🧠
 
-![Consistency Receipt](./picture/invariants_cs_study_020_receipt.png)
+![Consistency Receipt](./picture/invariants_cs_study_020_receipt_consistency.png)
 
 
 ここが超重要👇🥰

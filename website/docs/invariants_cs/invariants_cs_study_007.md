@@ -330,7 +330,7 @@ Visual Studio 2026 は AI の統合がより深くなってるので、こうい
 
 ## 10 参考 既存ライブラリを使う選択肢📦✨
 
-![Railway Oriented Programming](./picture/invariants_cs_study_007_railway.png)
+![Railway Oriented Programming](./picture/invariants_cs_study_007_railway_track.png)
 
 自作でもぜんぜんOKなんだけど、現場だと有名どころもあるよ🙂
 

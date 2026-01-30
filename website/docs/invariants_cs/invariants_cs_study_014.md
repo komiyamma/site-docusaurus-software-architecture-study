@@ -1,6 +1,6 @@
 # 第14章 record / immutable を味方にする❄️🧊
 
-![Immutable Iceblock](./picture/invariants_cs_study_014_iceblock.png)
+![Immutable Iceblock](./picture/invariants_cs_study_014_ice.png)
 
 
 この章は「**途中で壊れないデータ**」を増やして、不変条件を守るのをラクにする回だよ〜😊🛡️

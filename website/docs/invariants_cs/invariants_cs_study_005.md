@@ -37,7 +37,7 @@
 
 ## 2) まずは「仕様」を箇条書きで書く📝🎀
 
-![Validation Spec](./picture/invariants_cs_study_005_blueprint.png)
+![Validation Spec](./picture/invariants_cs_study_005_validation.png)
 
 
 題材は「会員登録（サブスク想定）」にするね😊

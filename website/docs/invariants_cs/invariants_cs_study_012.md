@@ -1,6 +1,6 @@
 # 第12章 値オブジェクト②：Email/文字列VOを作る📧💎
 
-![Email Normalization](./picture/invariants_cs_study_012_normalization.png)
+![Email Normalization](./picture/invariants_cs_study_012_ok.png)
 
 
 この章のテーマはシンプル！
@@ -30,7 +30,7 @@ RFCの世界ではEmailの形式もかなり幅広いし（メッセージ形式
 
 * **厳密RFC準拠の完全判定は狙わない**（コスト爆増する💣）
 * 代わりに、
-![Normalization Flow](./picture/invariants_cs_study_012_normalization_flow.png)
+![Normalization Flow](./picture/invariants_cs_study_012_kiss.png)
 
   ✅ **VO化して以降は“安全”を前提にできる**
   を狙うよ〜🙂💎

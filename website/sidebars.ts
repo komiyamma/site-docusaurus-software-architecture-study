@@ -88,44 +88,6 @@ const dddModules = [
   { title: "第7部：【継続と成長】AI時代に生き残る設計者になる", start: 91, end: 100 },
 ];
 
-const cleanCsModules = [
-  { title: "Part 0：クリーンアーキの芯", start: 1, end: 7 },
-  { title: "Part 1：Entities（Enterprise Business Rules）を厚く", start: 8, end: 16 },
-  { title: "Part 2：Use Cases（Application Business Rules）を厚く", start: 17, end: 28 },
-  { title: "Part 3：Interface Adapters（変換層）を厚く", start: 29, end: 38 },
-  { title: "Part 4：Frameworks & Drivers（外側）を“外に閉じる”", start: 39, end: 42 },
-  { title: "Part 5：テストと“依存ルール強制”は中核の一部", start: 43, end: 45 },
-];
-
-const cleanTsModules = [
-  { title: "Part 1：核をつかむ", start: 1, end: 7 },
-  { title: "Part 2：Entities（中心のルール）を作る", start: 8, end: 13 },
-  { title: "Part 3：Use Cases（アプリの方針）を作る", start: 14, end: 23 },
-  { title: "Part 4：Ports（差し替え口）を最小で設計", start: 24, end: 29 },
-  { title: "Part 5：Interface Adapters（変換して繋ぐ）を作る", start: 30, end: 38 },
-  { title: "Part 6：Frameworks & Drivers（外側に押し出す）", start: 39, end: 42 },
-  { title: "Part 7：Composition Root（組み立て）で完成", start: 43, end: 45 },
-];
-
-const cqrsCsModules = [
-  { title: "第1章〜第10章：CQRSの基礎と準備", start: 1, end: 10 },
-  { title: "第11章〜第16章：Command（書き込み）の基本", start: 11, end: 16 },
-  { title: "第17章〜第21章：Query（読み取り）の基本", start: 17, end: 21 },
-  { title: "第22章〜第25章：API層とDispatcherの仕組み", start: 22, end: 25 },
-  { title: "第26章〜第28章：横断関心（ログ・エラー・検証）", start: 26, end: 28 },
-  { title: "第29章〜第33章：テストとパフォーマンス", start: 29, end: 33 },
-  { title: "第34章〜第37章：Readモデルの分離と仕上げ", start: 34, end: 37 },
-];
-
-const cqrsTsModules = [
-  { title: "第1章〜第7章：CQRSの基本と体験", start: 1, end: 7 },
-  { title: "第8章〜第15章：Command（書き込み）側の設計", start: 8, end: 15 },
-  { title: "第16章〜第20章：Query（読み取り）側の設計", start: 16, end: 20 },
-  { title: "第21章〜第24章：エラー設計とテスト", start: 21, end: 24 },
-  { title: "第25章〜第29章：投影（Projection）と整合性", start: 25, end: 29 },
-  { title: "第30章〜第33章：冪等性とRead最適化", start: 30, end: 33 },
-  { title: "第34章〜第37章：API設計と卒業制作", start: 34, end: 37 },
-];
 
 
 /**
@@ -191,21 +153,9 @@ const sidebars: SidebarsConfig = {
   observerCsSidebar: generateProjectSidebar('observer_cs'),
   observerTsSidebar: generateProjectSidebar('observer_ts'),
 
-  cleanCsSidebar: [
-    {
-      type: 'doc',
-      id: 'clean_cs/clean_cs_index',
-    },
-    ...generateSidebarItems('clean_cs', 'clean_cs', cleanCsModules),
-  ],
+  cleanCsSidebar: generateProjectSidebar('clean_cs'),
+  cleanTsSidebar: generateProjectSidebar('clean_ts'),
 
-  cleanTsSidebar: [
-    {
-      type: 'doc',
-      id: 'clean_ts/clean_ts_index',
-    },
-    ...generateSidebarItems('clean_ts', 'clean_ts', cleanTsModules),
-  ],
   cqsCsSidebar: generateProjectSidebar('cqs_cs'),
   cqsTsSidebar: generateProjectSidebar('cqs_ts'),
   cqrsCsSidebar: generateProjectSidebar('cqrs_cs'),

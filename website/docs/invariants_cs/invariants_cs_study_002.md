@@ -2,7 +2,7 @@
 
 ## この章のゴール🎯✨
 
-![Broken State Catalog](./picture/invariants_cs_study_002_catalog.png)
+![Broken State Catalog](./picture/invariants_cs_study_002_catalog_shelf.png)
 
 
 * 「壊れた状態」＝**不変条件（守る約束）が破れてる状態**を、自分でどんどん挙げられるようになる🙂📝

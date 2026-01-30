@@ -1,6 +1,6 @@
 # 第8章 失敗の表現③：境界で“変換”する🚪🔁
 
-![Translation Booth](./picture/invariants_cs_study_008_translator.png)
+![Translation Booth](./picture/invariants_cs_study_008_translator_booth.png)
 
 
 この章は「**内部の失敗（ドメインの失敗）**」を、そのまま外に出さずに、**UI / API向けの失敗表現に“翻訳”する**練習だよ〜🙂✨

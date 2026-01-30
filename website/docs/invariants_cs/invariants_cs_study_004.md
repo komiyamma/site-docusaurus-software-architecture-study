@@ -2,7 +2,7 @@
 
 ## この章のゴール🎯
 
-![Guard Clause](./picture/invariants_cs_study_004_guard.png)
+![Guard Clause](./picture/invariants_cs_study_004_guard_clause.png)
 
 
 * 「入口で弾く」コードをスッと書ける🙂🚪
@@ -37,7 +37,7 @@
 
 ## 3) ダメな例：ifの入れ子で“迷子”😵‍💫🌀
 
-![Arrow Code vs Guard](./picture/invariants_cs_study_004_arrow_code.png)
+![Arrow Code vs Guard](./picture/invariants_cs_study_004_if.png)
 
 たとえば「会員登録」っぽい処理で、こうなりがち👇
 

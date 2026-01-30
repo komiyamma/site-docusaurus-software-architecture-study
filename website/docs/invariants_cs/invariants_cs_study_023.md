@@ -18,6 +18,8 @@
 * 📦 Shipped（発送済み）
 * ❌ Cancelled（キャンセル済み）
 
+![状態](./picture/invariants_cs_study_023_state.png)
+
 みたいに、**段階が変わる**よね。
 
 そして超たいじなのがここ👇
@@ -130,6 +132,8 @@ stateDiagram-v2
   note right of Paid: 明細固定/配送先必須
   note right of Shipped: 変更不可
 ```
+
+![中心の球体](./picture/invariants_cs_study_023_central_sphere.png)
 
 ---
 

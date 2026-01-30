@@ -59,7 +59,7 @@
 
 たとえばこんなの👇が起きるのが嫌なの：
 
-![Currency Mismatch](./picture/invariants_cs_study_011_currency_mismatch.png)
+![Currency Mismatch](./picture/invariants_cs_study_011_currency.png)
 
 * 通貨が混ざって足される（`JPY + USD` とか）💣
 * 小数桁が合ってない（JPYなのに `100.5` 円が通る）🌀

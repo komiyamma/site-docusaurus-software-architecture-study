@@ -1,6 +1,6 @@
 # 第21章 更新で壊れない①：setterを減らす✂️🔒
 
-![No Setters](./picture/invariants_cs_study_021_reduced_keys.png)
+![No Setters](./picture/invariants_cs_study_021_house_with.png)
 
 
 この章はひとことで言うと、**「勝手に書き換えられる入口（public set）を減らして、不変条件を守れる更新ルートだけ残す」**回だよ〜！😊🎀

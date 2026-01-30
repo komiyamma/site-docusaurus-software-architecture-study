@@ -46,7 +46,7 @@ flowchart LR
 
 ## 1. 日付/時刻の地雷あるある💣😭（チェックリスト化しよ✅）
 
-![Deadline Timeline](./picture/invariants_cs_study_018_timeline.png)
+![Deadline Timeline](./picture/invariants_cs_study_018_deadline.png)
 
 
 ### よくある事故トップたち🥲
