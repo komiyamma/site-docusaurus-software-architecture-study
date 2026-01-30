@@ -35,7 +35,7 @@ Nullable参照型（NRT）は、ここに対して
 
 ## 3) Nullable参照型（NRT）の基本🎀
 
-![Nullable Gate](./picture/invariants_cs_study_015_nullable_nrt.png)
+![Nullable Gate](./picture/invariants_cs_study_015_null_check.png)
 
 
 ### ✅ 3-1. `string` と `string?` の意味

@@ -31,7 +31,7 @@ mindmap
       WHERE/JOINが遅い
 ```
 
-![Efficient search vs inefficient searching.](./picture/cqrs_cs_study_032_conclusion.png)
+![Efficient search vs inefficient searching.](./picture/cqrs_cs_study_032_library_search.png)
 
 **1回で終わるはずの読み取りが、ループのせいで何回もDBに行っちゃう**やつ！
 

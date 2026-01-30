@@ -303,6 +303,8 @@ app.Run();
 4. 2秒くらい後に `GET /orders/list` を見る👀 → **Readに反映**🎉
 
 この「えっ、保存できたのに一覧にいない…！」が、最終的整合性の正体だよ⏳🪞
+ 
+ ![体験のしかた（ここ大事！）🧪✨](./picture/cqrs_cs_study_035_lag_mirror.png)
 
 ---
 

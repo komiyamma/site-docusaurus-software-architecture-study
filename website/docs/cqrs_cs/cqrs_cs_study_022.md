@@ -19,6 +19,8 @@ CQRSで一番やりたいのは、結局これ👇
 
 * **書く（Command）**：業務ルール・整合性を守る💪
 * **読む（Query）**：表示・検索を速く、都合よく👀⚡
+ 
+ ![なぜAPI層を薄くするの？🤔💡](./picture/cqrs_cs_study_022_receptionist.png)
 
 なのに、API層が太ると…
 

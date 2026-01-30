@@ -7,7 +7,7 @@
 
 ## 1) そもそも「状態（State）」って何？🎭
 
-![State Buckets](./picture/invariants_cs_study_023_central_sphere.png)
+![State Buckets](./picture/invariants_cs_study_023_state_buckets.png)
 
 
 **状態＝「いま何段階？」**のことだよ🙂✨
@@ -66,7 +66,7 @@
 
 ## 4) 状態で一番大事な考え方：「許可される操作」📌✨
 
-![State Allowed Operations](./picture/invariants_cs_study_023_central_sphere.png)
+![State Allowed Operations](./picture/invariants_cs_study_023_state_operations.png)
 
 状態って、雰囲気で付けるラベルじゃなくて
 

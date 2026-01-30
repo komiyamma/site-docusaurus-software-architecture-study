@@ -26,7 +26,7 @@
 
 ## 2) 今日の最重要ルール（覚えたら勝ち）🛡️💖
 
-![Adapter Plug](./picture/invariants_cs_study_028_electrical_adapter.png)
+![Adapter Plug](./picture/invariants_cs_study_028_adapter.png)
 
 
 ### ルールA：ドメインに “外部DTO” を入れない🚫📦

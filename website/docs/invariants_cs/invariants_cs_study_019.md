@@ -32,7 +32,7 @@
 
 ## 2. 集合の不変条件テンプレ3点セット🧺📌
 
-![Collection Limit](./picture/invariants_cs_study_019_brick_wall.png)
+![Collection Limit](./picture/invariants_cs_study_019_limit.png)
 
 
 ### A) 重複禁止（Unique）🚫
@@ -83,7 +83,7 @@ flowchart TD
 
 ## 4. 例題：CartItems（同一商品は1行にまとめる）🛒✨
 
-![Merging Cart Items](./picture/invariants_cs_study_019_brick_wall.png)
+![Merging Cart Items](./picture/invariants_cs_study_019_merging.png)
 
 ### 不変条件（この章の主役）📜
 
