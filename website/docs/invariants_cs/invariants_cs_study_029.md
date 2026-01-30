@@ -6,7 +6,7 @@
 
 ## 1) この章のゴール🎯✨
 
-![DB Vault](./picture/invariants_cs_study_029_vault.png)
+![DB Vault](./picture/invariants_cs_study_029_db.png)
 
 
 この章が終わると、こんなことができるようになります😊🌸

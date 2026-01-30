@@ -1,5 +1,7 @@
 # 第10章　型の武器③：Branded / Opaque 風の型で「混ぜない」🏷️😎✨
 
+![第10章　型の武器③：Branded / Opaque 風の型で「混ぜない」🏷️😎✨](./picture/invariants_ts_study_010_branded_type.png)
+
 この章は「**同じ `string` なのに意味が違うもの（UserId / OrderId / Email…）を絶対に混ぜない**」を、TypeScriptの型だけでガッチリ守る回だよ〜🛡️💎
 （2026-01-23 時点で TypeScript の最新版は 5.9 が案内されています📌） ([typescriptlang.org][1])
 
