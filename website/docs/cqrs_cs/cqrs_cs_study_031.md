@@ -27,7 +27,7 @@ flowchart TD
   V -- 効果なし --> M
 ```
 
-![Diagnosing health with tools.](./picture/cqrs_cs_study_031_thermometer.png)
+![Diagnosing health with tools.](./picture/cqrs_cs_study_031_performance.png)
 
 パフォーマンスって、測り方がブレるとすぐ事故るの…😇
 なので、最初に **測定ルール（実験条件）** を固定するよ！

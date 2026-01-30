@@ -42,7 +42,7 @@ Cancelled -> (なし)
 
 ## 25.3 遷移時チェックの“3点セット”🛡️✅✅✅
 
-![Guard Flow](./picture/invariants_cs_study_025_guard_flow.png)
+![Guard Flow](./picture/invariants_cs_study_025_flow_diagram.png)
 
 ![Transition Guard](./picture/invariants_cs_study_025_border_control.png)
 

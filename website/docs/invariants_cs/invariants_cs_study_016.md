@@ -1,6 +1,6 @@
 # 第16章 不変条件パターン①：数値（範囲・丸め・単位）🔢📌
 
-![Numeric Gauge](./picture/invariants_cs_study_016_thermometer.png)
+![Numeric Gauge](./picture/invariants_cs_study_016_gauge_or.png)
 
 
 この章は「数値まわりの事故」をまとめて減らす章だよ〜！😊✨
@@ -148,7 +148,7 @@ public readonly record struct Percent
 
 ## 4) パターン③：単位を “別の型” にして混ぜない🚫🧪
 
-![Unit Mismatch](./picture/invariants_cs_study_016_unit_mismatch.png)
+![Unit Mismatch](./picture/invariants_cs_study_016_formula_showing.png)
 
 単位ミスって、レビューでも見落としがち…！😱
 だから **型で混ぜられない** ようにするのが最強🛡️

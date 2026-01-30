@@ -31,7 +31,7 @@ UIの入力って、こんなのが日常です👇
 
 ## 3) 変換パイプライン（これが“型と境界で守る”の形）🛡️🚪
 
-![UI Pipeline](./picture/invariants_cs_study_026_input_process.png)
+![UI Pipeline](./picture/invariants_cs_study_026_funnel_diagram.png)
 
 
 おすすめの流れはこれだよ👇
