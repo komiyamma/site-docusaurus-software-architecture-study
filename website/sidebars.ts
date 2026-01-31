@@ -106,10 +106,8 @@ const sidebars: SidebarsConfig = {
 
 
   entityObjCsSidebar: generateProjectSidebar('entity_obj_cs'),
-  entityObjTsSidebar: generateProjectSidebar('entity_obj_ts'),
 
   dryCsSidebar: generateProjectSidebar('dry_cs'),
-  dryTsSidebar: generateProjectSidebar('dry_ts'),
 
   dddCsSidebar: [
     {
@@ -120,54 +118,33 @@ const sidebars: SidebarsConfig = {
   ],
 
   adrCsSidebar: generateProjectSidebar('adr_cs'),
-  adrTsSidebar: generateProjectSidebar('adr_ts'),
   yagniCsSidebar: generateProjectSidebar('yagni_cs'),
-  yagniTsSidebar: generateProjectSidebar('yagni_ts'),
   kissCsSidebar: generateProjectSidebar('kiss_cs'),
-  kissTsSidebar: generateProjectSidebar('kiss_ts'),
   solidCsSidebar: generateProjectSidebar('solid_cs'),
-  solidTsSidebar: generateProjectSidebar('solid_ts'),
   socCsSidebar: generateProjectSidebar('soc_cs'),
-  socTsSidebar: generateProjectSidebar('soc_ts'),
   hcLcCsSidebar: generateProjectSidebar('hc_lc_cs'),
-  hcLcTsSidebar: generateProjectSidebar('hc_lc_ts'),
   mvcCsSidebar: generateProjectSidebar('mvc_cs'),
-  mvcTsSidebar: generateProjectSidebar('mvc_ts'),
   diCsSidebar: generateProjectSidebar('di_cs'),
-  diTsSidebar: generateProjectSidebar('di_ts'),
   dipCsSidebar: generateProjectSidebar('dip_cs'),
-  dipTsSidebar: generateProjectSidebar('dip_ts'),
   isaHasaCsSidebar: generateProjectSidebar('isa_hasa_cs'),
-  isaHasaTsSidebar: generateProjectSidebar('isa_hasa_ts'),
   hexCsSidebar: generateProjectSidebar('hex_cs'),
-  hexTsSidebar: generateProjectSidebar('hex_ts'),
 
   dpnRuleCsSidebar: generateProjectSidebar('dpn_rule_cs'),
-  dpnRuleTsSidebar: generateProjectSidebar('dpn_rule_ts'),
 
   layerCsSidebar: generateProjectSidebar('layer_cs'),
-  layerTsSidebar: generateProjectSidebar('layer_ts'),
 
   errModelCsSidebar: generateProjectSidebar('err_model_cs'),
-  errModelTsSidebar: generateProjectSidebar('err_model_ts'),
 
   observerCsSidebar: generateProjectSidebar('observer_cs'),
-  observerTsSidebar: generateProjectSidebar('observer_ts'),
 
   cleanCsSidebar: generateProjectSidebar('clean_cs'),
-  cleanTsSidebar: generateProjectSidebar('clean_ts'),
 
   cqsCsSidebar: generateProjectSidebar('cqs_cs'),
-  cqsTsSidebar: generateProjectSidebar('cqs_ts'),
   cqrsCsSidebar: generateProjectSidebar('cqrs_cs'),
-  cqrsTsSidebar: generateProjectSidebar('cqrs_ts'),
   invariantsCsSidebar: generateProjectSidebar('invariants_cs'),
-  invariantsTsSidebar: generateProjectSidebar('invariants_ts'),
 
   svbcCsSidebar: generateProjectSidebar('svbc_cs'),
-  svbcTsSidebar: generateProjectSidebar('svbc_ts'),
   stateMachineCsSidebar: generateProjectSidebar('state_machine_cs'),
-  stateMachineTsSidebar: generateProjectSidebar('state_machine_ts'),
 
 };
 
