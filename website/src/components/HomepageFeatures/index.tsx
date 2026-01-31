@@ -271,6 +271,18 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/acl_cs/acl_cs_index',
   },
+  {
+    title: '集約と境界 C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        集約（Aggregate）の設計と境界を学びます。<br/>
+        整合性を保つための設計判断、不変条件の守り方、<br/>
+        そして最終的整合性への橋渡しまで。
+      </>
+    ),
+    link: '/docs/ab_tcb_cs/ab_tcb_cs_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

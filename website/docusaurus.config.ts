@@ -100,6 +100,7 @@ const config: Config = {
           "docs/svbc_cs",
           "docs/state_machine_cs",
           "docs/acl_cs",
+          "docs/ab_tcb_cs",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -307,6 +308,12 @@ const config: Config = {
           sidebarId: 'aclCsSidebar',
           position: 'left',
           label: 'ACL C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'abTcbCsSidebar',
+          position: 'left',
+          label: '集約と境界 C#版',
         },
 
         {
