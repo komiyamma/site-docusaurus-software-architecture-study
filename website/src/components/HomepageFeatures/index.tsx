@@ -259,6 +259,18 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/state_machine_cs/state_machine_cs_index',
   },
+  {
+    title: 'ACL C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        腐敗防止層（ACL）の概念と実装を学びます。<br/>
+        外部システムの仕様からドメインモデルを守り、<br/>
+        クリーンな設計を維持する翻訳レイヤーを構築。
+      </>
+    ),
+    link: '/docs/acl_cs/acl_cs_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

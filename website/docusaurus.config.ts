@@ -99,6 +99,7 @@ const config: Config = {
           "docs/invariants_cs",
           "docs/svbc_cs",
           "docs/state_machine_cs",
+          "docs/acl_cs",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -300,6 +301,12 @@ const config: Config = {
           sidebarId: 'stateMachineCsSidebar',
           position: 'left',
           label: '状態機械 C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'aclCsSidebar',
+          position: 'left',
+          label: 'ACL C#版',
         },
 
         {
