@@ -17,7 +17,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://software-architecture.komiyamma.net',
+  url: 'https://software-architecture-cs.komiyamma.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,7 +25,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'komiyamma', // Usually your GitHub org/user name.
-  projectName: 'site-docusaurus-software-architecture-study', // Usually your repo name.
+  projectName: 'site-docusaurus-software-architecture-cs-study', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -462,7 +462,7 @@ const config: Config = {
         },
 
         {
-          href: 'https://github.com/komiyamma/site-docusaurus-software-architecture',
+          href: 'https://github.com/komiyamma/site-docusaurus-software-architecture-cs-study',
           label: 'GitHub',
           position: 'right',
         },
