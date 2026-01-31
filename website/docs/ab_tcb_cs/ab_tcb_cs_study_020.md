@@ -56,6 +56,18 @@
 👉 これは **例外（Exception）**でOK。
 ただし、**ユーザーに詳細を見せない**のが鉄則🫶🧾
 
+```mermaid
+graph TD
+    subgraph Kinds [エラーの3分類]
+        A[ドメインエラー <br/>想定内: 業務ルール]
+        B[入力エラー <br/>想定内: 入力形式]
+        C[システムエラー <br/>想定外: 障害/バグ]
+    end
+    A --> Result[Result型で返す]
+    B --> Validation[入口で弾く]
+    C --> Exception[例外を投げる]
+```
+
 ---
 
 ## 20.4 「例外」ってどこまで投げていいの？🤔💥
@@ -80,6 +92,13 @@ Result型は、ざっくり言うと👇
 * 失敗なら ❌「この理由でダメ」
 
 を **型で表す**やり方です✨
+
+```mermaid
+flowchart LR
+    Exec[処理実行] --> Result{Result型}
+    Result -- Success --> Val[✅ OK + 戻り値]
+    Result -- Failure --> Err[❌ NG + エラー情報]
+```
 
 ---
 
@@ -246,6 +265,18 @@ public sealed record AddItemRequest(string ItemName, int Quantity);
 * `title` はユーザー向け（短く）💬
 * `code` は機械向け（UI分岐・翻訳キー）🆔
 * ドメインの `Message` をそのまま出すのは避けがち（内部情報になりやすい）🔐
+
+```mermaid
+sequenceDiagram
+    participant User as ユーザー
+    participant App as アプリ層
+    participant Domain as ドメイン層
+    User->>App: リクエスト
+    App->>Domain: 処理依頼
+    Domain-->>App: Result.Fail(Code)
+    Note over App: Codeをもとに <br/>メッセージ整形
+    App-->>User: Problem Details (やさしい表示)
+```
 
 ---
 

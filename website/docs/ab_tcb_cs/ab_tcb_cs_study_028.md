@@ -35,6 +35,18 @@
 * 注文が「確定済み✅」なのに、別の人が古い画面のまま「明細追加」を保存してしまう
   → 本当は **確定後は編集禁止** のはずなのに、すり抜ける😵‍💫
 
+```mermaid
+sequenceDiagram
+    participant UserA as 店員A
+    participant DB as データベース
+    participant UserB as 店員B
+    UserA->>DB: 1. 取得 (Status: Draft)
+    UserB->>DB: 2. 取得 (Status: Draft)
+    UserA->>DB: 3. 保存 (Status: Confirmed) ✅
+    UserB->>DB: 4. 保存 (明細追加) 💥
+    Note over DB: UserBの保存で <br/>Confirmed が上書きされる
+```
+
 ---
 
 ## 3. なんでこうなるの？（超ざっくり仕組み）🧠🔍
@@ -54,6 +66,17 @@
 
 衝突に気づかないと、**静かにデータが壊れる**ことがある…（これが一番イヤ）🙅‍♀️
 
+```mermaid
+graph TD
+    Read["1. DBから読込"] --> Think["2. 人間が考える <br/>(数秒〜数分)"]
+    Think --> Save["3. 保存実行"]
+    Conflict{その間に <br/>誰か変えた?}
+    Conflict -- No --> Success["整合性維持 ✅"]
+    Conflict -- Yes --> Broken["データ破壊 / 上書き 💥"]
+    Note1["この空き時間が <br/>事故の温床"]
+    Think -.-> Note1
+```
+
 ---
 
 ## 4. 「検出できるだけでも価値」ってどういうこと？✨🛡️
@@ -72,6 +95,13 @@ EF Core でも、**コンカレンシートークン**（後でRowVersionなど�
 
 * “壊れたデータ”を残さずに、**安全にやり直し**へ誘導できる🧯✨
 * 「誰かが先に更新した」事実が分かるので、**UIで説明できる**💬🌸
+
+```mermaid
+flowchart LR
+    Detect[衝突を検出! 🛡️] --> Stop[保存を中断 ✋]
+    Stop --> Message[ユーザーに通知 💬]
+    Message --> Retry[最新を読んでやり直し 🔁]
+```
 
 ---
 

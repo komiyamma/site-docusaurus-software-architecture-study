@@ -20,6 +20,12 @@
 * どう関係する？（線）🔗
 * **どこまで一緒に更新する？**（ここが一番大事）👀🔒
 
+```mermaid
+graph TD
+    Order[Order: 箱] -- 関係: 線 --> Item[OrderItem: 箱]
+    Order -- 整合性: 境界 --> Item
+```
+
 > ※この教材は C# 14 / .NET 10 / Visual Studio 2026 の最新世代を前提に進めるよ（この世代で試せることが公式に示されてるよ）([Microsoft Learn][1])
 
 ---
@@ -90,6 +96,16 @@
 * Store と Order は関係あるけど、更新を一緒にするかはまだ決めない
   → 線は引くけど、**境界は保留**でOK🙆‍♀️
 
+```mermaid
+graph TD
+    subgraph Inclusion [内包]
+        Order1[Order] --- contains ---> Item1[OrderItem]
+    end
+    subgraph Reference [参照]
+        Order2[Order] -. ID参照 .-> Cust2[Customer]
+    end
+```
+
 ---
 
 ## 5) 今日の主役：「更新される単位」を探す👀🔒
@@ -156,6 +172,21 @@
 理由👇
 
 * 顧客情報の更新（住所・名前など）は注文操作とは別に起きることが多い🏠📝
+
+```mermaid
+graph TD
+    subgraph OrderAgg [Order集約 🌳]
+        Order --- contains --- Item
+    end
+    subgraph PaymentAgg [Payment集約 🌳]
+        Payment
+    end
+    subgraph CustomerAgg [Customer集約 🌳]
+        Customer
+    end
+    Order -- ID参照 --> Payment
+    Order -- ID参照 --> Customer
+```
 
 ---
 

@@ -18,6 +18,13 @@
 * **破れたら即アウト**（お金・在庫・二重処理・法的/契約的にNG）→ **同じトランザクションで守る候補**✅
 * **少し遅れて揃ってもOK**（通知・集計・表示更新など）→ **別トランザクションでもOK**⏳📣
 
+```mermaid
+graph TD
+    Rule[業務ルール] --> Strong{一瞬でも破れてNG?}
+    Strong -- Yes --> Immediate[即時整合 ⚡ <br/>同じ集約/TX]
+    Strong -- No --> Eventual[最終的整合 ⏳ <br/>別集約/イベント]
+```
+
 ---
 
 ## 2026年1月時点の“最新前提”メモ📝✨
@@ -83,6 +90,16 @@
 
 例：注文確定後の「サンクスメール」送信、売上集計更新
 → YES なら **別でもOK**（イベントで後処理が向く）📣✨
+
+```mermaid
+flowchart TD
+    Q1[お金・在庫・二重処理?] -- Yes --> Strong[即時 ⚡]
+    Q1 -- No --> Q2[法務・契約・監査?]
+    Q2 -- Yes --> Strong
+    Q2 -- No --> Q3[ユーザーへの矛盾?]
+    Q3 -- Yes --> Strong
+    Q3 -- No --> Eventual[最終的 ⏳]
+```
 
 ---
 
@@ -207,6 +224,15 @@ public sealed class DomainException : Exception
 
 * `Order.AddItem()` と `Order.Confirm()` の中に **同時に守るルール**が集まってる✅
 * `Status` で「できる/できない」を表現できて、**途中状態が壊れにくい**🚦✨
+
+```mermaid
+graph TD
+    subgraph OrderAgg [Order集約]
+        Order[Order Root] --> Items[OrderItem List]
+        Order -- ガード節 --> Rule[不変条件チェック]
+    end
+```
+
 * `Total` を “保存値” にせず `Items` から計算にするとズレ事故が減る（まずはこれが強い）🧠🛡️
 
 ---

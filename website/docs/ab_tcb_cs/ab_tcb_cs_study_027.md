@@ -22,6 +22,14 @@ EF Core は基本、**`SaveChanges()` 1回ぶんを自動でトランザクシ�
 * `SaveChangesAsync()` は最後に1回
   ができていれば、だいたい勝ち🏆✨
 
+```mermaid
+graph TD
+    subgraph Implicit ["暗黙の境界 (既定)"]
+        Op[処理A + 処理B] --> Save[SaveChanges 1回]
+        Save -- TX自動開始 --> Commit[一括確定]
+    end
+```
+
 ---
 
 ## EF Coreの「暗黙トランザクション」って何？🧠🔍
@@ -74,7 +82,17 @@ SQL Server で `EnableRetryOnFailure()` みたいな “自動リトライ” �
 * **「Txを含む処理全体」をその戦略で包む**
   が必要になります。([Microsoft Learn][3])
 
+が必要になります。([Microsoft Learn][3])
+
 さらに安全寄りにしたい場合、EF Core には **`ExecuteInTransaction` / `ExecuteInTransactionAsync`** の拡張メソッドも用意されています。([Microsoft Learn][4])
+
+```mermaid
+flowchart TD
+    Strategy[実行戦略 / Retry Policy] -- "ExecuteAsync" --> TX[BeginTransaction]
+    TX --> Op[DB操作 / SaveChanges]
+    Op -- "例外発生 (通信断など)" --> Retry[戦略による再試行 🔁]
+    Op -- "成功" --> Commit[Commit]
+```
 
 ---
 
@@ -168,6 +186,16 @@ catch
 
 * 「同じDBで同じ接続/Txを共有する」発想が大事🧠✨
 * これが必要になる代表例が Outbox です📮（第32章へつながる！）
+
+```mermaid
+graph LR
+    subgraph TX [1つの明示トランザクション 🔒]
+        DB1[DbContext 1]
+        DB2[DbContext 2]
+    end
+    DB1 -- "UseTransaction <br/>(共有)" --> DB2
+    TX -- "CommitAsync" --> DB[(データベース)]
+```
 
 ---
 

@@ -64,6 +64,17 @@
 SaveChangesAsync() ← ここで確定💾✅
 ```
 
+```mermaid
+flowchart TD
+    UI[UI / API] -- "1. 実行依頼" --> App[App Service 🎬]
+    App -- "2. ロード" --> Repo[Repository 🏪]
+    App -- "3. 状態変更" --> Domain[Domain 🌳]
+    App -- "4. SaveChanges 🔒" --> DB[(DB)]
+    DB -- "5. 確定 (TX)" --> Succ[成功]
+```
+
+---
+
 ---
 
 ## 26.6 PlaceOrder（注文確定）を実装してみよう☕️🧾✨
@@ -367,6 +378,18 @@ await _db.SaveChangesAsync(ct);
 
 この章では **「PlaceOrderは注文確定だけ」**にして、外部I/Oは入れない方針でOK🙆‍♀️✨
 （決済や通知は、後の章で安全にやる）
+
+```mermaid
+graph TD
+    subgraph Danger ["危険な順序 💥"]
+        Pay[外部決済API] --> DB[DB保存]
+        Note1["決済OK、DB失敗で<br/>二重請求リスク!"]
+        Pay -.-> Note1
+    end
+    subgraph Safety ["安全な順序 ✅"]
+        DB2["DB保存 🔒"] --> Event[イベント / 通知]
+    end
+```
 
 ---
 

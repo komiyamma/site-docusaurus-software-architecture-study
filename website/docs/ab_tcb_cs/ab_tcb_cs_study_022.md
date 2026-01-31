@@ -18,6 +18,16 @@ DBのテーブルを触る道具というより、**ドメイン（業務）を�
 
 DDD系のガイドでも、**「集約（または集約ルート）ごとにRepositoryを作る」**のが基本って書かれてるよ📚✨ ([Microsoft Learn][1])
 
+```mermaid
+graph LR
+    subgraph Storage [DB / 倉庫]
+        Table1[(Order Table)]
+        Table2[(OrderItem Table)]
+    end
+    Repo[OrderRepository 🏪] -- "集約として出し入れ" --> Storage
+    App[アプリ層] -- "Find / Add" --> Repo
+```
+
 ---
 
 ## 2. なんで「集約単位」なの？🌳🔒
@@ -58,6 +68,17 @@ OrderItemだけ更新できちゃうと、こんな事故が起きやすい👇
   なのに明細だけ増えて合計が更新されない💥
 
 つまり、**第17章の“不変条件”が守れなくなる**のが最大の問題😱
+
+```mermaid
+graph TD
+    subgraph BadRepo [NG: 子を直接いじる]
+        ItemRepo[OrderItemRepository ❌] -- "勝手に数量変更 💥" --> Items
+    end
+    subgraph GoodRepo [OK: ルート経由]
+        OrderRepo[OrderRepository ✅] -- "注文全体の不変条件を保護 🛡️" --> OrderRoot
+        OrderRoot --> Items
+    end
+```
 
 ---
 
@@ -229,6 +250,16 @@ Repositoryの中で毎回 `SaveChanges()` しちゃうと、境界がグチャ�
 
 * Repository：集約を出し入れする🏪
 * ユースケース（Application Service）：最後にまとめて確定する🎬✅
+
+```mermaid
+sequenceDiagram
+    participant App as ユースケース
+    participant Repo as Repository
+    participant DB as データベース
+    App->>Repo: 1. 集約を取得
+    App->>App: 2. ドメインのロジック実行
+    App->>DB: 3. SaveChanges 🔒 (一括確定)
+```
 
 そして `SaveChanges` は（DBが対応していれば）**その呼び出し単位でトランザクションになってくれる**のが基本だよ💾🔒 ([Microsoft Learn][2])
 

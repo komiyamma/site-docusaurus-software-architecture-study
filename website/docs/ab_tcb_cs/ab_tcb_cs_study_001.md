@@ -63,6 +63,16 @@
 * それを **バラバラに更新させない** ために、
   “ひとまとまり”として扱うのが **集約**🌳✨
 
+```mermaid
+graph TD
+    Order[注文: 集約]
+    Order --> Item[明細 1]
+    Order --> Item2[明細 2]
+    Order --> Amount[合計金額]
+    Order --> Status[状態]
+    style Order fill:#f9f,stroke:#333,stroke-width:4px
+```
+
 ### 4.2 集約ルート（Aggregate Root）👑🚪
 
 集約には「入口」が必要です✨
@@ -80,6 +90,21 @@
 * 途中まで保存される…は基本NG😵‍💫
 
 この“成功/失敗のまとまり”が、境界の感覚です🔒✨
+
+```mermaid
+sequenceDiagram
+    participant App as アプリケーション
+    participant DB as データベース
+    Note over App,DB: トランザクション開始 🔒
+    App->>DB: 注文情報を保存
+    App->>DB: 明細1を保存
+    App->>DB: 明細2を保存
+    alt 全て成功
+        App->>DB: コミット (確定) ✅
+    else 一部失敗
+        App->>DB: ロールバック (破棄) ❌
+    end
+```
 
 ---
 

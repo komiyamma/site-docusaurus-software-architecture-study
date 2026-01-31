@@ -16,6 +16,13 @@ DDD（Domain-Driven Design）は、めちゃくちゃ雑に言うと👇
 * **大事なルールを、コードの中心に置く**🔐✨
 * **「仕様の勘違い」で起きるバグを減らす**🛡️😇
 
+```mermaid
+flowchart LR
+    Biz[業務の言葉 🗣] -- そのままコードへ --> Code[コードの名前 💻]
+    Biz -- ルールを抽出 --> Rule[コードの制約 🔐]
+    Code & Rule --> Clear[勘違いバグが減る ✨]
+```
+
 ここで言う「業務」って、会社の業務だけじゃなくてOKだよ🙆‍♀️
 カフェの注文でも、サブスクでも、ゲームのアイテム管理でも、ぜんぶ“ドメイン”☕️🎮📦
 
@@ -111,6 +118,13 @@ DDDをやる理由は、主にこの3つが強いよ💪🌸
 
 この「守る場所」が、のちに **集約** の話につながる🌳✨
 （ルールが散らばると事故るので、守る責任者を作るイメージ👑）
+
+```mermaid
+flowchart TD
+    Step1[1. 言葉を拾う 🔎] --> Step2[2. 意味を揃える 🗣]
+    Step2 --> Step3[3. 日本語ルールを書く ✍]
+    Step3 --> Step4[4. 守る場所:集約を決める 🌳]
+```
 
 ---
 
@@ -231,6 +245,19 @@ AIは「答え」じゃなくて、**案を出す相棒**にすると超強い�
 注文の状態を Draft / Confirmed / Paid / Cancelled とします。
 この状態遷移の一覧を「表」で作って。
 禁止される操作も含めて。
+AIの出力を見たら、最後にこれだけやってね👇
+
+```mermaid
+stateDiagram-v2
+    [*] --> Draft: 作成
+    Draft --> Confirmed: 確定 (Confirm)
+    Confirmed --> Paid: 支払い (MarkAsPaid)
+    Confirmed --> Cancelled: キャンセル (Cancel)
+    Draft --> Cancelled: キャンセル
+    Paid --> [*]
+    Cancelled --> [*]
+    note right of Confirmed: 確定後は明細追加不可 🚫
+    note right of Paid: 支払い後はキャンセル不可 🚫
 ```
 
 AIの出力を見たら、最後にこれだけやってね👇

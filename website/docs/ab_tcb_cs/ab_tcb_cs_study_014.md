@@ -25,6 +25,17 @@
 * ✅ 参照が必要なら **Query（検索）で取りに行く**
 * ✅ “更新したいもの” と “表示したい情報” を分ける
 
+```mermaid
+graph LR
+    subgraph OrderAgg [Order集約]
+        Order[Order Root] --> CID[Customer ID]
+    end
+    subgraph CustAgg [Customer集約]
+        Cust[Customer Root]
+    end
+    CID -. "IDのみ知っている" .-> Cust
+```
+
 この考え方は、MicrosoftのDDD解説でも「集約は他集約への参照を持つ（REF）」という形で示されてるよ🧩✨ ([Microsoft Learn][1])
 
 ---
@@ -42,9 +53,17 @@
 …ってなると、いつの間にか **複数集約を1トランザクションで更新**したくなる😇💥
 結果：
 
-* トランザクションが巨大化🐘
-* 同時更新の衝突が増える⚔️
 * 変更が怖くなる😱
+
+```mermaid
+graph TD
+    subgraph TightCoupling [密結合 💥]
+        Order --> Customer[Customer <br/>ついでに更新]
+        Order --> Stock[Stock <br/>ついでに更新]
+    end
+    Order -- 1つのTX --- Customer
+    Order -- 1つのTX --- Stock
+```
 
 ### 事故②：読み取りだけのはずが、更新が混ざる🧨
 
@@ -156,6 +175,19 @@ public readonly record struct CustomerStateSnapshot(bool IsBanned);
 
 * `Order` は Customer を取りに行かない（＝境界を守る）🔒
 * 必要な情報だけ **スナップショット** で渡す📸✨
+
+* 必要な情報だけ **スナップショット** で渡す📸✨
+
+```mermaid
+sequenceDiagram
+    participant App as アプリ層
+    participant Q as Query / Repo
+    participant Order as Order (Route)
+    App->>Q: 1. 他集約の状態を取得
+    Q-->>App: Snapshot 📸
+    App->>Order: 2. Snapshotを渡して依頼 🎬
+    Note over Order: 境界を越えずに判定
+```
 
 ---
 

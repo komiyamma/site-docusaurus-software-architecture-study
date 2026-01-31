@@ -46,6 +46,16 @@
 * Application が求める `IOrderRepository` を **実装**する🏗️
 * “差し替え可能” にするのが大事（Domainが汚れない）🧼✨
 
+```mermaid
+graph TD
+    Domain[ Domain 🌳 <br/>業務ルール ]
+    App[ Application 🎬 <br/>ユースケース ]
+    Infra[ Infrastructure 🔌 <br/>外部結合 ]
+    App --> Domain
+    Infra --> Domain
+    Infra --> App
+```
+
 EF Core 10 は .NET 10 向けのリリースだよ（LTS・2025年11月リリース）。([Microsoft Learn][1])
 
 ---
@@ -61,10 +71,12 @@ EF Core 10 は .NET 10 向けのリリースだよ（LTS・2025年11月リリー
 
 イメージ👇（矢印が “参照していい方向”）✨
 
-```text
-[Presentation / UI]  →  [Application]  →  [Domain]
-          ↑                  ↑
-          └────── [Infrastructure] ────┘
+```mermaid
+graph LR
+    UI[Presentation / UI] --> App[Application]
+    App --> Domain[Domain]
+    Infra[Infrastructure] --> Domain
+    Infra --> App
 ```
 
 ---
@@ -205,8 +217,21 @@ public interface IOrderRepository
 
 ポイント💡
 
-* Application は **段取り係**：取得→ドメイン操作→保存📦➡️
 * “DBの詳細” は知らない（Repository に任せる）🙆‍♀️✨
+
+```mermaid
+sequenceDiagram
+    participant UI as WebApi
+    participant App as Application
+    participant Domain as Domain
+    participant Infra as Infrastructure
+    UI->>App: ユースケース実行
+    App->>Infra: 1. 集約を取得 (Repo経由)
+    Infra-->>App: 集約を返す
+    App->>Domain: 2. 業務ルール実行
+    App->>Infra: 3. 集約を保存 (Repo経由)
+    App-->>UI: 完了
+```
 
 ---
 

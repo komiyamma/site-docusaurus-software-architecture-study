@@ -25,6 +25,12 @@
 
 こういう **“守られてないと事故る”やつ** が不変条件だよ 🚑💥
 
+```mermaid
+graph LR
+    Guard["不変条件 🔐"] -- 守る --> State["正しい状態 ✅"]
+    State -- "破れると..." --> Corrupt["壊れたデータ 😵"]
+```
+
 ---
 
 ## 2. なんで不変条件がそんなに大事？🛡️✨
@@ -54,6 +60,12 @@ DDDの考え方では、**集約（Aggregate）の主な責任は“不変条件
 * 画面やAPIの都合のルール
 * 例：「名前は30文字以内」✍️
 * ドメインに置く場合もあるけど、重要度は不変条件より下になりがち 🌿
+
+```mermaid
+graph TD
+    UI[UI / API] -- "入力チェック ✍️ <br/>(型, 形式, 文字数)" --> Controller
+    Controller -- "不変条件 🔐 <br/>(業務ルール, 整合性)" --> Domain[Domain / 集約]
+```
 
 ---
 
@@ -204,6 +216,15 @@ public sealed class DomainException : Exception
 .NET系だと `CommunityToolkit.Diagnostics.Guard` みたいなガードAPIもあるよ（手書きより簡潔に書ける系）🧰✨ ([Microsoft Learn][2])
 
 （この教材では“手書きif”でも全然OK🙆‍♀️）
+
+```mermaid
+flowchart TD
+    Request[実行依頼] --> Guard1{不変条件1 OK?}
+    Guard1 -- No --> Throw1[例外]
+    Guard1 -- Yes --> Guard2{不変条件2 OK?}
+    Guard2 -- No --> Throw2[例外]
+    Guard2 -- Yes --> Success[処理実行 🚀]
+```
 
 ---
 

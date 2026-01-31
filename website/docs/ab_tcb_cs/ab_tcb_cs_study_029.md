@@ -38,6 +38,15 @@
 EF Core では、**コンカレンシートークン（Concurrency Token）** を設定すると、更新時に「トークンが一致するときだけUPDATEする」SQLが出るよ🧾✨
 一致しなくて更新行数が 0 行だと、EF Core は `DbUpdateConcurrencyException` を投げる仕組み🙏 ([Microsoft Learn][1])
 
+```mermaid
+graph TD
+    Read["1. 読取: Version 1"] --> Edit["2. 編集"]
+    Edit --> Save["3. 保存: WHERE Version=1"]
+    Save -- "DBがVersion 2に更新" --> Success["成功 ✅"]
+    Save -- "誰かが更新済みで <br/>DBがVersion 2だった" --> Fail["失敗 (0件更新) 💥"]
+    Fail -- "例外発生" --> Handler[DbUpdateConcurrencyException]
+```
+
 ---
 
 ## 29.3 RowVersion（rowversion）を使う理由🧱✨
@@ -186,6 +195,20 @@ catch (DbUpdateConcurrencyException)
 ```
 
 EF Core は更新時に「RowVersion が一致してるときだけ更新する」SQLを投げるので、後から保存した側が弾かれるんだ〜！🧱✨ ([Microsoft Learn][1])
+
+```mermaid
+sequenceDiagram
+    participant UserA as Aさん
+    participant DB as データベース (Ver.1)
+    participant UserB as Bさん
+    UserA->>DB: 読取 (Ver.1)
+    UserB->>DB: 読取 (Ver.1)
+    UserA->>DB: 保存 (WHERE Ver=1)
+    Note over DB: 保存成功 & Ver.2へ!
+    UserB->>DB: 保存 (WHERE Ver=1)
+    Note over DB: Ver.2なので不一致! 💥
+    DB-->>UserB: 更新0件 (例外発生)
+```
 
 ---
 

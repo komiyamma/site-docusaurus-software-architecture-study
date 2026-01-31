@@ -16,6 +16,18 @@
 EF Coreは **C#のオブジェクト（Entityなど）** を、**DBのテーブル** にいい感じに対応づけてくれる仕組み（ORM）だよ😊
 SQLを一切書かないで済む…というより、最初は **「保存・取得の骨組みを素早く作れる」** のが強い💪✨ ([Microsoft Learn][1])
 
+```mermaid
+graph LR
+    subgraph CSharp [C# オブジェクト]
+        Entity[Order クラス]
+    end
+    subgraph DB [データベース]
+        Table[(Orders テーブル)]
+    end
+    EF[EF Core ⚙️] -- "マッピング (翻訳)" --> Entity
+    EF -- "マッピング (翻訳)" --> Table
+```
+
 > この教材では「集約と境界」が主役だから、EF Coreは **“永続化の道具”** として最小だけ押さえるよ🧰🌸
 
 ---
@@ -36,6 +48,14 @@ SQLを一切書かないで済む…というより、最初は **「保存・�
 
 * クラス設計の変化を、DBの変更として **履歴化** する仕組み📌
 * `dotnet ef migrations add ...` → `dotnet ef database update` が基本の流れ🔁 ([Microsoft Learn][2])
+
+```mermaid
+flowchart LR
+    Code[コード変更] --> MigAdd[migrations add]
+    MigAdd -- "C# ファイル生成" --> MigFile[Migrationファイル]
+    MigFile --> DbUpd[database update]
+    DbUpd -- "SQL発行" --> DB[(データベース)]
+```
 
 ---
 
@@ -258,6 +278,20 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 ```
 
 こうするとDB側は、Ordersテーブルに `TotalAmount` と `TotalCurrency` ができる感じになるよ〜🧁✨
+
+```mermaid
+classDiagram
+    class Order {
+        +Guid Id
+        +DateTime CreatedAt
+    }
+    class Money {
+        +decimal Amount
+        +string Currency
+    }
+    Order o-- Money : OwnsOne
+    note for Order "DBテーブルでは<br/>1つの行に統合される"
+```
 
 ---
 

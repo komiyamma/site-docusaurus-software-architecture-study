@@ -60,6 +60,17 @@
 
 こうすれば「注文は確定したのにイベントが消えた」が起きにくくなるよ、って仕組みです😊
 
+```mermaid
+graph TD
+    subgraph UC [ユースケース 🎬]
+        Order[1. 注文保存]
+        Outbox[2. イベントメモ保存]
+    end
+    UC -- "SaveChanges (1 TX) 🔒" --> DB[(データベース)]
+    DB -- "別スレッドで読取" --> Disp[Dispatcher 🚚]
+    Disp -- "配送 📨" --> Ext[外部システム / API]
+```
+
 ---
 
 ## 32.4 “なぜ効くの？”の根っこ：SaveChangesの性質 🧠💡
@@ -248,10 +259,21 @@ public sealed class OutboxDispatcher : BackgroundService
         }
     }
 }
-```
 
 ※このDispatcherは「同じメッセージを2回送る可能性」が普通にあります（落ちるタイミング次第）😇
 だから次が超重要👇
+
+```mermaid
+sequenceDiagram
+    participant Disp as Dispatcher
+    participant Ext as 外部 / 受手
+    Disp->>Ext: 1. メッセージ送信 (MessageId=123)
+    Ext->>Ext: 2. 正常処理 & 保存
+    Note over Ext: ここでアプリが落ちる!
+    Disp->>Ext: 3. 再試行 (MessageId=123)
+    Ext->>Ext: 4. ID重複を検知して無視 🛡️
+    Note over Ext: 二重課金などを防ぐ
+```
 
 ---
 
@@ -261,6 +283,13 @@ public sealed class OutboxDispatcher : BackgroundService
 
 イベント駆動は **at-least-once（重複があり得る）** を前提にするのが責任ある設計だよ、ってMicrosoftのガイダンスでも明言されています([Microsoft Learn][3])
 👉 だから **受け手は冪等** にするのが“最低ライン”✨
+
+```mermaid
+flowchart LR
+    Ev[イベント到着] --> Inbox{InboxにIDある?}
+    Inbox -- Yes --> Skip[何もしない / 完了済 ✅]
+    Inbox -- No --> Process[処理実行 & ID保存 ⚙️]
+```
 
 ---
 

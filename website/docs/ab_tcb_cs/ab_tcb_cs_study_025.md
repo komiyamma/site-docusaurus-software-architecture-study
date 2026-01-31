@@ -29,7 +29,17 @@
 
 ![映画監督とシーン](./picture/ab_tcb_cs_study_025_boundary_loc.png)
 
+```mermaid
+graph TD
+    subgraph TX [トランザクション境界 🔒]
+        Op1[注文明細の追加]
+        Op2[ステータスの更新]
+    end
+    TX -- "全部成功 ✅" --> Commit[確定]
+    TX -- "どれか失敗 💥" --> Rollback[取消]
+```
 
+---
 ### なぜアプリ層がベスト？🤔✨
 
 **アプリ層（Application Service / UseCase）**は、ユースケースの進行役🎬
@@ -39,10 +49,16 @@
 * Domain を呼び出して、必要な保存をまとめられる📦
 * 「ここで確定（コミット）！」を決められる✅
 
-逆に、Domain に置くとつらいです👇😵‍💫
-
 * Domain が DB やトランザクションを知りはじめて汚れやすい（依存が逆流）🧽🚫
 * テストがやりにくくなる（DB前提の設計になりがち）🧪💦
+
+```mermaid
+graph LR
+    Director["アプリ層: 映画監督 🎬"] -- "指示 📣" --> Domain["ドメイン層: 俳優 🌳"]
+    Director -- "カット! (確定) 🔒" --> DB[(データベース)]
+    Note1["いつ始めて、<br/>いつ終わるかを決める"]
+    Director -.-> Note1
+```
 
 ---
 
@@ -207,6 +223,16 @@ public async Task<Guid> HandleWithExplicitTxAsync(string itemName, int quantity,
         throw;
     }
 }
+
+```mermaid
+sequenceDiagram
+    participant App as アプリ層
+    participant DB as データベース
+    App->>DB: BeginTransaction (開始)
+    App->>DB: SaveChanges (1回目)
+    App->>DB: SaveChanges (2回目)
+    App->>DB: Commit (確定)
+    Note over App,DB: どこかで失敗したら Rollback
 ```
 
 この形は “やっていい” けど、初心者のうちはまず👇を優先してOKです😊

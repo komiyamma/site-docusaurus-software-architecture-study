@@ -43,6 +43,13 @@ MicrosoftのDDDガイドでも、**集約をまたぐ副作用（side effects）
 
 > 「イベント」は *いま起きた事実* を表すので、名前が過去形だと超キレイ✨
 
+```mermaid
+graph LR
+    Agg["集約 🌳"] -- "起きたこと📣" --> Ev["OrderPlaced <br/>(注文確定した)"]
+    Ev -- "通知" --> Handler1[支払いハンドラ]
+    Ev -- "通知" --> Handler2[在庫ハンドラ]
+```
+
 ---
 
 ## 3. 最終的整合（Eventual Consistency）ってなに？⏳
@@ -59,6 +66,14 @@ MicrosoftのDDDガイドでも、**集約をまたぐ副作用（side effects）
 
 ポイントはこれ👇
 **「どれを即時で守るべきか？」** と **「どれは遅れてOKか？」** を分けること⚖️
+
+```mermaid
+timeline
+    title 注文処理の整合性フロー
+    操作 : 注文ボタンを押す
+    即時整合 (Order集約) : ステータスをPlacedに変更 <br/> 合計金額の確定
+    最終的整合 (外部/他集約) : 支払いAPI呼び出し <br/> 在庫引き当て <br/> 発送メール送信
+```
 
 ---
 
@@ -281,6 +296,19 @@ public sealed class PublishDomainEventsInterceptor(IDomainEventDispatcher dispat
 ```
 
 > `SaveChangesInterceptor` 自体がEF Coreに用意されている仕組みだよ〜🛠️([Microsoft Learn][3])
+
+```mermaid
+sequenceDiagram
+    participant App as アプリ層 (Service)
+    participant DB as DbContext
+    participant Interceptor as Interceptor
+    participant Dispatcher as Dispatcher
+    App->>DB: SaveChangesAsync
+    DB->>DB: DBへ保存 (Transaction)
+    DB->>Interceptor: SavedChanges (成功後)
+    Interceptor->>Dispatcher: DispatchAsync (イベント配信)
+    Dispatcher->>App: 完了
+```
 
 ---
 

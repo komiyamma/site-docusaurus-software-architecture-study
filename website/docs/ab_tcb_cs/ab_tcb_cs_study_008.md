@@ -43,6 +43,15 @@
 この章のゴールは「**どんな言葉が必要か**」を並べること。
 次の章で「言葉の定義（ユビキタス言語）」をキレイに揃えるよ🗣️🌸
 
+```mermaid
+graph TD
+    Order[Order: 注文] --> Item[OrderItem: 明細]
+    Order --> Status[OrderStatus: 状態]
+    Order --> Payment[Payment: 支払い]
+    Item --> Menu[MenuItem: メニュー]
+    Payment --> Money[Money: 金額]
+```
+
 ---
 
 ## 8.4 注文の流れ（まずは素直に1本）📈✨
@@ -59,6 +68,15 @@
 
 * 確定前キャンセル（Cancelled）🙅‍♀️
 * 支払い後キャンセル（Refunded…扱いは後で丁寧に）↩️💸
+
+```mermaid
+flowchart LR
+    Draft[作成中: Draft] --> Placed[注文確定: Placed]
+    Placed --> Paid[支払い完了: Paid]
+    Paid --> Completed[受け渡し完了: Completed]
+    Draft --> Cancelled[キャンセル: Cancelled]
+    Placed --> Cancelled
+```
 
 ---
 
@@ -119,7 +137,21 @@ DDDでは「起きたこと」を過去形で言うクセがあるよ〜😊（�
 * `OrderCancelled`（キャンセルした）🙅‍♀️
 
 この章では「イベント名を出せる」だけで十分✨
-次の章以降で “何を集約の中で守る？” に効いてくるよ🧠🌸
+次にお章以降で “何を集約の中で守る？” に効いてくるよ🧠🌸
+
+```mermaid
+stateDiagram-v2
+    [*] --> OrderStarted: 作成開始
+    OrderStarted --> ItemAdded: 商品追加
+    ItemAdded --> ItemAdded: 商品追加
+    ItemAdded --> OrderPlaced: 確定
+    OrderPlaced --> PaymentSucceeded: 支払い
+    PaymentSucceeded --> OrderCompleted: 到着/渡し
+    OrderStarted --> OrderCancelled: キャンセル
+    OrderPlaced --> OrderCancelled: キャンセル
+    OrderCompleted --> [*]
+    OrderCancelled --> [*]
+```
 
 ---
 

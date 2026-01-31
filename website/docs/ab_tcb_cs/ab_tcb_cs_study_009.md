@@ -27,6 +27,13 @@
 * 例外・分岐だらけで **読めないコード**になる🌀
 * そして最後に「仕様が悪い」「実装が悪い」論争が始まる🔥（不毛）🥲
 
+```mermaid
+graph TD
+    User[ユーザー 🗣] -- "確定して！" --> Dev[開発者 💻]
+    Dev -- "保存したよ(未払)" --> DB[(DB)]
+    User -- "え、払ってないのに？" --> Error["整合性バグ発生 💥"]
+```
+
 ✅ 解決策：**言葉を“状態”まで含めて定義する**こと！
 
 ---
@@ -192,6 +199,19 @@ public enum PaymentStatus
     Paid,       // 支払い完了
     Failed      // 支払い失敗
 }
+```
+
+```mermaid
+graph LR
+    subgraph OrderStatus [OrderStatus 🚦]
+        Draft --> Placed
+        Placed --> Cancelled
+    end
+    subgraph PaymentStatus [PaymentStatus 💳]
+        NotStarted --> Processing
+        Processing --> Paid
+        Processing --> Failed
+    end
 ```
 
 ### コツ③：イベントは「起きた事実」を過去形で📣✅

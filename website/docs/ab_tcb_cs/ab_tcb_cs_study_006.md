@@ -25,6 +25,20 @@
 * 「同じ値なら同じもの」＝中身が同じなら等しい
 * 例：Money（金額）、Address（住所）、DateRange（期間）など🏠💰📅
 
+```mermaid
+graph LR
+    subgraph Entity_ID ["Entity: IDで識別"]
+        E1[Order A] -- ID:101 --> E1
+        E1_changed[Order A <br/>状態変化] -- ID:101 --> E1_changed
+        E1 === E1_changed
+    end
+    subgraph VO_Value ["ValueObject: 値で識別"]
+        V1["Money(100, JPY)"]
+        V2["Money(100, JPY)"]
+        V1 === V2
+    end
+```
+
 ---
 
 ## 6.2 いちばん大事な違い（表でサクッと）📋✨
@@ -59,6 +73,13 @@
 * 「住所の形式がバラバラ」🏠（郵便番号なし、都道府県抜け、など）
 * 「期間の開始＞終了」が混入📅（いつの間にか逆転）
 * 「個数が0やマイナス」🧮（気づいたら注文崩壊）
+
+```mermaid
+flowchart TD
+    P["プリミティブ地獄 😵"] -- VOで解決 --> S["安全な世界 😇"]
+    P1["int age = -5"] --> VO1["Age(age) <br/> 負数はエラー！ 🚫"]
+    P2["string mail = #quot;abc#quot;"] --> VO2["Email(mail) <br/> 形式チェック！ 🚫"]
+```
 
 👉 こういう “危ない値” を ValueObject にすると、バグが減る✨🛡️
 
@@ -288,6 +309,14 @@ public readonly record struct OrderItem(string ProductName, Money UnitPrice, int
 * ルールが散らばらない📌
 * 集約ルート（Order）が “本業” に集中できる👑✨
 * テストが細かくできる🧪💕
+
+```mermaid
+graph TD
+    Order["Order: Entity"] --> Total["Total: Money VO"]
+    Order --> Address["Address: VO"]
+    Total --> Currency["Currency: VO"]
+    Total --> Amount["Amount: VO/値"]
+```
 
 ---
 

@@ -17,6 +17,17 @@
 2. **更新は “意図があるメソッド” だけ**にする（AddItem / Place / Pay など）🧾✨
 3. **状態（Status）と遷移ルールを “明示”**する（状態遷移表＋チェック）📋🚦
 
+```mermaid
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> Placed: Place()
+    Draft --> Cancelled: Cancel()
+    Placed --> Paid: Pay()
+    Placed --> Cancelled: Cancel()
+    Paid --> [*]
+    Cancelled --> [*]
+```
+
 ---
 
 ## 2. よくある事故：setter直開放で世界が壊れる💥😇
@@ -39,6 +50,15 @@ public class Order
 * TotalPrice を更新し忘れてズレる🫠
 
 こういう「整合性バグ」は、**“どこで守るの？”が曖昧**なほど増えるよ😵‍💫💦
+
+```mermaid
+graph TD
+    subgraph Acc [事故パターン 🚑]
+        S[Status: Paid] --- I[Items: 空っぽ 📭]
+        S --- T[Total: 0円 💰]
+    end
+    note["setterが空いてると、<br/>バラバラに更新できてしまう"]
+```
 
 ---
 
@@ -88,6 +108,14 @@ public class Order
 * プロパティは **private set**（外から勝手に変えられない）🔒
 * Items は **外に List を生で渡さない**（ReadOnlyにする）🧷
 * 状態変更は **ChangeStatus(次の状態)** に寄せる🚦
+
+```mermaid
+flowchart LR
+    External[外部] -- "AddItem()" --> Root[集約ルート]
+    Root -- "チェック: Draft?" --> Guard{OK?}
+    Guard -- Yes --> Update[内部状態の更新]
+    Guard -- No --> Error[例外 🚫]
+```
 
 ---
 
