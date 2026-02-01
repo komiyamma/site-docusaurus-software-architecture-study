@@ -283,6 +283,16 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/ab_tcb_cs/ab_tcb_cs_index',
   },
+  {
+    title: 'DbC C#版',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        契約による設計（Design by Contract）を学びます。<br/>事前条件、事後条件、不変条件の実装と、<br/>C#での堅牢なプログラミング手法。<br/>
+      </>
+    ),
+    link: '/docs/dbc_cs/dbc_cs_index',
+  },
 ];
 
 function Feature({title, Svg, description, link}: FeatureItem) {

@@ -101,6 +101,7 @@ const config: Config = {
           "docs/state_machine_cs",
           "docs/acl_cs",
           "docs/ab_tcb_cs",
+          "docs/dbc_cs",
         ],
         hideSearchBarWithNoSearchContext: true,
       }),
@@ -314,6 +315,12 @@ const config: Config = {
           sidebarId: 'abTcbCsSidebar',
           position: 'left',
           label: '集約と境界 C#版',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dbcCsSidebar',
+          position: 'left',
+          label: 'DbC C#版',
         },
 
         {
